@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authority-manuscripts" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Corpus of Armenian Colophons: Manuscript Authority</title>
+        <respStmt>
+          <resp>Authority compilation and scholarly editing</resp>
+          <name>Lewis Read</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Working authority file for the Digital Corpus of Armenian Colophons.
+          Publication details and licensing will be established for the corpus.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Manuscript records will be compiled from catalogues, manuscript images,
+          reviewed colophon witnesses, and supporting scholarship. The evidence for
+          each description will be recorded.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file identifies the manuscript objects associated with the corpus.
+          A manuscript can preserve several colophons; a colophon can survive in
+          several manuscripts. Particular occurrences of a colophon, their loci,
+          and their transmission status are recorded in witnesses.xml. Transcriptions,
+          translations, and detailed image alignment remain in the colophon files.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Manuscript identifiers use readable city, collection where needed, and shelfmark
+          components, for example ms-Yerevan-288, ms-Paris-Arm-178, and
+          ms-Venice-SanLazzaro-17. Allocate each identifier
+          once and retain it if the shelfmark, repository, dating, or attribution changes.
+          Record current shelfmarks in msIdentifier and former shelfmarks in altIdentifier.</p>
+        <p>Use one msDesc per identifiable manuscript, inside listBibl.</p>
+        <p>Record manuscript production dates and places in history/origin with
+          evidence and uncertainty. Do not equate the date narrated by a copied
+          colophon with the date of its surviving manuscript. Date attributes such
+          as when, notBefore, and notAfter will be added only when supported and
+          interpreted according to the project's calendar conventions.</p>
+        <p>Use msPart for codicologically distinct units when necessary, including
+          reused flyleaves. Do not introduce msPart for every folio or colophon.
+          Unit-specific contents, hands, dates, and provenance belong to the relevant
+          part. A witness can reference that part's stable identifier. Descriptions of
+          fragmentary or dispersed objects will be refined through actual cases.</p>
+        <p>Bibliographical references will point to bibliography.xml when its records
+          are populated. Catalogue citations supplied for these examples are retained
+          inline until then. Local image paths and verified catalogue or viewer links
+          can be recorded as digital surrogates;
+          individual colophon image regions will be linked in the edition. Each
+          scholarly assertion should remain traceable to its source.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-08">Populated four maximum working manuscript records.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+    <!-- M288 -->
+      <listBibl xml:id="manuscripts">
+        <head>Manuscripts</head>
+        <msDesc xml:id="ms-Yerevan-288">
+          <msIdentifier>
+            <country>Armenia</country>
+            <settlement>Yerevan</settlement>
+            <repository>Mesrop Mashtots Institute of Ancient Manuscripts</repository>
+            <idno type="shelfmark">MS. 288</idno>
+          </msIdentifier>
+          <head>Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</head>
+          <msContents>
+            <summary>Gospels of Matthew, Mark, Luke, and John, followed by the colophon.</summary>
+            <textLang mainLang="xcl">Classical Armenian</textLang>
+            <msItem>
+              <locus from="5r" to="75v">5r-75v</locus>
+              <title type="desc" ref="works.xml#work-000004">Gospel of Matthew</title>
+            </msItem>
+            <msItem>
+              <locus from="76r" to="125r">76r-125r</locus>
+              <title type="desc" ref="works.xml#work-000005">Gospel of Mark</title>
+            </msItem>
+            <msItem>
+              <locus from="126r" to="212v">126r-212v</locus>
+              <title type="desc" ref="works.xml#work-000006">Gospel of Luke</title>
+            </msItem>
+            <msItem>
+              <locus from="213r" to="278v">213r-278v</locus>
+              <title type="desc" ref="works.xml#work-000007">Gospel of John</title>
+            </msItem>
+            <msItem>
+              <locus from="278v" to="280v">278v-280v</locus>
+              <title type="desc" ref="colophons.xml#col-000001">Colophon 1</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="parch">
+                <support>Parchment</support>
+                <extent>280 folios; <dimensions unit="mm" type="leaf"><height>220</height><width>165</width></dimensions></extent>
+                <foliation>
+                  <p>Insert foliation details here, including unnumbered leaves and alternative numbering where applicable.</p>
+                </foliation>
+                <collation>
+                  <p>Insert quire structure, signatures, and missing or inserted leaves here.</p>
+                </collation>
+                <condition>
+                  <p>Insert the condition of the manuscript, losses, damage, and repairs here.</p>
+                </condition>
+              </supportDesc>
+            <layoutDesc>
+                <layout>Insert general manuscript layout here: columns, lines, ruling, pricking, written area, and margins. Colophon-specific mise en page is described in the edition.</layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Insert hand information here: number and distribution of hands, changes, ink, and distinguishing features. Will add stable hand IDs and supported personal attributions after review.</handNote>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>Angular Erkatagir</scriptNote>
+            </scriptDesc>
+            <decoDesc>
+              <decoNote>Insert decoration, illumination, rubrication, and ornament information here, with loci.</decoNote>
+            </decoDesc>
+            <additions>
+              <p>Insert marginalia, later additions, ownership notes, and reused material here, with dates and loci where known.</p>
+            </additions>
+            <bindingDesc>
+              <binding>
+                <p>Insert binding material, construction, decoration, date, and evidence of rebinding here.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p><origDate when="1099">1099 CE (Armenian era 548)</origDate>, 
+              <origPlace><placeName ref="places.xml#place-000001">Alexandria</placeName></origPlace>.</p>
+            </origin>
+            <provenance>
+              <p>Insert provenance here: successive owners, institutions, movements, and supporting evidence.</p>
+            </provenance>
+            <acquisition>
+              <p>Insert the date and circumstances of acquisition by the present repository here if known.</p>
+            </acquisition>
+          </history>
+          <additional>
+            <listBibl>
+              <bibl ref="bibliography.xml#bibl-000001">
+                <title type="translated">Catalogue of Manuscripts of the Maštoc‘ Matenadaran</title>
+                <biblScope unit="volume">1</biblScope>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+
+         <!-- P178 -->
+        <msDesc xml:id="ms-Paris-Arm-178">
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno type="shelfmark">MS. Arménien 178</idno>
+          </msIdentifier>
+          <head>Paris, Bibliothèque nationale de France, MS. Arménien 178</head>
+          <msContents>
+            <summary>Insert a description of the remaining contents here.</summary>
+            <textLang mainLang="xcl">Classical Armenian</textLang>
+              <msItem>
+              <locus>Insert other contents of the manuscript</locus>
+              <p>Insert a description of this contents item.</p>
+            </msItem>
+            <msItem>
+              <locus>Insert the folio range of the martyrdom here.</locus>
+              <title ref="works.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
+            </msItem>
+            <msItem>
+              <locus from="209r" to="209r">209r</locus>
+              <title type="desc" ref="colophons.xml#col-000002">Colophon 2</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc>
+                <support>Insert support material here.</support>
+                <extent>Insert total folio count here; 
+                <dimensions unit="mm" type="leaf"><height>Insert leaf height here.</height><width>Insert leaf width here.</width></dimensions></extent>
+                <foliation>
+                  <p>Insert foliation details here.</p>
+                </foliation>
+                <collation>
+                  <p>Insert quire structure, signatures, and missing or inserted leaves here.</p>
+                </collation>
+                <condition>
+                  <p>Insert the condition of the manuscript, losses, damage, and repairs here.</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>Insert general manuscript layout here: columns, lines, ruling, pricking, written area, and margins. Colophon-specific mise en page is described in the edition.</layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Insert hand information here: number and distribution of hands, changes, ink, and distinguishing features. Add stable hand IDs and supported personal attributions after review.</handNote>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>Insert script description here.</scriptNote>
+            </scriptDesc>
+            <decoDesc>
+              <decoNote>Insert decoration, illumination, rubrication, and ornament information here, with loci.</decoNote>
+            </decoDesc>
+            <additions>
+              <p>Insert marginalia, later additions, ownership notes, and reused material here, with dates and loci where known.</p>
+            </additions>
+            <bindingDesc>
+              <binding>
+                <p>Insert binding material, construction, decoration, date, and evidence of rebinding here.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p><origDate notBefore="1101" notAfter="1200">Twelfth century</origDate>, 
+              <origPlace><placeName ref="places.xml#place-000009">Sebasteia</placeName></origPlace>.</p>
+            </origin>
+            <provenance>
+              <p>Insert provenance here: successive owners, institutions, movements, and supporting evidence.</p>
+            </provenance>
+            <acquisition>
+              <p>Insert the date and circumstances of acquisition by the present repository here.</p>
+            </acquisition>
+          </history>
+          <additional>
+            <listBibl>
+              <bibl ref="bibliography.xml#bibl-000004">
+                <author>Kevorkian, R. H.</author>
+                <author>Ter-Stépanian, A.</author>
+                <date>1998</date>
+                <title>Manuscrits arméniens de la Bibliothèque nationale de France. Catalogue</title>
+                <publisher>Bibliothèque nationale de France</publisher>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+
+        <!-- V17 -->
+        <msDesc xml:id="ms-Venice-SanLazzaro-17">
+          <msIdentifier>
+            <country>Italy</country>
+            <settlement>Venice</settlement>
+            <repository>Mekhitarist monastery of San Lazzaro</repository>
+            <idno type="shelfmark">MS. 17</idno>
+          </msIdentifier>
+          <head>Venice, Mekhitarist monastery of San Lazzaro MS. 17</head>
+          <msContents>
+            <summary>Contains the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios. Insert a description of the remaining contents here.</summary>
+            <textLang mainLang="xcl">Classical Armenian</textLang>
+            <msItem>
+              <locus>Insert other contents of the manuscript</locus>
+              <p>Insert a description of this contents item.</p>
+            </msItem>
+            <msItem>
+              <locus>Insert the folio range of the martyrdom here.</locus>
+              <title ref="works.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
+            </msItem>
+            <msItem>
+              <locus from="202v" to="202v">202v</locus>
+              <title type="desc" ref="colophons.xml#col-000002">Colophon 2</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc>
+                <support>Insert support material here.</support>
+                <extent>Insert total folio count here; <dimensions unit="mm" type="leaf"><height>Insert leaf height here.</height><width>Insert leaf width here.</width></dimensions></extent>
+                <foliation>
+                  <p>Insert foliation details here, including unnumbered leaves and alternative numbering where applicable.</p>
+                </foliation>
+                <collation>
+                  <p>Insert quire structure, signatures, and missing or inserted leaves here.</p>
+                </collation>
+                <condition>
+                  <p>Insert the condition of the manuscript, losses, damage, and repairs here.</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>Insert general manuscript layout here: columns, lines, ruling, pricking, written area, and margins. Colophon-specific mise en page is described in the edition.</layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Insert hand information here: number and distribution of hands, changes, ink, and distinguishing features. Add stable hand IDs and supported personal attributions after review.</handNote>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>Insert script description here.</scriptNote>
+            </scriptDesc>
+            <decoDesc>
+              <decoNote>Insert decoration, illumination, rubrication, and ornament information here, with loci.</decoNote>
+            </decoDesc>
+            <additions>
+              <p>Insert marginalia, later additions, ownership notes, and reused material here, with dates and loci where known.</p>
+            </additions>
+            <bindingDesc>
+              <binding>
+                <p>Insert binding material, construction, decoration, date, and evidence of rebinding here.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p><origDate when="1224">1224 CE</origDate>, 
+              <origPlace><placeName ref="places.xml#place-000007">Elâzig</placeName></origPlace>.</p>
+            </origin>
+            <provenance>
+              <p>Insert provenance here: successive owners, institutions, movements, and supporting evidence.</p>
+            </provenance>
+            <acquisition>
+              <p>Insert the date and circumstances of acquisition by the present repository here.</p>
+            </acquisition>
+          </history>
+          <additional>
+            <listBibl>
+              <bibl ref="bibliography.xml#bibl-000003">
+                <author>Sargisyan, B.</author>
+                <date>1924</date>
+                <title>Mayr C’owc’ak Hayeren Jeṙagrac’ matenadaranin Mxit’areanc’ i Venetik, Hator B</title>
+                <title type="translated">Grand Catalogue of the Armenian Manuscripts of the Mekhitarist Library in Venice, Volume 2</title>
+                <publisher>Mekhitarist publishing house of San Lazzaro</publisher>
+                <biblScope unit="volume">2</biblScope>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+
+        <!-- M6196 -->
+        <msDesc xml:id="ms-Yerevan-6196">
+          <msIdentifier>
+            <country>Armenia</country>
+            <settlement>Yerevan</settlement>
+            <repository>Mesrop Mashtots Institute of Ancient Manuscripts</repository>
+            <idno type="shelfmark">MS. 6196</idno>
+          </msIdentifier>
+          <head>Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</head>
+          <msContents>
+            <summary>Contains the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios. Insert a description of the remaining contents here.</summary>
+            <textLang mainLang="xcl">Classical Armenian</textLang>
+            <msItem>
+              <locus>Insert other contents of the manuscript</locus>
+              <p>Insert a description of this contents item.</p>
+            </msItem>
+            <msItem>
+              <locus>Insert the folio range of the martyrdom here.</locus>
+              <title ref="works.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
+            </msItem>
+            <msItem>
+              <locus from="239v" to="239v">239v</locus>
+              <title type="desc" ref="colophons.xml#col-000002">Colophon 2</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc>
+                <support>Insert support material here.</support>
+                <extent>Insert total folio count here; <dimensions unit="mm" type="leaf"><height>Insert leaf height here.</height><width>Insert leaf width here.</width></dimensions></extent>
+                <foliation>
+                  <p>Insert foliation details here, including unnumbered leaves and alternative numbering where applicable.</p>
+                </foliation>
+                <collation>
+                  <p>Insert quire structure, signatures, and missing or inserted leaves here.</p>
+                </collation>
+                <condition>
+                  <p>Insert the condition of the manuscript, losses, damage, and repairs here.</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>Insert general manuscript layout here: columns, lines, ruling, pricking, written area, and margins. Colophon-specific mise en page is described in the edition.</layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Insert hand information here: number and distribution of hands, changes, ink, and distinguishing features. Add stable hand IDs and supported personal attributions after review.</handNote>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>Insert script description here.</scriptNote>
+            </scriptDesc>
+            <decoDesc>
+              <decoNote>Insert decoration, illumination, rubrication, and ornament information here, with loci.</decoNote>
+            </decoDesc>
+            <additions>
+              <p>Insert marginalia, later additions, ownership notes, and reused material here, with dates and loci where known.</p>
+            </additions>
+            <bindingDesc>
+              <binding>
+                <p>Insert binding material, construction, decoration, date, and evidence of rebinding here.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p><origDate when="1227">1227 CE</origDate>, 
+              <origPlace><placeName ref="places.xml#place-000008">Ahlat</placeName></origPlace>.</p>
+            </origin>
+            <provenance>
+              <p>Insert provenance here: successive owners, institutions, movements, and supporting evidence.</p>
+            </provenance>
+            <acquisition>
+              <p>Insert the date and circumstances of acquisition by the present repository here.</p>
+            </acquisition>
+          </history>
+          <additional>
+            <listBibl>
+              <bibl ref="bibliography.xml#bibl-000002">
+                <author>Eganyan, O.</author>
+                <author>Zeyt‘unyan, A.</author>
+                <author>Ant‘abyan, P‘.</author>
+                <date>1970</date>
+                <title>C῾owcak jer̄agrac῾ Maštoc῾i Anvan Matenadarani, Hator B</title>
+                <title type="translated">Catalogue of Manuscripts of the Maštoc‘ Matenadaran</title>
+                <publisher>Matenadaran</publisher>
+                <biblScope unit="volume">2</biblScope>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </listBibl>
+
+      <!--
+        Optional codicological-unit example: insert inside the relevant msDesc,
+        after its additional section (if any). Keep shared identification at the
+        manuscript level and put unit-specific information inside msPart.
+        Allocate part identifiers once; retain them when the unit's description changes.
+
+        <msPart xml:id="ms-Yerevan-288-part-01">
+          <msIdentifier>
+            <idno type="part">Identifying label or locus of the codicological unit</idno>
+          </msIdentifier>
+          <physDesc>
+            <p>Unit-specific material, script, hands, and evidence of reuse.</p>
+          </physDesc>
+          <history>
+            <origin>
+              <p>Supported origin of this unit, distinct from the host codex where necessary.</p>
+            </origin>
+          </history>
+        </msPart>
+      -->
+    </body>
+  </text>
+</TEI>

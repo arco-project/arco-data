@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authority-bibliography" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Corpus of Armenian Colophons: Bibliographical Authority</title>
+        <respStmt>
+          <resp>Authority compilation and scholarly editing</resp>
+          <name>Lewis Read</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Working authority file for the Digital Corpus of Armenian Colophons.
+          Publication details and licensing will be established for the corpus.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>The initial bibliographical records. Missing publication details are identified explicitly for later completion.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file identifies published editions, manuscript catalogues, scholarly
+          studies, and digital reference resources cited across the corpus. It is
+          distinct from works.xml, which identifies textual works, and from manuscript,
+          colophon, and witness authority records.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Bibliographical identifiers follow the pattern bibl-000001. Allocate each
+          identifier once and retain it when citation metadata is corrected. Distinguish editions, volumes, translations,
+          and other publication versions when necessary to identify the item actually
+          cited.</p>
+        <p>Use one record per cited bibliographical item inside listBibl. Prefer
+          biblStruct for books, journal articles, and chapters with structured metadata.
+          Use bibl for digital resources or other sources better represented by a flexible
+          citation.</p>
+        <p>For articles and chapters, analytic describes the cited contribution and
+          monogr its journal or containing volume. Title levels are a for contributions,
+          m for books, and j for journals. Preserve original titles and author names;
+          add transliterated or translated title forms only when useful and explicitly
+          distinguish them using title/@type and appropriate language tags.</p>
+        <p>Record contributors in publication order, repeating author or editor as
+          necessary. Names of modern scholars may remain directly in the citation;
+          a persons.xml authority entry is not required solely because someone is an
+          author or editor. Link a name to an existing person record when useful and
+          securely identified. Other responsibilities can use respStmt where needed.</p>
+        <p>Record publication place, publisher, and date in imprint.</p>
+        <p>Use idno in the relevant monogr or analytic for verified identifiers such
+          as DOI, ISBN, or ISSN.</p>
+        <p>References from other authority files use bibliography.xml#bibl-000001.
+          Edition files use a relative path appropriate to their location. Citation
+          display and punctuation will be generated from this structured data according
+          to the project's agreed style; no particular display style is fixed here.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-08">Added eight bibliographical records from supplied citations</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl xml:id="bibliography">
+        <head>Bibliography</head>
+
+        <biblStruct xml:id="bibl-000001" type="book">
+          <monogr>
+            <author><persName>Insert authors/editors here.</persName></author>
+            <title level="m" type="transliterated" xml:lang="hy-Latn">Insert original title in transliteration here.</title>
+            <title level="m" type="translated" xml:lang="en">Catalogue of Manuscripts of the Maštoc‘ Matenadaran</title>
+            <imprint>
+              <pubPlace>Insert publication place here.</pubPlace>
+              <publisher>Insert publisher here.</publisher>
+              <date>Insert publication year here.</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <note type="identification">The volume specified for Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288.</note>
+          <note type="incomplete">Complete the publication details; use author or editor according to the credited responsibility.</note>
+        </biblStruct>
+
+        <biblStruct xml:id="bibl-000002" type="book">
+          <monogr>
+            <author><persName>Eganyan, O.</persName></author>
+            <author><persName>Zeyt‘unyan, A.</persName></author>
+            <author><persName>Ant‘abyan, P‘.</persName></author>
+            <title level="m" type="transliterated" xml:lang="hy-Latn">C῾owcak jer̄agrac῾ Maštoc῾i Anvan Matenadarani, Hator B</title>
+            <title level="m" type="translated" xml:lang="en">Catalogue of Manuscripts of the Maštoc‘ Matenadaran</title>
+            <imprint>
+              <pubPlace>Yerevan</pubPlace>
+              <publisher>Matenadaran</publisher>
+              <date when="1970">1970</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+        </biblStruct>
+
+        <biblStruct xml:id="bibl-000003" type="book">
+          <monogr>
+            <author><persName>Sargisyan, B.</persName></author>
+            <title level="m" type="transliterated" xml:lang="hy-Latn">Mayr C’owc’ak Hayeren Jeṙagrac’ matenadaranin Mxit’areanc’ i Venetik, Hator B</title>
+            <title level="m" type="translated" xml:lang="en">Grand Catalogue of the Armenian Manuscripts of the Mekhitarist Library in Venice, Volume 2</title>
+            <imprint>
+              <publisher>Mekhitarist publishing house of San Lazzaro</publisher>
+              <date when="1924">1924</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+        </biblStruct>
+
+        <biblStruct xml:id="bibl-000004" type="book">
+          <monogr>
+            <author><persName>Kevorkian, R. H.</persName></author>
+            <author><persName>Ter-Stépanian, A.</persName></author>
+            <title level="m" xml:lang="fr">Manuscrits arméniens de la Bibliothèque nationale de France. Catalogue</title>
+            <imprint>
+              <publisher>Bibliothèque nationale de France</publisher>
+              <date when="1998">1998</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+
+        <biblStruct xml:id="bibl-000005" type="chapter">
+          <analytic>
+            <author><persName ref="persons.xml#pers-000010">Grigory of Narek</persName></author>
+            <title level="a" xml:lang="xcl">Մատեան Ողբերգութեան</title>
+            <title level="a" type="translated" xml:lang="en">Book of Lamentation</title>
+          </analytic>
+          <monogr>
+            <editor><persName>Tamrazean, H.</persName></editor>
+            <title level="m" xml:lang="hy-Latn">Matenagirk Hayots</title>
+            <imprint>
+              <pubPlace>Yerevan</pubPlace>
+              <date when="2008">2008</date>
+            </imprint>
+            <biblScope unit="volume">12</biblScope>
+            <biblScope unit="page" from="49" to="608">49–608</biblScope>
+          </monogr>
+        </biblStruct>
+
+        <biblStruct xml:id="bibl-000006" type="chapter">
+          <analytic>
+            <author><persName>Greenwood, T.</persName></author>
+            <title level="a" xml:lang="en">Armenian Space in Late Antiquity</title>
+          </analytic>
+          <monogr>
+            <editor><persName>van Nuffelen, P.</persName></editor>
+            <title level="m" xml:lang="en">Historiography and Space in Late Antiquity</title>
+            <imprint>
+              <pubPlace>Cambridge</pubPlace>
+              <date when="2019">2019</date>
+            </imprint>
+            <biblScope unit="page" from="57" to="85">57-85</biblScope>
+          </monogr>
+        </biblStruct>
+
+        <biblStruct xml:id="bibl-000007" type="book">
+          <monogr>
+            <author><persName>Hovsēpʿean, G.</persName></author>
+            <title level="m" type="transliterated" xml:lang="hy-Latn">Yišatakarankʿ jeṙagracʿ E daricʿ minčʿew 1250 tʿ.</title>
+            <title level="m" type="translated" xml:lang="en">Manuscript Colophons, 5th cent.-1250 AD</title>
+            <imprint>
+              <pubPlace>Antelias</pubPlace>
+              <date when="1951">1951</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        
+        <biblStruct xml:id="bibl-000008" type="book">
+          <monogr>
+            <author><persName>Matʿevosyan, A.</persName></author>
+            <title level="m" type="transliterated" xml:lang="hy-Latn">Hayeren jeṙagreri hišatakaranner E-ŽB dd.</title>
+            <title level="m" type="translated" xml:lang="en">Colophons of Armenian manuscripts of the Vth-XIIth centuries</title>
+            <imprint>
+              <pubPlace>Yerevan</pubPlace>
+              <date when="1988">1988</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

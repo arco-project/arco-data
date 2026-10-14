@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authority-pos" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Corpus of Armenian Colophons: POS and MSD Reference</title>
+        <respStmt>
+          <resp>Authority compilation and scholarly editing</resp>
+          <name>Lewis Read</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Working authority file for the Digital Corpus of Armenian Colophons.
+          Publication details and licensing will be established for the corpus.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl xml:id="source-gregori-tagset">
+          <title>Ancient Armenian Corpus, Parts of Speech Tagset, May 2021</title>
+          <publisher>UCLouvain, Institut orientaliste, GREgORI Project</publisher>
+          <date when="2021-05">May 2021</date>
+          <idno type="ISSN">2736-7665</idno>
+          <note>Source supplied by Lewis Read as GREGORI TAG set.pdf. All 35 listed codes are preserved. No later version or additional GREgORI morphological specification is assumed.</note>
+        </bibl>
+        <bibl xml:id="source-xcl-case">
+          <title>Universal Dependencies: Classical Armenian Case</title>
+          <ref target="https://universaldependencies.org/xcl/feat/Case.html">Case inventory and usage guidance</ref>
+          <date type="accessed" when="2026-10-02">2 October 2026</date>
+        </bibl>
+        <bibl xml:id="source-xcl-number">
+          <title>Universal Dependencies: Classical Armenian Number</title>
+          <ref target="https://universaldependencies.org/xcl/feat/Number.html">Grammatical number guidance</ref>
+          <date type="accessed" when="2026-10-02">2 October 2026</date>
+        </bibl>
+        <bibl xml:id="source-xcl-mood">
+          <title>Universal Dependencies: Classical Armenian Mood</title>
+          <ref target="https://universaldependencies.org/xcl/feat/Mood.html">Verbal morphology guidance</ref>
+          <date type="accessed" when="2026-10-13">13 October 2026</date>
+        </bibl>
+        <bibl xml:id="source-xcl-tense">
+          <title>Universal Dependencies: Classical Armenian Tense</title>
+          <ref target="https://universaldependencies.org/xcl/feat/Tense.html">Verbal morphology guidance</ref>
+          <date type="accessed" when="2026-10-13">13 October 2026</date>
+        </bibl>
+        <bibl xml:id="source-xcl-voice">
+          <title>Universal Dependencies: Classical Armenian Voice</title>
+          <ref target="https://universaldependencies.org/xcl/feat/Voice.html">Verbal morphology guidance</ref>
+          <date type="accessed" when="2026-10-13">13 October 2026</date>
+        </bibl>
+        <bibl xml:id="source-xcl-verbform">
+          <title>Universal Dependencies: Classical Armenian VerbForm</title>
+          <ref target="https://universaldependencies.org/xcl/feat/VerbForm.html">Verbal morphology guidance</ref>
+          <date type="accessed" when="2026-10-13">13 October 2026</date>
+        </bibl>
+        <bibl xml:id="source-xcl-aspect">
+          <title>Universal Dependencies: Classical Armenian Aspect</title>
+          <ref target="https://universaldependencies.org/xcl/feat/Aspect.html">Verbal morphology guidance</ref>
+          <date type="accessed" when="2026-10-13">13 October 2026</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file documents the two linguistic annotation fields used on corpus word tokens: the exact GREgORI POS code in w/@pos and the project's compact morphological description in w/@msd. Words use these values directly; they do not require repeated authority pointers to their POS or morphological definitions. Lemma identity is handled separately in lemmata.xml.</p>
+        <p>GREgORI's May 2021 POS inventory is preserved below. MSD categories document all seven Classical Armenian cases, singular and plural, and verbal form, tense or stem, mood, voice, and person. The MSD notation is a project convention supplementing GREgORI, not an extension attributed to the GREgORI source sheet or a claim of full Universal Dependencies annotation.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Use w/@lemma for the adopted headword, w/@lemmaRef for its lexical entry, w/@pos for the exact GREgORI code, and w/@msd for contextual morphology. Where lemmaRef is supplied, lemma must match the referenced headword. POS and MSD values need no additional authority pointers. Preserve the text's editorial markup.</p>
+        <p>MSD values are case-sensitive, separated by dots without spaces or feature prefixes. Nominal order is case.number, for example Nom.Pl. Finite verbal order is tense-or-stem.mood.voice.person.number, for example Aor.Ind.Pass.3.Sg. Omit inapplicable or unestablished features, retaining the order of those recorded: Pres.Ind.3.Sg, Imp.2.Pl, and 3.Sg are permitted. Record pending or ambiguous analysis separately; do not combine competing values with slashes or commas.</p>
+        <p>Case codes are Nom, Gen, Dat, Acc, Abl, Ins, and Loc; number is Sg or Pl; grammatical person is 1, 2, or 3. Determine case from the construction, including where forms coincide; address does not introduce a separate vocative case. Finite verbs receive no case. MSD person and number must agree with any values already specified by the GREgORI pronoun code.</p>
+        <p>Finite verbs retain pos="V". Pres, Aor, and Impf identify present, aorist, and imperfect forms; Ind, Sub, Imp, and Proh identify indicative, subjunctive, imperative, and prohibitive. In Pres.Sub and Aor.Sub, the first code identifies the stem formation, not present or past temporal meaning. Voice is Act or Pass, with Pass covering the mediopassive; record it only where morphologically established.</p>
+        <p>Non-finite verbal forms also retain pos="V". Use Inf for an infinitive, Part for a participle, Vnoun for a declinable verbal noun, and Conv for the non-finite -ոց form used in necessitive/future constructions. Their order is form.voice.case.number, with only applicable, established features supplied: Inf, Part.Gen.Pl, or Vnoun.Gen.Sg. Non-finite forms receive no grammatical person.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="gregori-pos" n="GREgORI Ancient Armenian POS" source="#source-gregori-tagset">
+          <desc>Exact source codes and meanings from the supplied May 2021 sheet; internal IDs provide stable project references.</desc>
+          <category xml:id="pos-000001" n="A">
+            <catDesc>Adjective</catDesc>
+          </category>
+          <category xml:id="pos-000002" n="I+Adv">
+            <catDesc>Adverb</catDesc>
+          </category>
+          <category xml:id="pos-000003" n="I+AdvPr">
+            <catDesc>Prepositional Adverb</catDesc>
+          </category>
+          <category xml:id="pos-000004" n="I+Conj">
+            <catDesc>Conjunction</catDesc>
+          </category>
+          <category xml:id="pos-000005" n="I+Intj">
+            <catDesc>Interjection</catDesc>
+          </category>
+          <category xml:id="pos-000006" n="I+Neg">
+            <catDesc>Negation</catDesc>
+          </category>
+          <category xml:id="pos-000007" n="I+Part">
+            <catDesc>Particle</catDesc>
+          </category>
+          <category xml:id="pos-000008" n="I+Prep">
+            <catDesc>Preposition</catDesc>
+          </category>
+          <category xml:id="pos-000009" n="LF">
+            <catDesc>If it is impossible to analyze a form, this form itself is chosen as lemma, called a lemma-form.</catDesc>
+          </category>
+          <category xml:id="pos-000010" n="N+Ant">
+            <catDesc>Anthroponymic Name</catDesc>
+          </category>
+          <category xml:id="pos-000011" n="N+Com">
+            <catDesc>Common Noun</catDesc>
+          </category>
+          <category xml:id="pos-000012" n="N+Epi">
+            <catDesc>Epiclesis (Nickname)</catDesc>
+          </category>
+          <category xml:id="pos-000013" n="N+Let">
+            <catDesc>Name of a letter</catDesc>
+          </category>
+          <category xml:id="pos-000014" n="N+Pat">
+            <catDesc>Patronymic Name</catDesc>
+          </category>
+          <category xml:id="pos-000015" n="N+Prop">
+            <catDesc>Proper Noun</catDesc>
+          </category>
+          <category xml:id="pos-000016" n="N+Top">
+            <catDesc>Toponym (Place Name)</catDesc>
+          </category>
+          <category xml:id="pos-000017" n="NUM+Car">
+            <catDesc>Cardinal Number (word)</catDesc>
+          </category>
+          <category xml:id="pos-000018" n="NUM+Ord">
+            <catDesc>Ordinal Number (word)</catDesc>
+          </category>
+          <category xml:id="pos-000019" n="NUMA+Car">
+            <catDesc>Cardinal Number (alphanumeric system)</catDesc>
+          </category>
+          <category xml:id="pos-000020" n="NUMA+Ord">
+            <catDesc>Ordinal Number (alphanumeric system)</catDesc>
+          </category>
+          <category xml:id="pos-000021" n="PRO+Dem">
+            <catDesc>Demonstrative Pronoun</catDesc>
+          </category>
+          <category xml:id="pos-000022" n="PRO+Ind">
+            <catDesc>Indefinite Pronoun</catDesc>
+          </category>
+          <category xml:id="pos-000023" n="PRO+Int">
+            <catDesc>Interrogative Pronoun</catDesc>
+          </category>
+          <category xml:id="pos-000024" n="PRO+Per1p">
+            <catDesc>Personal Pronoun 1st Person Plural</catDesc>
+          </category>
+          <category xml:id="pos-000025" n="PRO+Per1s">
+            <catDesc>Personal Pronoun 1st Person Singular</catDesc>
+          </category>
+          <category xml:id="pos-000026" n="PRO+Per2p">
+            <catDesc>Personal Pronoun 2nd Person Plural</catDesc>
+          </category>
+          <category xml:id="pos-000027" n="PRO+Per2s">
+            <catDesc>Personal Pronoun 2nd Person Singular</catDesc>
+          </category>
+          <category xml:id="pos-000028" n="PRO+Pos1p">
+            <catDesc>Possessive Pronoun 1st Person Plural</catDesc>
+          </category>
+          <category xml:id="pos-000029" n="PRO+Pos1s">
+            <catDesc>Possessive Pronoun 1st Person Singular</catDesc>
+          </category>
+          <category xml:id="pos-000030" n="PRO+Pos2p">
+            <catDesc>Possessive Pronoun 2nd Person Plural</catDesc>
+          </category>
+          <category xml:id="pos-000031" n="PRO+Pos2s">
+            <catDesc>Possessive Pronoun 2nd Person Singular</catDesc>
+          </category>
+          <category xml:id="pos-000032" n="PRO+Rec">
+            <catDesc>Reciprocal Pronoun</catDesc>
+          </category>
+          <category xml:id="pos-000033" n="PRO+Ref">
+            <catDesc>Reflexive Pronoun</catDesc>
+          </category>
+          <category xml:id="pos-000034" n="PRO+Rel">
+            <catDesc>Relative Pronoun</catDesc>
+          </category>
+          <category xml:id="pos-000035" n="V">
+            <catDesc>Verb</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="colophon-msd" n="Project MSD: nominal and verbal morphology">
+          <desc>Project morphology vocabulary used directly in w/@msd. Nominal order: case.number. Finite verbal order: tense-or-stem.mood.voice.person.number. Non-finite order: form.voice.case.number. Use only applicable, established features and retain their relative order. These definitions supplement GREgORI; they are not GREgORI POS codes.</desc>
+          <category xml:id="morph-case" n="Case">
+            <catDesc>Grammatical case of the contextual form: Nom, Gen, Dat, Acc, Abl, Ins, or Loc.</catDesc>
+            <category xml:id="morph-case-nom" n="Nom">
+              <catDesc>Nominative. Base case; commonly the subject form and also used in address.</catDesc>
+            </category>
+            <category xml:id="morph-case-gen" n="Gen">
+              <catDesc>Genitive. Genitive; distinguish from dative by contextual analysis where forms coincide.</catDesc>
+            </category>
+            <category xml:id="morph-case-dat" n="Dat">
+              <catDesc>Dative. Dative; commonly marks recipients and other context-dependent relations.</catDesc>
+            </category>
+            <category xml:id="morph-case-acc" n="Acc">
+              <catDesc>Accusative. Accusative; commonly marks direct objects, with or without the appropriate particle.</catDesc>
+            </category>
+            <category xml:id="morph-case-abl" n="Abl">
+              <catDesc>Ablative. Ablative; includes source or separation constructions.</catDesc>
+            </category>
+            <category xml:id="morph-case-ins" n="Ins">
+              <catDesc>Instrumental. Instrumental; includes means, instrument, and other supported uses.</catDesc>
+            </category>
+            <category xml:id="morph-case-loc" n="Loc">
+              <catDesc>Locative. Locative; includes location in space or time, assessed from its construction.</catDesc>
+            </category>
+          </category>
+
+          <category xml:id="morph-number" n="Number">
+            <catDesc>Grammatical number of the contextual form: Sg or Pl.</catDesc>
+            <category xml:id="morph-number-sg" n="Sg">
+              <catDesc>Singular. Grammatical singular.</catDesc>
+            </category>
+            <category xml:id="morph-number-pl" n="Pl">
+              <catDesc>Plural. Grammatical plural.</catDesc>
+            </category>
+          </category>
+
+          <category xml:id="morph-person" n="Person">
+            <catDesc>Grammatical person of finite verbs; not assigned to non-finite forms.</catDesc>
+            <category xml:id="morph-person-1" n="1">
+              <catDesc>First person.</catDesc>
+            </category>
+            <category xml:id="morph-person-2" n="2">
+              <catDesc>Second person.</catDesc>
+            </category>
+            <category xml:id="morph-person-3" n="3">
+              <catDesc>Third person.</catDesc>
+            </category>
+          </category>
+
+          <category xml:id="morph-tense-stem" n="Tense or stem">
+            <catDesc>The same slot identifies indicative tense or subjunctive stem formation; it does not always indicate temporal meaning.</catDesc>
+            <category xml:id="morph-tense-stem-pres" n="Pres">
+              <catDesc>Present indicative, or present-stem formation with Sub.</catDesc>
+            </category>
+            <category xml:id="morph-tense-stem-aor" n="Aor">
+              <catDesc>Aorist indicative, or aorist-stem formation with Sub.</catDesc>
+            </category>
+            <category xml:id="morph-tense-stem-impf" n="Impf">
+              <catDesc>Imperfect indicative. Distinct from Imp, the imperative mood code.</catDesc>
+            </category>
+          </category>
+
+          <category xml:id="morph-mood" n="Mood">
+            <catDesc>Finite verbal mood. Imperative and prohibitive normally omit the tense-or-stem slot.</catDesc>
+            <category xml:id="morph-mood-ind" n="Ind">
+              <catDesc>Indicative.</catDesc>
+            </category>
+            <category xml:id="morph-mood-sub" n="Sub">
+              <catDesc>Subjunctive; may express future, wish, or other contextual modal meanings. Combine with Pres or Aor to distinguish stem formations.</catDesc>
+            </category>
+            <category xml:id="morph-mood-imp" n="Imp">
+              <catDesc>Positive imperative.</catDesc>
+            </category>
+            <category xml:id="morph-mood-proh" n="Proh">
+              <catDesc>Prohibitive: the verb form in a negative command. The negative particle is tagged separately; not every negated verb is prohibitive.</catDesc>
+            </category>
+          </category>
+
+          <category xml:id="morph-voice" n="Voice">
+            <catDesc>Morphologically established voice; omit for forms that do not distinguish it. These values do not encode causative derivation.</catDesc>
+            <category xml:id="morph-voice-act" n="Act">
+              <catDesc>Active.</catDesc>
+            </category>
+            <category xml:id="morph-voice-pass" n="Pass">
+              <catDesc>Mediopassive morphology, including passive, middle, or reflexive uses. Do not determine the code solely from the English translation.</catDesc>
+            </category>
+          </category>
+
+          <category xml:id="morph-verb-form" n="Non-finite verbal form">
+            <catDesc>Non-finite forms retain GREgORI pos="V"; finite status is indicated by a finite mood rather than a redundant Fin prefix.</catDesc>
+            <category xml:id="morph-verb-form-inf" n="Inf">
+              <catDesc>Infinitive used as a non-finite verbal complement; no person or automatically assigned case.</catDesc>
+            </category>
+            <category xml:id="morph-verb-form-part" n="Part">
+              <catDesc>Participle, normally the Classical Armenian past participle. Record case and number where established by the construction, including attributive and predicative uses.</catDesc>
+            </category>
+            <category xml:id="morph-verb-form-vnoun" n="Vnoun">
+              <catDesc>Declinable verbal noun, traditionally also described as an inflected infinitive. Use Vnoun.Gen.Sg rather than Inf.Gen.Sg for this adopted distinction.</catDesc>
+            </category>
+            <category xml:id="morph-verb-form-conv" n="Conv">
+              <catDesc>Indeclinable non-finite form in -ոց used with the copula in necessitive/future constructions. Conv is the project code adopted from the UD description; no case or person is assigned.</catDesc>
+            </category>
+          </category>
+
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-13">Created initial lemma, pos, and msd tagging</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>GREgORI POS and project MSD definitions are both recorded as categories in encodingDesc/classDecl. Words use the documented codes directly; no per-word references to these category definitions are required.</p>
+      <!--
+RETAINED USAGE GUIDANCE — illustrative examples, not corpus annotations.
+Keep these examples when populating the file.
+
+NOMINAL:
+<w lemma="քահանայ" pos="N+Com" msd="Nom.Pl">քահանայք</w>
+Add lemmaRef="../authority/lemmata.xml#ALLOCATED-LEMMA-ID" once the entry exists.
+No per-word POS or MSD reference is required.
+
+FINITE VERBS: fixed relative order: tense-or-stem.mood.voice.person.number.
+Pres.Ind.3.Sg = present indicative, third-person singular
+Aor.Ind.Pass.3.Sg = aorist indicative mediopassive, third-person singular
+Impf.Ind.1.Sg = imperfect indicative, first-person singular
+Pres.Sub.3.Pl = present-stem subjunctive, third-person plural
+Aor.Sub.3.Sg = aorist-stem subjunctive, third-person singular
+Imp.2.Pl = imperative, second-person plural
+Proh.2.Sg = prohibitive, second-person singular; tag the negative particle separately
+3.Sg = person and number only, with other applicable features pending analysis
+
+NON-FINITE: fixed relative order: form.voice.case.number.
+<w lemma="գրել" pos="V" msd="Inf">գրել</w>
+Part = participle with no further features assigned
+Part.Gen.Pl = participle, genitive plural
+Part.Pass.Gen.Pl = participle, established mediopassive morphology, genitive plural
+Vnoun.Gen.Sg = declinable verbal noun, genitive singular
+Conv = indeclinable -ոց form in a necessitive/future construction.
+
+COMPOUND CONSTRUCTIONS:
+Tag the participle and auxiliary separately according to their own forms.
+A compound tense is a property of the construction, not an instruction to
+copy the whole construction's features onto both words.
+-->
+    </body>
+  </text>
+</TEI>

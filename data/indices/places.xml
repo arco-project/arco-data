@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authority-places" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Corpus of Armenian Colophons: Place Authority</title>
+        <respStmt>
+          <resp>Authority compilation and scholarly editing</resp>
+          <name>Lewis Read</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Working authority file for the Digital Corpus of Armenian Colophons.
+          Publication details and licensing will be established for the corpus.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Place records will be compiled from reviewed colophon witnesses,
+          historical geography, and supporting scholarship. Each identification
+          will retain its supporting evidence. Nine initial records correspond to the
+          two test colophons and their manuscript descriptions.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file records geographical entities referenced across the corpus,
+          including settlements, regions, and monastic sites. Claims that a manuscript
+          was copied, owned, or used at a place remain in the relevant colophon files.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Place identifiers follow the pattern place-000001. Allocate each identifier
+          once and retain it when names, classifications, or geographical identifications
+          change.</p>
+        <p>Use placeName elements for preferred names and attested variants, including
+          Armenian and transliterated forms where available. Record modern names
+          separately and only when the identification is supported. The values preferred,
+          variant, and modern on placeName/@type are project conventions. The exact form
+          found in a witness remains in its transcription.</p>
+        <p>Use place/@type for the geographical category. Initial candidate values are
+          settlement, region, monastery, church, and site; these are documented
+          here and will be refined through actual corpus cases. They describe the place, not its role in a colophon.
+          A monastic site and the community occupying it are distinct entities.</p>
+        <p>Use location for geographical information. Distinguish historical geographical
+          context from modern administrative location. References to other place records
+          in this file use a local fragment such as #place-000002. Do not infer historical
+          boundaries from modern administrative divisions.</p>
+        <p>Coordinates are desired where available. Use geo with WGS84 decimal-degree coordinates in
+          latitude longitude order. Document the coordinate source, uncertainty, and
+          whether the point represents a known site or an approximate centre. A point
+          for a region does not describe its extent. Omit coordinates for unlocated places;
+          do not substitute zero values.</p>
+        <p>Use note elements for identification and uncertainty, bibl elements for
+          supporting references, and idno elements for verified external identifiers.
+          Bibliographical references point to bibliography.xml with the appropriate
+          record fragment.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-08">Added nine place records, including Sebasteia and the user-confirmed identification of Harput, with maximum example fields in the first three entries.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace xml:id="places">
+        <head>Places</head>
+
+        <place xml:id="place-000001" type="settlement">
+          <placeName type="preferred" xml:lang="en">Alexandria</placeName>
+          <placeName type="preferred" xml:lang="xcl">Insert the supported Classical Armenian name here.</placeName>
+          <placeName type="preferred" xml:lang="xcl-Latn">Insert the transliterated Armenian name here.</placeName>
+          <placeName type="variant">Insert an attested variant name here; add its language tag.</placeName>
+          <placeName type="modern">Insert the verified modern name here; add its language tag.</placeName>
+          <location type="historical">
+            <region>Insert the historically relevant region here, with period and supporting evidence.</region>
+          </location>
+          <location type="modern">
+            <country>Insert the modern country here.</country>
+            <region>Insert the modern administrative region here.</region>
+            <!-- <geo>LATITUDE LONGITUDE</geo>
+                 Activate only after verification; use WGS84 decimal degrees. -->
+          </location>
+          <note type="identification">The settlement named as the place of completion of the Gospel in Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
+          <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
+          <bibl>
+            <note>Insert a verified bibliography.xml reference and citedRange for pages supporting the geographical identification.</note>
+          </bibl>
+
+        </place>
+        <place xml:id="place-000002" type="settlement">
+          <placeName type="preferred" xml:lang="en">Antioch</placeName>
+          <!-- Maximum example: prompts are information to collect, not assertions.
+               Add attested variants only after checking their source and language. -->
+          <placeName type="preferred" xml:lang="xcl">Insert the supported Classical Armenian name here.</placeName>
+          <placeName type="preferred" xml:lang="xcl-Latn">Insert the transliterated Armenian name here.</placeName>
+          <placeName type="variant">Insert an attested variant name here; add its language tag.</placeName>
+          <placeName type="modern">Insert the verified modern name here; add its language tag.</placeName>
+          <location type="historical">
+            <region>Insert the historically relevant region here, with period and supporting evidence.</region>
+          </location>
+          <location type="modern">
+            <country>Insert the modern country here.</country>
+            <region>Insert the modern administrative region here.</region>
+            <!-- <geo>LATITUDE LONGITUDE</geo>
+                 Activate only after verification; use WGS84 decimal degrees. -->
+          </location>
+          <note type="identification">The city named in the historical narrative of Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
+          <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
+          <bibl>
+            <note>Insert a verified bibliography.xml reference and citedRange for pages supporting the geographical identification.</note>
+          </bibl>
+
+        </place>
+        <place xml:id="place-000003" type="settlement">
+          <placeName type="preferred" xml:lang="en">Jerusalem</placeName>
+          <placeName type="preferred" xml:lang="xcl">Insert the supported Classical Armenian name here.</placeName>
+          <placeName type="preferred" xml:lang="xcl-Latn">Insert the transliterated Armenian name here.</placeName>
+          <placeName type="variant">Insert an attested variant name here; add its language tag.</placeName>
+          <placeName type="modern">Insert the verified modern name here; add its language tag.</placeName>
+          <location type="historical">
+            <region>Insert the historically relevant region here, with period and supporting evidence.</region>
+          </location>
+          <location type="modern">
+            <country>Insert the modern country here.</country>
+            <region>Insert the modern administrative region here.</region>
+            <!-- <geo>LATITUDE LONGITUDE</geo>
+                 Activate only after verification; use WGS84 decimal degrees. -->
+          </location>
+          <note type="identification">The city named in the historical narrative of Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
+          <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
+          <bibl>
+            <note>Insert a verified bibliography.xml reference and citedRange for pages supporting the geographical identification.</note>
+          </bibl>
+
+        </place>
+        <place xml:id="place-000004" type="region">
+          <placeName type="preferred" xml:lang="en">Eranšahr</placeName>
+          <note type="identification">The historical region named in the editorial note explaining the use of Aryan in Colophon 1. Its historical scope is to be documented separately from modern administrative boundaries.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <bibl><ref target="bibliography.xml#bibl-000006">Greenwood (2019)</ref></bibl>
+        </place>
+
+        <place xml:id="place-000005" type="church">
+          <placeName type="preferred" xml:lang="en">Church of Saint Peter, Antioch</placeName>
+          <location type="historical">
+            <settlement ref="#place-000002">Antioch</settlement>
+          </location>
+          <note type="identification">The church named in the account of the celebration following victory at Antioch in Colophon 1. The record identifies the church as referred to in the text; its precise site remains to be established.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </place>
+
+        <place xml:id="place-000006" type="settlement">
+          <placeName type="preferred" xml:lang="en">Melitene</placeName>
+          <note type="identification">The settlement named as the place of translation in Colophon 2, dated 1092.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000002">Colophon 2</ref>.</note>
+        </place>
+
+        <place xml:id="place-000007" type="settlement">
+          <placeName type="preferred" xml:lang="en">Harput</placeName>
+          <placeName type="variant" xml:lang="en">Elâzig</placeName>
+          <note type="identification">The production place supplied for Venice, Mekhitarist monastery of San Lazzaro MS. 17, dated 1224. Lewis Read confirms that the label Elâzig in the manuscript description refers here to Harput.</note>
+          <note type="attestation">Recorded in the description of <ref target="manuscripts.xml#ms-Venice-SanLazzaro-17">Venice, Mekhitarist monastery of San Lazzaro MS. 17</ref>.</note>
+        </place>
+
+        <place xml:id="place-000008" type="settlement">
+          <placeName type="preferred" xml:lang="en">Ahlat</placeName>
+          <note type="identification">The production place supplied for Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, dated 1227.</note>
+          <note type="attestation">Recorded in the description of <ref target="manuscripts.xml#ms-Yerevan-6196">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</ref>.</note>
+        </place>
+
+        <place xml:id="place-000009" type="settlement">
+          <placeName type="preferred" xml:lang="en">Sebasteia</placeName>
+          <note type="identification">The production place supplied for Paris, Bibliothèque nationale de France, MS. Arménien 178, dated to the twelfth century.</note>
+          <note type="attestation">Recorded in the description of <ref target="manuscripts.xml#ms-Paris-Arm-178">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>.</note>
+        </place>
+      </listPlace>
+      <!--
+        ENTRY TEMPLATE
+        <listPlace xml:id="places">
+          <head>Places</head>
+          <place xml:id="place-000001" type="settlement">
+            <placeName type="preferred" xml:lang="hy-Latn">Preferred transliterated name</placeName>
+            <placeName type="preferred" xml:lang="hy">Preferred Armenian name</placeName>
+            <placeName type="preferred" xml:lang="en">Preferred English name, if used</placeName>
+            <placeName type="variant" xml:lang="hy">Attested variant spelling</placeName>
+            <placeName type="modern" xml:lang="en">Supported modern name</placeName>
+            <location type="historical">
+              <region ref="#place-000002">Historically relevant region</region>
+            </location>
+            <location type="modern">
+              <country>Modern country</country>
+              <region>Modern administrative region</region>
+              <geo>LATITUDE LONGITUDE</geo>
+            </location>
+            <idno type="URI">Verified external authority URI</idno>
+            <note type="identification">Brief identification and historical context.</note>
+            <note type="uncertainty">Unresolved identification questions, where relevant.</note>
+            <note type="coordinates">Coordinate source, precision, and meaning of the point.</note>
+            <bibl>
+              <ref target="bibliography.xml#bibl-000001">Supporting bibliographical record</ref>
+              <citedRange unit="page">Relevant pages</citedRange>
+            </bibl>
+          </place>
+        </listPlace>
+      -->
+    </body>
+  </text>
+</TEI>

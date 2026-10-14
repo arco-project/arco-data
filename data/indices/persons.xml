@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authority-persons" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Corpus of Armenian Colophons: Person Authority</title>
+        <respStmt>
+          <resp>Authority compilation and scholarly editing</resp>
+          <name>Lewis Read</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Working authority file for the Digital Corpus of Armenian Colophons.
+          Publication details and licensing will be established for the corpus.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Person records will be compiled from reviewed colophon witnesses and
+          supporting scholarship. Each identification will retain its supporting
+          evidence.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file records the identities of persons referenced across the corpus.
+          Contextual roles and claims are recorded in the relevant colophon files.
+          Collective identities referenced by those files are recorded here as personGrp.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Person identifiers follow the pattern pers-000001. Allocate each identifier
+          once and retain it when names or identifications change.</p>
+        <p>Use persName elements for preferred names and variant spellings. Record
+          Armenian forms and transliterations when supported by evidence. The values
+          preferred and variant on persName/@type are project conventions.</p>
+        <p>Use note elements for identification and uncertainty, bibl elements for
+          supporting references, and idno elements for verified external identifiers.
+          Omit unavailable optional fields rather than supply empty values.</p>
+        <p>Use person for individuals and personGrp for collective identities.
+          Classification notes distinguish historical persons and sacred figures.
+          These labels describe record kinds, not contextual roles. Sacred identifies
+          figures represented as divine or sacred in the texts.
+          Preserve group labels as used in the source without assuming fixed
+          membership or equivalence between different labels.</p>
+        <p>Bibliographical references will point to bibliography.xml with the
+          appropriate record fragment.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-08">Added thirteen individual records and ten collective records for the two test colophons.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPerson xml:id="persons">
+        <head>Persons and Groups</head>
+
+        <person xml:id="pers-000001">
+          <persName type="preferred" xml:lang="en">Aharovn</persName>
+          <persName type="variant" xml:lang="en">Aharon</persName>
+          <sex value="M">Male</sex>
+          <birth>Insert birth date and place here, if known.</birth>
+          <death>Insert death date and place here, if known.</death>
+          <occupation when="1099" source="colophons.xml#col-000001">Scribe</occupation>
+          <occupation when="1099" source="colophons.xml#col-000001">Monk</occupation>
+          <floruit when="1099" source="colophons.xml#col-000001">Attested as a scribe and monk in 1099.</floruit>
+          <langKnowledge tags="xcl" type="writing" source="colophons.xml#col-000001">
+            <p>Classical Armenian, attested through his scribal work.</p>
+          </langKnowledge>
+          <affiliation>Insert an evidenced monastic or institutional affiliation here.</affiliation>
+          <residence>Insert an evidenced place and period of residence here.</residence>
+          <note type="relationships">
+          <listRelation>
+            <relation name="brotherOf" mutual="#pers-000001 #pers-000002" source="colophons.xml#col-000001">
+              <desc>Aharovn and Yovhannes are described as brothers in Colophon 1.</desc>
+            </relation>
+          </listRelation>
+          </note>
+          <note type="source">Insert additional supporting bibliographical references here, using bibliography.xml record IDs and citedRange for the relevant pages.</note>
+          <note type="classification">Historical person</note>
+          <note type="identification">Scribe named in Colophon 1, which records the writing of the Gospel in Alexandria in 1099. The colophon describes him as a monk.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </person>
+
+        <person xml:id="pers-000002">
+          <persName type="preferred" xml:lang="en">Yovhannes</persName>
+          <sex value="M" source="colophons.xml#col-000001">Male; described as the scribe's brother.</sex>
+          <birth>Insert birth date and place here, if known.</birth>
+          <death>Insert death date and place here, if known.</death>
+          <occupation>Insert an evidenced occupation or religious office here.</occupation>
+          <floruit>Insert attested activity dates here; distinguish these from the date of a memorial mention.</floruit>
+          <langKnowledge>
+            <p>Insert evidenced language knowledge here; add tags and distinguish written, spoken, or reading competence where supported.</p>
+          </langKnowledge>
+          <affiliation>Insert an evidenced institutional affiliation here.</affiliation>
+          <residence>Insert an evidenced place and period of residence here.</residence>
+          <note type="relationships">Brother of <persName ref="#pers-000001">Aharovn</persName>. The structured brotherOf relationship is recorded once in Aharovn's entry and applies to both persons.</note>
+          <note type="source">Insert additional supporting bibliographical references here, using bibliography.xml record IDs and citedRange for the relevant pages.</note>
+          <note type="classification">Historical person</note>
+          <note type="identification">The individual remembered in Colophon 1 and described there as the scribe's brother.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </person>
+
+        <person xml:id="pers-000003">
+          <persName type="preferred" xml:lang="en">Gregory of Egypt</persName>
+          <persName type="variant" xml:lang="en">Gregory</persName>
+          <sex value="M">Male; identified as the nephew of Grigor II Vkayasēr.</sex>
+          <birth>Insert birth date and place here, if known.</birth>
+          <death>Insert death date and place here, if known.</death>
+          <occupation when="1099" source="colophons.xml#col-000001">Patriarch</occupation>
+          <floruit when="1099" source="colophons.xml#col-000001">His patriarchate is mentioned in the colophon dated 1099. Insert further independently supported activity dates here.</floruit>
+          <langKnowledge>
+            <p>Insert evidenced language knowledge here; add tags and distinguish written, spoken, or reading competence where supported.</p>
+          </langKnowledge>
+          <affiliation>Insert an evidenced ecclesiastical or institutional affiliation here.</affiliation>
+          <residence>Insert an evidenced place and period of residence here.</residence>
+          <note type="relationships">Nephew of Grigor II Vkayasēr. Add a structured nephewOf relation when a person authority record for Grigor II Vkayasēr is established.</note>
+          <note type="source">Insert supporting bibliographical references for biographical assertions here, using bibliography.xml record IDs and citedRange for the relevant pages.</note>
+          <note type="classification">Historical person</note>
+          <note type="identification">Gregory of Egypt, nephew of Grigor II Vkayasēr, known for his inscription at the White Monastery.</note>
+          <note type="source">Insert the supporting bibliographical reference for the White Monastery inscription when available.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+
+        </person>
+        <person xml:id="pers-000004">
+          <persName type="preferred" xml:lang="en">Holy Mother of God</persName>
+          <note type="classification">Sacred figure</note>
+          <note type="identification">The figure invoked as the Holy Mother of God in the intercessory prayer in Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </person>
+
+        <person xml:id="pers-000005">
+          <persName type="preferred" xml:lang="en">Saint Karapet</persName>
+          <persName type="variant" xml:lang="en">John the Baptist</persName>
+          <note type="classification">Sacred figure</note>
+          <note type="identification">The saint invoked as Saint Karapet in the intercessory prayer in Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </person>
+        <person xml:id="pers-000006">
+          <persName type="preferred" xml:lang="en">Jesus Christ</persName>
+          <persName type="variant" xml:lang="en">Christ</persName>
+          <persName type="variant" xml:lang="en">Christ God</persName>
+          <persName type="variant" xml:lang="en">Christ Jesus</persName>
+          <note type="classification">Sacred figure</note>
+          <note type="identification">Jesus Christ, invoked under these name forms in the two test colophons.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref> and <ref target="colophons.xml#col-000002">Colophon 2</ref>.</note>
+        </person>
+
+        <person xml:id="pers-000007">
+          <persName type="preferred" xml:lang="en">John the Evangelist</persName>
+          <note type="classification">Sacred figure</note>
+          <note type="identification">The evangelist whose protection is invoked in the concluding production formula of Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </person>
+
+        <person xml:id="pers-000008">
+          <persName type="preferred" xml:lang="en">Saint Peter</persName>
+          <note type="classification">Sacred figure</note>
+          <note type="identification">The saint named in the reference to the church of Saint Peter in the historical narrative of Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </person>
+
+        <person xml:id="pers-000009">
+          <persName type="preferred" xml:lang="en">Muhammad</persName>
+          <persName type="variant" xml:lang="en">Mahmet</persName>
+          <note type="classification">Historical person</note>
+          <note type="identification">The Prophet Muhammad.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </person>
+
+        <person xml:id="pers-000010">
+          <persName type="preferred" xml:lang="en">Grigory of Narek</persName>
+          <note type="classification">Historical person</note>
+          <note type="identification">Author of the Book of Lamentations, cited in the commentary to Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <bibl>
+            <ref target="bibliography.xml#bibl-000005">Grigory of Narek (2008)</ref>
+            <citedRange unit="page">167, 552</citedRange>
+          </bibl>
+        </person>
+
+        <person xml:id="pers-000011">
+          <persName type="preferred" xml:lang="en">God</persName>
+          <persName type="variant" xml:lang="en">almighty God</persName>
+          <note type="classification">Sacred figure</note>
+          <note type="identification">God as invoked in Colophon 1. This record retains the existing distinction from mentions specifically naming Jesus Christ.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </person>
+
+        <person xml:id="pers-000012">
+          <persName type="preferred" xml:lang="en">Ohrmazd</persName>
+          <note type="classification">Sacred figure</note>
+          <note type="identification">Ohrmazd, named in the editorial note explaining the use of Aryan in Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <bibl><ref target="bibliography.xml#bibl-000006">Greenwood (2019)</ref></bibl>
+        </person>
+
+        <person xml:id="pers-000013">
+          <persName type="preferred" xml:lang="en">Ahreman</persName>
+          <note type="classification">Sacred figure</note>
+          <note type="identification">Ahreman, named in the editorial note explaining the use of Aryan in Colophon 1.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <bibl><ref target="bibliography.xml#bibl-000006">Greenwood (2019)</ref></bibl>
+        </person>
+
+        <personGrp xml:id="group-000001">
+          <name type="preferred" xml:lang="en">Franks</name>
+          <note type="identification">The collective referred to as the Franks in the historical narrative.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000002">
+          <name type="preferred" xml:lang="en">Romans</name>
+          <note type="identification">The collective named in the reference to the sovereignty of the Romans.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000003">
+          <name type="preferred" xml:lang="en">Turks</name>
+          <note type="identification">The collective named as Turks in the account of the army encircling Antioch.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000004">
+          <name type="preferred" xml:lang="en">Persians</name>
+          <note type="identification">The collective named as Persians in the account of the army encircling Antioch.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000005">
+          <name type="preferred" xml:lang="en">Arabs</name>
+          <note type="identification">The collective named as Arabs in the account of the army encircling Antioch.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000006">
+          <name type="preferred" xml:lang="en">Muslims</name>
+          <note type="identification">The collective named as Muslims in the account of the army encircling Antioch.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000007">
+          <name type="preferred" xml:lang="en">Southern nations</name>
+          <note type="identification">The collective described as Southern nations in the passage concerning Yovhannes.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000008">
+          <name type="preferred" xml:lang="en">Christians</name>
+          <note type="identification">The collective named as Christians in the historical narrative.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000009">
+          <name type="preferred" xml:lang="en">Holy Evangelists</name>
+          <note type="identification">The collective invoked as the holy Evangelists in the intercessory prayer.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+        </personGrp>
+
+        <personGrp xml:id="group-000010">
+          <name type="preferred" xml:lang="en">Holy martyrs</name>
+          <note type="identification">The saints invoked collectively in the translation colophon associated with the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios.</note>
+          <note type="attestation">Referenced in <ref target="colophons.xml#col-000002">Colophon 2</ref>.</note>
+        </personGrp>
+      </listPerson>
+    
+    </body>
+  </text>
+</TEI>

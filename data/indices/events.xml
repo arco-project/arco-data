@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authority-events" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Corpus of Armenian Colophons: Event Authority</title>
+        <respStmt>
+          <resp>Authority compilation and scholarly editing</resp>
+          <name>Lewis Read</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Working authority file for the Digital Corpus of Armenian Colophons.
+          Publication details and licensing will be established for the corpus.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Event records will be compiled from reviewed colophon passages and
+          supporting historical scholarship. Four initial records identify occurrences
+          referenced in the English translation of Colophon 1.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file identifies historical occurrences discussed in the colophons,
+          allowing passages in different colophons and witnesses to refer to the same
+          occurrence. It identifies events, not types of passage or formula categories.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Event identifiers follow the pattern event-000001. Allocate each identifier
+          once and retain it when labels, dates, or identifications are revised. Do not
+          reuse retired identifiers.</p>
+        <p>Use one event per occurrence inside listEvent. Use eventName for a concise
+          editorial label and note for a description, supporting evidence, or uncertainty.
+          An event record may represent an occurrence known only through a colophon;
+          its existence here does not imply independent historical confirmation.</p>
+        <p>Event/@type is optional but desired. Use it only when a useful classification emerges
+          from the corpus, documenting its meaning here.</p>
+        <p>Use event/@type="journey" for identifiable journeys as sub type of event.
+          Record travellers, dates, departure, destination, intermediate stops,
+          and purpose where supported. Distinguish personal travel from
+          manuscript movement.</p>
+        <p>Normalized dates may be recorded on event: when for an occurrence dated to
+          a specified year or date; from and to for a supported duration; notBefore and
+          notAfter for uncertain temporal bounds. Do not confuse duration with uncertainty.
+          Omit unsupported dates and never infer a precise day from a year-only reference.
+          Explain dating sources, calendar conversions, and disagreements in a note.
+          Original date expressions and their contextual interpretation remain in the edition.</p>
+        <p>Use optional event/@where to point to an identified place, and placeName/@ref
+          in descriptive notes to name that place. Use persName/@ref for securely identified
+          participants when relevant. Reuse places.xml and persons.xml records instead of
+          defining people or places again here.</p>
+        <p>The authority record supplies an evidenced identification and concise account.
+          The colophon edition preserves the witness's wording, chronology, perspective,
+          and claims. If accounts disagree, retain the disagreement and explain the basis
+          of identification; do not silently correct the text to match this record.</p>
+        <p>In the edition, use seg/@type to describe the passage, for example
+          historicalNarrative, and seg/@corresp to link to this file's event record.
+          A historical narrative may remain unlinked when an occurrence cannot be identified.</p>
+        <p>Use bibl with a reference to bibliography.xml and citedRange for supporting
+          scholarship.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-08">Added four historical-event records matching existing pointers in Colophon 1.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listEvent xml:id="events">
+        <head>Historical events</head>
+
+        <event xml:id="event-000001" when="1098" where="places.xml#place-000002">
+          <eventName xml:lang="en">Capture of Antioch</eventName>
+          <note type="description">The capture of <placeName ref="places.xml#place-000002">Antioch</placeName> by the <rs type="people" ref="persons.xml#group-000001">Franks</rs>. Colophon 1 narrates their arrival, siege, and capture of the city.</note>
+          <note type="dating">The edition retains the colophon's own wording and chronology; this year does not derive from the manuscript's production date of 1099.</note>
+          <note type="evidence">Identified in the historical narrative in <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279v-en">Colophon 1, folio 279v, English translation</ref>.</note>
+          <bibl><note>Insert a supporting bibliography.xml reference and the relevant citedRange for the event's identification and historical dating.</note></bibl>
+        </event>
+
+        <event xml:id="event-000002" when="1098" where="places.xml#place-000002">
+          <eventName xml:lang="en">Arrival and defeat of the Muslim army at Antioch</eventName>
+          <note type="description">The arrival of a Muslim army at <placeName ref="places.xml#place-000002">Antioch</placeName> and its defeat by the <rs type="people" ref="persons.xml#group-000001">Franks</rs>. Colophon 1 describes the army as comprising <rs type="people" ref="persons.xml#group-000003">Turks</rs>, <rs type="people" ref="persons.xml#group-000004">Persians</rs>, <rs type="people" ref="persons.xml#group-000005">Arabs</rs>, and <rs type="people" ref="persons.xml#group-000006">Muslims</rs>. The linked narrative includes the encirclement, battle, Frankish victory, and subsequent thanksgiving at the <placeName ref="places.xml#place-000005">church of Saint Peter</placeName>.</note>
+          <note type="dating">The normalized historical year 1098, relative intervals stated by the colophon remain part of its narrative account.</note>
+          <note type="evidence">Identified in the connected passages of <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279v-en">Colophon 1, folio 279v, English translation</ref> and <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-280r-en">folio 280r, English translation</ref>. Both passages retain the same event pointer.</note>
+          <note type="uncertainty">The stated army size, group labels, and explanation of victory are reported claims of the colophon, not independently confirmed by this record.</note>
+          <bibl><note>Insert a supporting bibliography.xml reference and the relevant citedRange for the event's identification and historical dating.</note></bibl>
+        </event>
+
+        <event xml:id="event-000003" when="1099" where="places.xml#place-000003">
+          <eventName xml:lang="en">Capture of Jerusalem</eventName>
+          <note type="description">The capture of <placeName ref="places.xml#place-000003">Jerusalem</placeName> by the <rs type="people" ref="persons.xml#group-000001">Franks</rs>. Colophon 1 narrates the city's capture and the killing of its opponents.</note>
+          <note type="dating">The edition's note interprets the expression “in the same year” as referring to Armenian era 548 (1099 CE), stated earlier in the colophon.</note>
+          <note type="evidence">Identified in the historical narrative in <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-280r-en">Colophon 1, folio 280r, English translation</ref>.</note>
+          <bibl><note>Insert a supporting bibliography.xml reference and the relevant citedRange for the event's identification and historical dating.</note></bibl>
+        </event>
+
+        <event xml:id="event-000004">
+          <eventName xml:lang="en">Execution of Yovhannes</eventName>
+          <note type="description">The execution of <persName ref="persons.xml#pers-000002">Yovhannes</persName>, brother of <persName ref="persons.xml#pers-000001">Aharovn</persName>, as reported in Colophon 1. The colophon attributes the execution to the <rs type="people" ref="persons.xml#group-000007">Southern nations</rs>.</note>
+          <note type="dating">The report occurs in the colophon dated 1099. No independent date of the execution is supplied; no normalized event date is assigned.</note>
+          <note type="uncertainty">The location and more precise identification of those responsible remain unspecified. This occurrence is recorded on the evidence of the colophon.</note>
+          <note type="evidence">Reported in <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-en">Colophon 1, folio 279r, English translation</ref>.</note>
+          <bibl><note>Insert supporting bibliography.xml references and relevant citedRange values if further evidence becomes available.</note></bibl>
+        </event>
+
+      </listEvent>      
+    </body>
+  </text>
+</TEI>

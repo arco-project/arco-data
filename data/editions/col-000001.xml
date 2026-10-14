@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<!-- TEI P5 baseline; replace the schema href with the project customisation when available. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="edition-col-000001" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Colophon 1 — Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fols. 278v–280v</title>
+        <respStmt xml:id="editor-read">
+          <resp>Transcription, translation, and scholarly commentary supplied for the test edition; responsible scholarly editor</resp>
+          <name>Lewis Read</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>A Digital Corpus of Armenian Colophons, 9th–12th Centuries</edition>
+      </editionStmt>
+      <publicationStmt>
+        <p>Unpublished working edition for the Digital Corpus of Armenian Colophons. Publication and image licensing have not yet been established.</p>
+      </publicationStmt>
+     <sourceDesc>
+      <p><ref target="../authority/witnesses.xml#col-000001-wit-000001">Colophon of Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fols. 278v–280v</ref></p>
+    </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>One colophon per TEI file, with a witness division where required, a general mise-en-page description, folio divisions containing Armenian and English text blocks, inline passage notes, and one final commentary section. Authority records identify the colophon, witness, manuscript, entities, events, lemmata, and publications.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Keep the source transcription separate from the translation and editorial
+          commentary. Adopted policies for punctuation, abbreviation expansion, and normalisation
+          are recorded in editorial standard doc which will be published alongside final populated edition. 
+          Editorial intervention must remain visible.</p>
+        <p>For each folio division, use ab type="transcription" xml:lang="xcl" and ab type="translation" xml:lang="en". Translation corresp points to the Armenian block.</p>
+        <p>Each folio division identifies the page and links to its facsimile. Record column changes with cb and line beginnings with lb. English cb/lb retain the supplied editorial alignment. Keep n only every five lines, restarting in each column; no routine line IDs.</p>
+        <p>Describe mise en page for this witness and relevant folios: placement, relationship
+          to surrounding text, columns, spacing, indentation, headings, rubrication,
+          decoration, and relevant script or hand contrasts. A later copy may have different layout from the colophon's original inscription.</p>
+        <p>Encode passage-specific commentary inline using an anchor type="commentary" with a short xml:id before the explained passage, followed by note type="commentary" with corresp pointing to that anchor.</p>
+        <p>Armenian formula seg/@ana links directly to standard-pattern definitions in formulae.xml. Formula classifications follow authority/formulae.xml.</p>
+        <p>Words in the Armenian transcription use lemma, the exact GREgORI pos code,
+          lemmaRef for the lexical record, and contextual msd values documented in
+          ../authority/pos.xml. Nominal order is case.number, such as Nom.Pl; finite
+          verbal order is tense-or-stem.mood.voice.person.number, such as
+          Aor.Ind.Pass.3.Sg. Non-finite order is form.voice.case.number, such as
+          Part.Dat.Sg. Record only applicable, established features, retaining their
+          order. Pres.Sub and Aor.Sub distinguish stem formations, not temporal meaning.
+          Tag each component of a compound verbal construction according to its own form.
+          Non-finite forms receive no grammatical person. Explain unresolved analysis
+          separately rather than treating it as inapplicable.</p>
+        <p>Use persName/@ref, placeName/@ref, and title/@ref for identified entities in English. Collective designations use rs/@type="people" with a personGrp reference.</p>
+        <p>Document production/post-production classification separately from witness
+          transmission status and date. A copied production colophon remains a production
+          colophon even though its surviving inscription is later. Dates narrated by the
+          text do not automatically date the physical witness.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="xcl">Classical Armenian source text</language>
+        <language ident="en">English translation and editorial description</language>
+        <language ident="grc">Greek</language>
+        <language ident="ar">Arabic</language>
+        <language ident="syc">Syriac</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-05" who="#editor-read">Created the first working case edition for single colophon witness from Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288 transcription and translations.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="278v" xml:id="col-000001-wit-000001-facs-278v">
+      <graphic url="../images/ms-mat-0288/288_fol_278b.JPG"/>
+    </surface>
+    <surface n="279r" xml:id="col-000001-wit-000001-facs-279r">
+      <graphic url="../images/ms-mat-0288/288_fol_279a.JPG"/>
+    </surface>
+    <surface n="279v" xml:id="col-000001-wit-000001-facs-279v">
+      <graphic url="../images/ms-mat-0288/288_fol_279b.JPG"/>
+    </surface>
+    <surface n="280r" xml:id="col-000001-wit-000001-facs-280r">
+      <graphic url="../images/ms-mat-0288/288_fol_280a.JPG"/>
+    </surface>
+    <surface n="280v" xml:id="col-000001-wit-000001-facs-280v">
+      <graphic url="../images/ms-mat-0288/288_fol_280b.JPG"/>
+    </surface>
+  </facsimile>
+
+  <text>
+    <body>
+      <div type="colophon" xml:id="col-000001" corresp="../authority/colophons.xml#col-000001">
+        <head>Colophon 1 — Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fols. 278v–280v
+        <date when="1099">1099 CE (Armenian era 548)</date>, 
+        <placeName ref="../authority/places.xml#place-000001">Alexandria</placeName>
+        </head>
+
+        <div type="witness" xml:id="col-000001-wit-000001" corresp="../authority/witnesses.xml#col-000001-wit-000001">
+          <ab type="miseEnPage" xml:id="col-000001-wit-000001-layout">
+          The supplied transcription locates the colophon in column B of 278v, columns A and B of 279r, 279v, and 280r, and column A of 280v. 
+          It records 11 lines on 278v B; 19 and 20 on 279r A/B; 19 and 19 on 279v A/B; 19 and 18 on 280r A/B; and 10 on 280v A.  
+          Placement relative to Gospel text, spacing, rubrication, decoration, and hands have not yet been described.</ab>
+          
+          <div type="folio" n="278v" facs="#col-000001-wit-000001-facs-278v" xml:id="col-000001-wit-000001-fol-278v">
+            <head>Folio 278v</head>
+            <ab xml:id="col-000001-wit-000001-fol-278v-arm" type="transcription" xml:lang="xcl">
+              <cb n="B"/>
+              <lb/>
+              <seg type="formula" ana="../authority/formulae.xml#exp-doxology-pattern-01">
+                <w lemma="փառք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000001" msd="Nom.Pl">Փառք</w>
+                <w lemma="երեք" pos="NUM+Car" lemmaRef="../authority/lemmata.xml#lem-000002" msd="Dat.Pl">երից</w>
+                <w lemma="անբաւ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000003" msd="Dat.Pl">անբաւից</w>
+                <lb/>
+                <w lemma="կարելի" pos="A" lemmaRef="../authority/lemmata.xml#lem-000004" msd="Dat.Pl">կարելեաց</w>
+                <w lemma="անկար" pos="A" lemmaRef="../authority/lemmata.xml#lem-000005" msd="Dat.Pl">անկարից</w>
+                <lb/>
+                <w lemma="եռանձնեայ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000006" msd="Dat.Sg">եռանձնե[այ]</w>
+                <w lemma="միութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000007" msd="Dat.Sg">միութե<lb break="no"/>ան</w>
+                <w lemma="իսկունական" pos="A" lemmaRef="../authority/lemmata.xml#lem-000008" msd="Dat.Pl" cert="low">իսկունականաց</w>
+              </seg>
+              <seg type="formula" ana="../authority/formulae.xml#asser-production-pattern-01">
+                <lb n="5"/>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+                <w lemma="թուականութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000010" msd="Loc.Sg">թուականութեանն</w>
+                <lb/>
+                <w lemma="հայ" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
+                <w lemma="ՇԽԸ" pos="NUMA+Car" lemmaRef="../authority/lemmata.xml#lem-000012">ՇԽԸ</w>
+                <w lemma="գրել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000013" msd="Aor.Ind.Pass.3.Sg">գրեց<lb break="no"/>աւ</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Nom.Sg">սուրբ</w>
+                <w lemma="աւետարան" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000015" msd="Nom.Sg">[Աւ]ետարանս</w>
+                <w lemma="ձեռք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000016" msd="Ins.Sg">ձե<lb break="no"/>ռամբ</w>
+                <w lemma="Ահարովն" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000017" msd="Gen.Sg">Ահարովնի</w>
+              </seg>
+              <seg type="formula" ana="../authority/formulae.xml#exp-scribal-humility-pattern-01">
+                <lb/>
+                <w lemma="ախմար" pos="A" lemmaRef="../authority/lemmata.xml#lem-000018" msd="Gen.Sg">ախմարի</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="փանաք" pos="A" lemmaRef="../authority/lemmata.xml#lem-000020" msd="Gen.Sg" cert="low">փանաքի</w>
+                <lb n="10"/>
+                <w lemma="գրիչ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000021" msd="Gen.Sg">գրչի</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="անպիտան" pos="A" lemmaRef="../authority/lemmata.xml#lem-000022" msd="Gen.Sg" cert="low">անպիտ<lb break="no"/>ան</w>
+                <w lemma="կրաւնաւոր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000023" msd="Gen.Sg">կրաւնաւորի</w>
+              </seg>
+            </ab>
+            <ab corresp="#col-000001-wit-000001-fol-278v-arm" xml:id="col-000001-wit-000001-fol-278v-en" type="translation" xml:lang="en">
+              <cb n="B"/>
+              <lb/>Glory to the Three,
+              <lb/>to the Infinite,
+              <lb/>to <anchor type="commentary" xml:id="col-000001-1"/>the Able and Unable<note type="commentary" corresp="#col-000001-1">In an apophatic theological sense. Apophatic theology can be found as prominent fixture in the near contemporary tenth-century Armenian theological works of <persName ref="../authority/persons.xml#pers-000010">Grigory of Narek</persName>. Prayers 23 and 92 of his <title ref="../authority/works.xml#work-000002">Book of Lamentations</title>, by way of example, carry some verbal parallels to the doxological language in this colophon: <bibl ref="../authority/bibliography.xml#bibl-000005">Narek (2008) <citedRange unit="page">167, 552</citedRange> </bibl>.</note>,
+              <lb/>to the Tripersonal unity, to <anchor type="commentary" xml:id="col-000001-2"/>those who are Original<note type="commentary" corresp="#col-000001-2">In the sense of originally existent: <foreign xml:lang="xcl">Իսկութիւն</foreign>.</note>.
+              <lb n="5"/>In the Armenian year
+              <lb/> <date when="1099">548 (1099)</date>, this <title ref="../authority/works.xml#work-000001">Holy Gospel</title>
+              <lb/>was written,
+              <lb/>by the hand of <persName ref="../authority/persons.xml#pers-000001" role="scribe">Aharovn</persName>,
+              <lb/>an ignorant and contemptible
+              <lb n="10"/>scribe, and an unworthy
+              <lb/>monk.
+            </ab>
+          </div>
+          <div type="folio" n="279r" facs="#col-000001-wit-000001-facs-279r" xml:id="col-000001-wit-000001-fol-279r">
+            <head>Folio 279r</head>
+            <ab xml:id="col-000001-wit-000001-fol-279r-arm" type="transcription" xml:lang="xcl">
+              <cb n="A"/>
+              <lb/>
+              <seg type="formula" ana="../authority/formulae.xml#dir-remembrance-prayer-pattern-01">
+                <w lemma="արդ" pos="I+Adv" lemmaRef="../authority/lemmata.xml#lem-000024">Արդ</w>
+                <w lemma="աղաչել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000025" msd="Pres.Ind.Act.1.Sg">աղաչեմ</w>
+                <lb/>
+                <w lemma="ամենեսին" pos="PRO+Ind" lemmaRef="../authority/lemmata.xml#lem-000026" msd="Acc.Pl">զամենեսին</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../authority/lemmata.xml#lem-000027" msd="Nom.Pl">որք</w>
+                <lb/>
+                <w lemma="լուսաւորիլ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000028" msd="Pres.Ind.Pass.2.Pl" cert="low">լուսաւորիք</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <lb/>
+                <w lemma="աւգտիլ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000029" msd="Pres.Ind.Pass.2.Pl" cert="low">աւգտիք</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Sg" cert="low">սուրբ</w>
+                <w lemma="աւետարան" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000015" msd="Sg" cert="low">Աւե<lb n="5" break="no"/>տարանիդ</w>
+                <w lemma="ես" pos="PRO+Per1s" lemmaRef="../authority/lemmata.xml#lem-000030" msd="Acc.Sg">զիս</w>
+                <w lemma="աղաւթք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000031" msd="Gen.Pl">աղ<lb break="no"/>աւթից</w>
+                <w lemma="արժան" pos="A" lemmaRef="../authority/lemmata.xml#lem-000032" msd="Acc.Sg">արժան</w>
+                <w lemma="առնել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000033" msd="Aor.Sub.2.Pl">ա<lb break="no"/>րասջիք</w>
+              </seg>
+              <seg type="formula" ana="../authority/formulae.xml#exp-mercy-forgiveness-pattern-01">
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="Աստուած" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000034" msd="Nom.Sg">Աստուած</w>
+                <lb/>
+                <w lemma="դուք" pos="PRO+Per2p" lemmaRef="../authority/lemmata.xml#lem-000035" msd="Dat.Pl">ձեզ</w>
+                <w lemma="ողորմել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000036" msd="Aor.Sub.Pass.3.Sg">ողորմեսցի</w>
+                <lb/>
+                <w lemma="ամէն" pos="I+Intj" lemmaRef="../authority/lemmata.xml#lem-000037">ամէն</w>·
+              </seg>
+              <lb n="10"/>
+              <w lemma="ընդ" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000038">Ընդ</w>
+              <w lemma="նոյն" pos="PRO+Dem" lemmaRef="../authority/lemmata.xml#lem-000039" msd="Loc.Sg">նմին</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <lb/>
+              <w lemma="եղբայր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000040" msd="Acc.Sg">զեղբայրն</w>
+              <w lemma="իմ" pos="PRO+Pos1s" lemmaRef="../authority/lemmata.xml#lem-000041" msd="Acc.Sg">իմ</w>
+              <lb/>
+              <w lemma="Յովհաննէս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000042" msd="Acc.Sg">զՅովհաննէս</w>
+              <w lemma="որ" pos="PRO+Rel" lemmaRef="../authority/lemmata.xml#lem-000027" msd="Nom.Sg">որ</w>
+              <lb/>
+              <w lemma="կատարել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000043" msd="Aor.Ind.Pass.3.Sg">կատարեցաւ</w>
+              <w lemma="անաւրէն" pos="A" lemmaRef="../authority/lemmata.xml#lem-000044" msd="Abl.Sg" cert="low">յան<lb break="no"/>աւրէն</w>
+              <w lemma="ազգ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000045" msd="Abl.Sg">ազգէն</w>
+              <lb n="15"/>
+              <w lemma="հարաւային" pos="A" lemmaRef="../authority/lemmata.xml#lem-000046" msd="Gen.Pl">հարաւայնոցն</w>
+              <lb/>
+              <w lemma="անաւրէն" pos="A" lemmaRef="../authority/lemmata.xml#lem-000044" msd="Abl.Sg" cert="low">յանաւրէն</w>
+              <w lemma="Մահմետ" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000047" msd="Gen.Sg">Մահմե<lb break="no"/>տի</w>
+              <w lemma="անաւրէն" pos="A" lemmaRef="../authority/lemmata.xml#lem-000044" msd="Gen.Sg" cert="low">անաւրէն</w>
+              <w lemma="ժողով" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000048" msd="Abl.Sg" cert="low">ժող<lb break="no"/>ովոյն</w>
+              <w lemma="վասն" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000049">վասն</w>
+              <w lemma="եղկելի" pos="A" lemmaRef="../authority/lemmata.xml#lem-000050" msd="Gen.Pl">եղկելի</w>
+              <lb/>
+              <w lemma="կեանք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000051" msd="Gen.Pl">կենաց</w>
+              <w lemma="իմ" pos="PRO+Pos1s" lemmaRef="../authority/lemmata.xml#lem-000041" msd="Gen.Pl">իմոց</w>·
+              <seg type="formula" ana="../authority/formulae.xml#dir-remembrance-prayer-pattern-02">
+                <cb n="B"/>
+                <lb/>
+                <w lemma="արդ" pos="I+Adv" lemmaRef="../authority/lemmata.xml#lem-000024">Արդ</w>
+                <w lemma="աղաչել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000025" msd="Pres.Ind.Act.1.Sg">աղաչեմ</w>
+                <w lemma="ամենեսին" pos="PRO+Ind" lemmaRef="../authority/lemmata.xml#lem-000026" msd="Acc.Pl">զա<lb break="no"/>մենեսեան</w>
+                <w lemma="յիշել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000052" msd="Imp.Act.2.Pl">յիշեց<lb break="no"/>էք</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+                <w lemma="դուք" pos="PRO+Per2p" lemmaRef="../authority/lemmata.xml#lem-000035" msd="Gen.Pl">ձեր</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Acc.Pl">սուրբ</w>
+                <w lemma="աղաւթք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000031" msd="Acc.Pl">աղաւ<lb break="no"/>թս</w>
+                <w lemma="Յովհաննէս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000042" msd="Acc.Sg">զՅովհաննէս</w>
+              </seg>
+              <seg type="formula" ana="../authority/formulae.xml#exp-mercy-forgiveness-pattern-02">
+                <lb n="5"/>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000053" msd="Nom.Sg">Քրիստոս</w>
+                <w lemma="Աստուած" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000034" msd="Nom.Sg">Աստուած</w>
+                <w lemma="այս" pos="PRO+Dem" lemmaRef="../authority/lemmata.xml#lem-000054" msd="Gen.Pl">այս</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Gen.Pl">սուրբ</w>
+                <w lemma="աւետարանիչ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000055" msd="Gen.Pl">Ա<lb break="no"/>ւետարանչացս</w>
+                <w lemma="բարեխաւսութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000056" msd="Ins.Sg">բա<lb break="no"/>րէխաւսութեամբ</w>
+                <lb/>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Gen.Sg">սուրբ</w>
+                <w lemma="Աստուածածին" pos="N+Epi" lemmaRef="../authority/lemmata.xml#lem-000057" msd="Gen.Sg">Աստուածածին</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <lb/>
+                <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Gen.Sg">սուրբ</w>
+                <w lemma="Կարապետ" pos="N+Epi" lemmaRef="../authority/lemmata.xml#lem-000058" msd="Gen.Sg">Կարապետն</w>
+                <w lemma="բարեխաւսութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000056" msd="Ins.Sg">բա<lb n="10" break="no"/>րէխաւսութեամբ</w>
+                <lb/>
+                <w lemma="ողորմել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000036" msd="Aor.Sub.Pass.3.Sg">ողորմեսցի</w>
+                <w lemma="Յովհաննէս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000042" msd="Dat.Sg">Յովհ<lb break="no"/>աննիսի</w>
+                <w lemma="հոգի" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000059" msd="Dat.Sg">հոգւոյն</w>
+                <lb/>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="ջնջել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000060" msd="Aor.Sub.Act.3.Sg">ջնջեսցէ</w>
+                <w lemma="ձեռագիր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000061" msd="Acc.Sg">զձե<lb break="no"/>ռագիր</w>
+                <w lemma="յանցանք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000062" msd="Gen.Pl">յանցանա<lb n="15" break="no"/>ց</w>
+                <w lemma="նա" pos="PRO+Dem" lemmaRef="../authority/lemmata.xml#lem-000063" msd="Gen.Sg">նորա</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="գրել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000013" msd="Aor.Sub.Act.3.Sg">գրեսց[է]</w>
+                <lb/>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+                <w lemma="դպրութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000064" msd="Acc.Sg">դպրութիւն</w>
+                <w lemma="կեանք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000051" msd="Gen.Pl">կենա<lb break="no"/>ց</w>
+                <w lemma="ամէն" pos="I+Intj" lemmaRef="../authority/lemmata.xml#lem-000037">ամէն</w>
+              </seg>
+              <seg type="formula" ana="../authority/formulae.xml#dir-remembrance-prayer-pattern-03">
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">եւ</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../authority/lemmata.xml#lem-000027" msd="Nom.Sg">որ</w>
+                <w lemma="յիշել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000052" msd="Pres.Ind.Act.2.Pl">յիշ<lb break="no"/>էք</w>
+                <w lemma="յիշել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000052">յիշել</w>
+                <w lemma="լինել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000065" msd="Sub.2.Pl">լիցիք</w>
+              </seg>
+              <seg type="formula" ana="../authority/formulae.xml#exp-mercy-forgiveness-pattern-01">
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="Աստուած" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000034" msd="Nom.Sg">Աստուած</w>
+                <lb/>
+                <w lemma="ամենեսին" pos="PRO+Ind" lemmaRef="../authority/lemmata.xml#lem-000026" msd="Dat.Pl">ամենեցուն</w>
+                <w lemma="ողորմել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000036" msd="Aor.Sub.Pass.3.Sg">ողորմե<lb n="20" break="no"/>սցի</w>
+                <w lemma="ամէն" pos="I+Intj" lemmaRef="../authority/lemmata.xml#lem-000037">ամէն</w>·
+              </seg>
+            </ab>
+            <ab corresp="#col-000001-wit-000001-fol-279r-arm" xml:id="col-000001-wit-000001-fol-279r-en" type="translation" xml:lang="en">
+              <cb n="A"/>
+              <lb/>Now, I pray
+              <lb/>to all those who
+              <lb/>are enlightened and
+              <lb/>profit in this Holy
+              <lb n="5"/>Gospel, that
+              <lb/>you will make me
+              <lb/>worthy of prayers, and may <persName ref="../authority/persons.xml#pers-000011">God</persName>
+              <lb/>have mercy on you.
+              <lb/>Amen.
+              <seg type="historicalNarrative" corresp="../authority/events.xml#event-000004">
+              <lb n="10"/>And the same
+              <lb/>for my brother
+              <lb/> <persName ref="../authority/persons.xml#pers-000002">Yovhannes</persName>, who
+              <lb/>was executed
+              <lb/>by the impious
+              <lb n="15"/> <rs type="people" ref="../authority/persons.xml#group-000007">Southern nations</rs>
+              <lb/>of the impious <persName ref="../authority/persons.xml#pers-000009">Mahmet</persName>,
+              <lb/>the impious assembly,
+              <lb/>for this reason
+              <lb/>my life is lamentable.
+              <cb n="B"/>
+              </seg>
+              <lb/>Now I beseech
+              <lb/>you all: remember
+              <lb/>in your holy prayers
+              <lb/> <persName ref="../authority/persons.xml#pers-000002">Yovhannes</persName>,
+              <lb n="5"/>and may <persName ref="../authority/persons.xml#pers-000006">Christ God</persName>, through
+              <lb/>the intercession of the
+              <lb/> <rs type="people" ref="../authority/persons.xml#group-000009">holy Evangelists</rs>,
+              <lb/>and of the
+              <lb/> <persName ref="../authority/persons.xml#pers-000004">Holy Mother of God</persName>, and
+              <lb n="10"/>of <persName ref="../authority/persons.xml#pers-000005">Saint Karapet</persName>,
+              <lb/>have mercy upon
+              <lb/>the soul of <persName ref="../authority/persons.xml#pers-000002">Yovhannes</persName>,
+              <lb/>and may He erase
+              <lb/>the written record of his
+              <lb n="15"/>sins and inscribe him
+              <lb/>in the Book
+              <lb/>of Life. And you
+              <lb/>who remember, may you be remembered, and may <persName ref="../authority/persons.xml#pers-000011">God</persName>
+              <lb/>have mercy upon you all.
+              <lb n="20"/>Amen.
+              </ab>
+          </div>
+          <div type="folio" n="279v" facs="#col-000001-wit-000001-facs-279v" xml:id="col-000001-wit-000001-fol-279v">
+            <head>Folio 279v</head>
+            <ab xml:id="col-000001-wit-000001-fol-279v-arm" type="transcription" xml:lang="xcl">
+              <cb n="A"/>
+              <lb/>
+              <seg type="formula" ana="../authority/formulae.xml#asser-production-pattern-02">
+                <w lemma="արդ" pos="I+Adv" lemmaRef="../authority/lemmata.xml#lem-000024">Արդ</w>
+                <w lemma="գրել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000013" msd="Aor.Ind.Pass.3.Sg">գրեցաւ</w>
+                <lb/>
+                <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Nom.Sg">սուրբ</w>
+                <w lemma="աւետարան" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000015" msd="Nom.Sg">Աւետ<lb break="no"/>արանս</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+                <w lemma="հայրապետութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000066" msd="Loc.Sg">հայրա<lb break="no"/>պետութեանն</w>
+                <lb n="5"/>
+                <w lemma="տէր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000067" msd="Gen.Sg">տեառն</w>
+                <w lemma="Գրիգոր" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000068" msd="Gen.Sg">Գրիգորի</w>
+                <lb/>
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="ինքնակալնութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000069" msd="Loc.Sg">յինքնակալն<lb break="no"/>ութեանն</w>
+                <w lemma="հռոմայեցի" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000070" msd="Gen.Pl">Հռոմ<lb break="no"/>այեացւոցն</w>
+                <w lemma="ազգ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000045" msd="Gen.Sg">ազգ<lb break="no"/>ին</w>
+                <w lemma="արիական" pos="A" lemmaRef="../authority/lemmata.xml#lem-000071" msd="Gen.Sg">արիական</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../authority/lemmata.xml#lem-000027" msd="Nom.Sg">որ</w>
+                <w lemma="եմ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000072" msd="Pres.Ind.3.Pl">են</w>
+                <lb n="10"/>
+                <w lemma="փառանգ" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000073" msd="Nom.Pl">փառանգս</w>
+              </seg>
+              <w lemma="յորժամ" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000074">յոր<lb break="no"/>ժամ</w>
+              <w lemma="շարժել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000075" msd="Aor.Ind.Pass.3.Pl">շարժեցան</w>
+              <lb/>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="ելանել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000076" msd="Aor.Ind.3.Pl">ելին</w>
+              <w lemma="անթիւ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000077" msd="Pl">անթիւ</w>
+              <lb/>
+              <w lemma="բազմութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000078" msd="Pl">բազմութեանց</w>
+              <lb/>
+              <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+              <w lemma="վերին" pos="A" lemmaRef="../authority/lemmata.xml#lem-000079" msd="Gen.Pl">վերին</w>
+              <w lemma="խնամք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000080" msd="Gen.Pl">խնամոց<lb n="15" break="no"/>ն</w>
+              <w lemma="ազդումն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000081" msd="Ins.Sg">ազդմամբ</w>
+              <w lemma="ամենակալ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000082" msd="Gen.Sg">ամե<lb break="no"/>նակալին</w>
+              <w lemma="Աստուած" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000034" msd="Gen.Sg">Աստուծոյ</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <lb/>
+              <w lemma="գալ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000083" msd="Aor.Ind.3.Pl">եկին</w>
+              <w lemma="հասանել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000084" msd="Aor.Ind.3.Pl">հասին</w>
+              <w lemma="մինչև" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000085">մինչ<lb break="no"/>և</w>
+              <w lemma="Անդիոք" pos="N+Top" lemmaRef="../authority/lemmata.xml#lem-000086" msd="Acc.Sg">յԱնդիոք</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <lb/>
+              <w lemma="բազում" pos="A" lemmaRef="../authority/lemmata.xml#lem-000087" msd="Ins.Sg">բազում</w>
+              <w lemma="աշխատութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000088" msd="Ins.Sg">աշխատ<cb n="B" break="no"/>
+                <lb break="no"/>ութեամբ</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="մեծ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000089" msd="Ins.Sg">մեծ<lb break="no"/>աւ</w>
+              <w lemma="պատերազմ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000090" msd="Ins.Pl">պատերազմա<lb break="no"/>ւք</w>
+              <anchor type="commentary" xml:id="col-000001-10"/>
+              <w lemma="բանալ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000091" msd="Aor.Ind.Act.3.Pl">բացին</w>
+              <note type="commentary" corresp="#col-000001-10">բացին (lemma բանալ, “to open”) is used here in the sense of “conquer”: a semantic Arabicism comparable to Arabic <foreign xml:lang="ar">فتح</foreign>.</note>
+              <w lemma="Անդիոք" pos="N+Top" lemmaRef="../authority/lemmata.xml#lem-000086" msd="Acc.Sg">զԱնդի<lb break="no"/>ոք</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+              <w lemma="սուր" pos="A" lemmaRef="../authority/lemmata.xml#lem-000092" msd="Acc.Sg">սուր</w>
+              <w lemma="սուսեր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000093" msd="Gen.Sg">սուս<lb n="5" break="no"/>երի</w>
+              <w lemma="անխնայ" pos="I+Adv" lemmaRef="../authority/lemmata.xml#lem-000094">յանխնայ</w>
+              <lb/>
+              <w lemma="կոտորել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000095" msd="Aor.Ind.Act.3.Pl">կոտորեցին</w>
+              <w lemma="անաւրէն" pos="A" lemmaRef="../authority/lemmata.xml#lem-000044" msd="Acc.Pl">զա<lb break="no"/>նաւրէնսն</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <lb/>
+              <w lemma="յետ" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000096">յետ</w>
+              <w lemma="Գ" pos="NUMA+Car" lemmaRef="../authority/lemmata.xml#lem-000097">Գ</w>
+              <w lemma="երեք" pos="NUM+Car" lemmaRef="../authority/lemmata.xml#lem-000002" msd="Gen.Pl">երից</w>
+              <w lemma="աւր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000098" msd="Gen.Pl">ա<lb break="no"/>ւուրց</w>
+              <w lemma="գալ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000083" msd="Aor.Ind.3.Pl">եկին</w>
+              <w lemma="անթիւ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000077" msd="Nom.Pl">ան<lb n="10" break="no"/>թիւ</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="անհամար" pos="A" lemmaRef="../authority/lemmata.xml#lem-000099" msd="Nom.Pl">անհամա<lb break="no"/>ր</w>
+              <w lemma="ազգ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000045" msd="Nom.Pl">ազգս</w>
+              <w lemma="թուրք" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000100" msd="Gen.Pl">թուրքա<lb break="no"/>ց</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="պարսիկ" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000101" msd="Gen.Pl">պարսից</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="արպիկ" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000102" msd="Gen.Pl" cert="low">ար<lb break="no"/>պկաց</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="տաճիկ" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000103" msd="Gen.Pl">տաճկաց</w>
+              <lb/>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="բանակել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000104" msd="Aor.Ind.Pass.3.Pl">բանակեցան</w>
+              <lb n="15"/>
+              <w lemma="շուրջ" pos="I+AdvPr" lemmaRef="../authority/lemmata.xml#lem-000105">շուրջ</w>
+              <w lemma="քաղաք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000106" msd="Ins.Sg">զքաղաքա<lb break="no"/>ւն</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="դաշտ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000107" msd="Ins.Sg">զդաշտաւ<lb break="no"/>ն</w>
+              <w lemma="թիւ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000108" msd="Ins.Sg">թուով</w>
+              <w lemma="Դ" pos="NUMA+Car" lemmaRef="../authority/lemmata.xml#lem-000109">Դ</w>
+              <lb/>
+              <w lemma="հարիւր" pos="NUM+Car" lemmaRef="../authority/lemmata.xml#lem-000110">հարիւր</w>
+              <w lemma="հազար" pos="NUM+Car" lemmaRef="../authority/lemmata.xml#lem-000111">հազար</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <lb/>
+              <w lemma="Խ" pos="NUMA+Car" lemmaRef="../authority/lemmata.xml#lem-000112">Խ</w>
+              <w lemma="հազար" pos="NUM+Car" lemmaRef="../authority/lemmata.xml#lem-000111">հազար</w>
+            </ab>
+            <ab corresp="#col-000001-wit-000001-fol-279v-arm" xml:id="col-000001-wit-000001-fol-279v-en" type="translation" xml:lang="en">
+              <cb n="A"/>
+              <lb/>Now, this <title ref="../authority/works.xml#work-000001">holy Gospel</title>
+              <lb/>was written
+              <lb/>during the
+              <lb/>patriarchate
+              <lb n="5"/>of Lord <persName ref="../authority/persons.xml#pers-000003">Gregory</persName>,
+              <lb/>under the sovereignty
+              <lb/>of the <rs type="people" ref="../authority/persons.xml#group-000002">Romans</rs>,
+              <lb/>of the <anchor type="commentary" xml:id="col-000001-3"/> <hi rend="italic">Aryan</hi> <note type="commentary" corresp="#col-000001-3"> <foreign xml:lang="xcl">Արեաց</foreign>: literally “valiant ones”. This term is often used in classical Armenian literature in connection with the Iranian world, signalling those who were conceptually part of <placeName ref="../authority/places.xml#place-000004">Eranšahr</placeName>, as allies of <persName ref="../authority/persons.xml#pers-000012">Ohrmazd</persName> in the struggle against <persName ref="../authority/persons.xml#pers-000013">Ahreman</persName>: <bibl ref="../authority/bibliography.xml#bibl-000006">Greenwood (2019)</bibl>. Here it is used to refer to the Frankish crusaders, as we find in other contemporary colophons.</note>
+              <lb/>people who
+              <lb n="10"/>are the <rs type="people" ref="../authority/persons.xml#group-000001">Franks</rs>,
+              <lb/>who had come
+              <lb/>in their
+              <lb/>multitude
+              <lb/>through the
+              <lb n="15"/>instigation of
+              <seg type="historicalNarrative" corresp="../authority/events.xml#event-000001">
+              <lb/>the <persName ref="../authority/persons.xml#pers-000011">almighty God</persName>. And they came
+              <lb/>as far as
+              <lb/> <placeName ref="../authority/places.xml#place-000002">Antioch</placeName> and
+              <lb/>with great toil
+              <cb n="B"/>
+              <lb/>and warfare,
+              <lb/>they captured
+              <lb/>the city
+              <lb/>and with sharp swords
+              <lb n="5"/>they mercilessly
+              <lb/>slaughtered the
+              <lb/>impious. And
+              </seg>
+              <seg type="historicalNarrative" corresp="../authority/events.xml#event-000002">
+              <lb/>after three days
+              <lb/>an innumerable
+              <lb n="10"/>host
+              <lb/>of <anchor type="commentary" xml:id="col-000001-4"/> <rs type="people" ref="../authority/persons.xml#group-000003">Turks</rs> <note type="commentary" corresp="#col-000001-4"> <foreign xml:lang="xcl">թուրքաց</foreign> </note>,
+              <lb/> <anchor type="commentary" xml:id="col-000001-5"/> <rs type="people" ref="../authority/persons.xml#group-000004">Persians</rs> <note type="commentary" corresp="#col-000001-5"> <foreign xml:lang="xcl">պարսից</foreign> </note>,
+                    <anchor type="commentary" xml:id="col-000001-6"/> <rs type="people" ref="../authority/persons.xml#group-000005">Arabs</rs> <note type="commentary" corresp="#col-000001-6"> <foreign xml:lang="xcl">արապկաց</foreign> </note>
+              <lb/>and <anchor type="commentary" xml:id="col-000001-7"/> <rs type="people" ref="../authority/persons.xml#group-000006">Muslims</rs> <note type="commentary" corresp="#col-000001-7"> <foreign xml:lang="xcl">տաճկաց</foreign> </note>,
+              <lb/>arrived and encircled
+              <lb n="15"/>the city
+              <lb/>and the plain,
+              <lb/>numbering four
+              <lb/>hundred thousand and
+              <lb/>forty thousand.
+              </seg>
+              </ab>
+          </div>
+          <div type="folio" n="280r" facs="#col-000001-wit-000001-facs-280r" xml:id="col-000001-wit-000001-fol-280r">
+            <head>Folio 280r</head>
+            <ab xml:id="col-000001-wit-000001-fol-280r-arm" type="transcription" xml:lang="xcl">
+              <cb n="A"/>
+              <lb/>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">Եւ</w>
+              <w lemma="ելանել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000076" msd="Aor.Ind.3.Pl">ելին</w>
+              <w lemma="ազգ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000045" msd="Nom.Sg">ազգն</w>
+              <w lemma="արիական" pos="A" lemmaRef="../authority/lemmata.xml#lem-000071" msd="Nom.Sg">ա<lb break="no"/>րիական</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="խմբել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000113" msd="Aor.Ind.Pass.3.Sg">խմբ<lb break="no"/>եցաւ</w>
+              <w lemma="պատերազմ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000090" msd="Nom.Sg">պատերազ<lb break="no"/>մն</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="վերին" pos="A" lemmaRef="../authority/lemmata.xml#lem-000079" msd="Ins.Sg">վերին</w>
+              <w lemma="աւգնականութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000114" msd="Ins.Sg">աւ<lb n="5" break="no"/>գնականութեա<lb break="no"/>մբ</w>
+              <w lemma="Աստուած" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000034" msd="Gen.Sg">Աստուծոյ</w>
+              <w lemma="դարձուցանել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000115" msd="Aor.Ind.Act.3.Pl">դարձ<lb break="no"/>ուցին</w>
+              <w lemma="բանակ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000116" msd="Acc.Sg" cert="low">զբանակ<lb break="no"/>ան</w>
+              <w lemma="անաւրէն" pos="A" lemmaRef="../authority/lemmata.xml#lem-000044" msd="Gen.Pl">անաւրինացն</w>
+              <lb/>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">եւ</w>
+              <w lemma="երեք" pos="NUM+Car" lemmaRef="../authority/lemmata.xml#lem-000002" msd="Acc.Pl">զերիս</w>
+              <w lemma="աւր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000098" msd="Acc.Pl">աւուր<lb n="10" break="no"/>ս</w>
+              <w lemma="սուր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000117" msd="Nom.Sg">սուրն</w>
+              <w lemma="քրիստոնեայ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000118" msd="Gen.Pl">քրիստո<lb break="no"/>նեիցն</w>
+              <w lemma="ճարակել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000119" msd="Impf.Ind.3.Sg">ճարակէր</w>
+              <lb/>
+              <w lemma="անաւրէն" pos="A" lemmaRef="../authority/lemmata.xml#lem-000044" msd="Acc.Pl">զանաւրէնսն</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <lb/>
+              <w lemma="մեծ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000089" msd="Ins.Sg">մեծաւ</w>
+              <w lemma="յաղթութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000120" msd="Ins.Sg">յաղթու<lb break="no"/>թեամբ</w>
+              <w lemma="դառնալ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000121" msd="Aor.Ind.Pass.3.Pl">դարձա<lb n="15" break="no"/>ն</w>
+              <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+              <w lemma="մեծ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000089" msd="Acc.Sg">մեծ</w>
+              <w lemma="եկեղեցի" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000122" msd="Acc.Sg">եկեղեցի<lb break="no"/>ն</w>
+              <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Gen.Sg">սուրբ</w>
+              <w lemma="Պետրոս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000123" msd="Gen.Sg">Պետրոսի</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <lb/>
+              <w lemma="տաւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000124" msd="Acc.Sg">տաւն</w>
+              <w lemma="ուրախութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000125" msd="Gen.Sg">ուրախու<lb break="no"/>թեան</w>
+              <w lemma="կատարել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000043" msd="Impf.Ind.3.Pl">կատարեին</w>
+              <lb/>
+              <w lemma="մեծ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000089" msd="Dat.Sg">մեծին</w>
+              <w lemma="Աստուած" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000034" msd="Dat.Sg">Աստուծոյ</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="փրկիչ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000126" msd="Dat.Sg">փրկ<cb n="B" break="no"/>
+                <lb break="no"/>չին</w>
+              <w lemma="Յիսուս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000127" msd="Dat.Sg">Յիսուսի</w>
+              <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000053" msd="Dat.Sg">Քրիստոսի</w>
+              <w lemma="որ" pos="PRO+Rel" lemmaRef="../authority/lemmata.xml#lem-000027" msd="Nom.Sg">որ</w>
+              <w lemma="տալ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000128" msd="Aor.Ind.Act.3.Sg">ետ</w>
+              <lb/>
+              <w lemma="յաղթութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000120" msd="Acc.Sg">զյաղթութիւնն</w>
+              <lb/>
+              <w lemma="ծառայ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000129" msd="Dat.Pl">ծառայից</w>
+              <w lemma="իւր" pos="PRO+Ref" lemmaRef="../authority/lemmata.xml#lem-000130" msd="Dat.Pl">իւրոց</w>
+              <lb/>
+              <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">Ի</w>
+              <w lemma="նոյն" pos="PRO+Dem" lemmaRef="../authority/lemmata.xml#lem-000039" msd="Loc.Sg">նմին</w>
+              <w lemma="ամ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000131" msd="Loc.Sg">ամի</w>
+              <w lemma="բանալ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000091" msd="Aor.Ind.Act.3.Pl">բացին</w>
+              <lb n="5"/>
+              <w lemma="մեծ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000089" msd="Acc.Sg">զմեծ</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="հռչակաւոր" pos="A" lemmaRef="../authority/lemmata.xml#lem-000132" msd="Acc.Sg">զհռչակ<lb break="no"/>աւոր</w>
+              <w lemma="մայրաքաղաք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000133" msd="Acc.Sg">մայրաքա<lb break="no"/>ղաքն</w>
+              <w lemma="Երուսաղէմ" pos="N+Top" lemmaRef="../authority/lemmata.xml#lem-000134" msd="Acc.Sg">Երուսաղէմ</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="բազմութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000078" msd="Acc.Sg">զբազ<lb break="no"/>մութիւն</w>
+              <w lemma="անաւրէն" pos="A" lemmaRef="../authority/lemmata.xml#lem-000044" msd="Gen.Pl">անաւրին<lb break="no"/>ացն</w>
+              <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+              <w lemma="սուր" pos="A" lemmaRef="../authority/lemmata.xml#lem-000092" msd="Acc.Sg">սուր</w>
+              <w lemma="սուսեր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000093" msd="Gen.Sg">սուսերի</w>
+              <lb n="10"/>
+              <w lemma="կոտորել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000095" msd="Aor.Ind.Act.3.Pl">կոտորեցին</w>
+              <w lemma="զաւրութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000135" msd="Ins.Sg">զաւրու<lb break="no"/>թեամբն</w>
+              <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000053" msd="Gen.Sg">Քրիստոսի</w>
+              <seg type="formula" ana="../authority/formulae.xml#asser-production-pattern-03">
+                <w lemma="աւարտել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000136" msd="Aor.Ind.Pass.3.Sg">աւար<lb break="no"/>տեցաւ</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../authority/lemmata.xml#lem-000014" msd="Nom.Sg">սուրբ</w>
+                <w lemma="աւետարան" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000015" msd="Nom.Sg">Աւետա<lb break="no"/>րանս</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+                <w lemma="մայրաքաղաք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000133" msd="Loc.Sg">մայրաքաղաք</w>
+                <lb/>
+                <w lemma="Աղեկսանդր" pos="N+Top" lemmaRef="../authority/lemmata.xml#lem-000137" msd="Gen.Sg">Աղեկսանդրու</w>
+                <w lemma="ընդ" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000038">ընդ</w>
+                <lb n="15"/>
+                <w lemma="հովանի" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000138" msd="Ins.Sg">հովանե[ա]ւ</w>
+                <w lemma="Յովհաննէս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000042" msd="Gen.Sg">Յովհաննու</w>
+                <lb/>
+                <w lemma="աւետարանիչ" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000055" msd="Gen.Sg">աւետարանչին</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+                <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000053" msd="Loc.Sg">Քրիստոս</w>
+                <w lemma="Յիսուս" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000127" msd="Loc.Sg">Յիսուս</w>
+                <lb/>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../authority/lemmata.xml#lem-000009">ի</w>
+                <w lemma="տէր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000067" msd="Loc.Sg">Տեր</w>,
+              </seg>
+              <seg type="formula" ana="../authority/formulae.xml#exp-doxology-pattern-02">
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../authority/lemmata.xml#lem-000027" msd="Dat.Sg">որում</w>
+                <w lemma="փառք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000001" msd="Nom.Pl">փառք</w>
+                <w lemma="յաւիտեան" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000139" msd="Acc.Pl">[աւ]<lb break="no"/>իտեանս</w>
+                <w lemma="ամէն" pos="I+Intj" lemmaRef="../authority/lemmata.xml#lem-000037">ամէն</w>:
+              </seg>
+            </ab>
+            <ab corresp="#col-000001-wit-000001-fol-280r-arm" xml:id="col-000001-wit-000001-fol-280r-en" type="translation" xml:lang="en">
+              <cb n="A"/>
+              <seg type="historicalNarrative" corresp="../authority/events.xml#event-000002">
+              <lb/>And those <hi rend="italic">Aryan</hi> peoples
+              <lb/>went forth
+              <lb/>and battle was joined.
+              <lb/>With
+              <lb n="5"/>heavenly
+              <lb/>assistance
+              <lb/>they repulsed
+              <lb/>the impious host
+              <lb/>and for three days
+              <lb n="10"/>the sword of the
+              <lb/> <rs type="people" ref="../authority/persons.xml#group-000008">Christians</rs> destroyed
+              <lb/>the impious.
+              <lb/>With great victory
+              <lb/>they returned
+              <lb n="15"/>to the <placeName ref="../authority/places.xml#place-000005">great church
+              <lb/>of <persName ref="../authority/persons.xml#pers-000008">Saint Peter</persName> </placeName>,
+              <lb/>and they performed
+              <lb/>a celebration of thanksgiving
+              <lb/>to <persName ref="../authority/persons.xml#pers-000011">almighty God</persName>
+              <cb n="B"/>
+              <lb/>and to the Saviour <persName ref="../authority/persons.xml#pers-000006">Jesus Christ</persName>, who granted
+              <lb/>victory to
+              <lb/>His Servants.
+              </seg>
+              <seg type="historicalNarrative" corresp="../authority/events.xml#event-000003">
+              <lb/>In <anchor type="commentary" xml:id="col-000001-8"/>the same year<note type="commentary" corresp="#col-000001-8">Here referring to the Armenian era 548 (1099 CE), which is stated earlier in the colophon.</note>, they captured
+              <lb n="5"/>the great and renowned
+              <lb/> <anchor type="commentary" xml:id="col-000001-9"/>metropolis<note type="commentary" corresp="#col-000001-9"> <foreign xml:lang="xcl">Մայրաքաղաք</foreign>, a calque on the Greek <foreign xml:lang="grc">μητρόπολις</foreign>.</note>
+              <lb/>of <placeName ref="../authority/places.xml#place-000003">Jerusalem</placeName>,
+              <lb/>and, through the power of Christ,
+              <lb/>they slaughtered
+              <lb n="10"/>the multitudes of the impious
+              <lb/>with [their] sharp swords.
+              </seg>
+              <lb/>This <title ref="../authority/works.xml#work-000001">Holy Gospel</title> was completed
+              <lb/>in the mother city
+              <lb/>of <placeName ref="../authority/places.xml#place-000001">Alexandria</placeName>, under
+              <lb n="15"/>the protection of Saint
+              <lb/> <persName ref="../authority/persons.xml#pers-000007">John the Evangelist</persName>, in <persName ref="../authority/persons.xml#pers-000006">Christ Jesus</persName>
+              <lb/>the Lord, to whom glory be
+              <lb/>forever. Amen.
+              </ab>
+          </div>
+          <div type="folio" n="280v" facs="#col-000001-wit-000001-facs-280v" xml:id="col-000001-wit-000001-fol-280v">
+            <head>Folio 280v</head>
+            <ab xml:id="col-000001-wit-000001-fol-280v-arm" type="transcription" xml:lang="xcl">
+              <cb n="A"/>
+              <lb/>
+              <seg type="formula" ana="../authority/formulae.xml#exp-mercy-forgiveness-pattern-03">
+                <w lemma="տէր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000067" msd="Nom.Sg">Տէր</w>
+                <w lemma="Աստուած" pos="N+Prop" lemmaRef="../authority/lemmata.xml#lem-000034" msd="Nom.Sg">Աստուած</w>
+                <w lemma="ողորմել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000036" msd="Imp.Act.2.Sg">ողորմեա</w>
+                <lb/>
+                <w lemma="նեղանալ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000140" msd="Part.Dat.Sg" cert="low">նեղացելոյս</w>
+                <w lemma="Ահարովն" pos="N+Ant" lemmaRef="../authority/lemmata.xml#lem-000017" msd="Dat.Sg">Ահար<lb break="no"/>ոնի</w>
+                <w lemma="շնորհել" pos="V" lemmaRef="../authority/lemmata.xml#lem-000141" msd="Imp.Act.2.Sg">շնորհեա</w>
+                <w lemma="իմ" pos="PRO+Pos1s" lemmaRef="../authority/lemmata.xml#lem-000041" msd="Gen.SG" cert="low">իմ</w>
+                <lb/>
+                <w lemma="բազում" pos="A" lemmaRef="../authority/lemmata.xml#lem-000087" msd="Gen.Pl">բազում</w>
+                <w lemma="մեղք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000142" msd="Gen.Pl">մեղացն</w>
+                <w lemma="թողութիւն" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000143" msd="Acc.Sg">թող<lb n="5" break="no"/>ութիւն</w>
+                <w lemma="զի" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000144">զի</w>
+                <w lemma="դու" pos="PRO+Per2s" lemmaRef="../authority/lemmata.xml#lem-000145" msd="Nom.Sg">դու</w>
+                <w lemma="կարող" pos="A" lemmaRef="../authority/lemmata.xml#lem-000146" msd="Nom.Sg">կարող</w>
+                <w lemma="եմ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000072" msd="Pres.Ind.2.Sg">ես</w>
+                <lb/>
+                <w lemma="ամենայն" pos="PRO+Ind" lemmaRef="../authority/lemmata.xml#lem-000147" msd="Gen.Sg">ամենայնի</w>,
+              </seg>
+              <seg type="formula" ana="../authority/formulae.xml#exp-doxology-pattern-02">
+                <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+                <w lemma="դու" pos="PRO+Per2s" lemmaRef="../authority/lemmata.xml#lem-000145" msd="Dat.Sg">քեզ</w>
+                <w lemma="փառք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000001" msd="Nom.Pl">փառք</w>
+                <lb/>
+                <w lemma="յաւիտեան" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000139" msd="Acc.Pl">յաւիտեանս</w>
+                <w lemma="ամէն" pos="I+Intj" lemmaRef="../authority/lemmata.xml#lem-000037">ամէն</w>
+              </seg>
+              <lb/>
+              [***]
+              <w lemma="մնալ" pos="V" lemmaRef="../authority/lemmata.xml#lem-000148" msd="Pres.Ind.3.Sg">մնայ</w>
+              <w lemma="և" pos="I+Conj" lemmaRef="../authority/lemmata.xml#lem-000019">և</w>
+              <w lemma="ձեռք" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000016" msd="Nom.Sg" cert="low">ձեռ</w>
+              <w lemma="դու" pos="PRO+Per2s" lemmaRef="../authority/lemmata.xml#lem-000145" msd="Gen.Sg">քո</w>
+              <lb/>
+              [***] 
+              <w lemma="աւաղ" pos="I+Intj" lemmaRef="../authority/lemmata.xml#lem-000149" cert="low">
+                աւաղ</w>
+              <w lemma="եղկելի" pos="A" lemmaRef="../authority/lemmata.xml#lem-000050" msd="Acc.Sg">զեղկե<lb n="10" break="no"/>լիս</w>
+              <w lemma="աւր" pos="N+Com" lemmaRef="../authority/lemmata.xml#lem-000098" msd="Loc.Sg">յաւուրն</w>
+              <w lemma="յետին" pos="A" lemmaRef="../authority/lemmata.xml#lem-000150" msd="Loc.Sg" cert="low">յետնումն</w>
+            </ab>
+            <ab corresp="#col-000001-wit-000001-fol-280v-arm" xml:id="col-000001-wit-000001-fol-280v-en" type="translation" xml:lang="en">
+              <cb n="A"/>
+              <lb/>Lord <persName ref="../authority/persons.xml#pers-000011">God</persName>, have mercy
+              <lb/>on the narrow minded <persName ref="../authority/persons.xml#pers-000001">Aharon</persName>
+              <lb/>grant forgiveness my
+              <lb/>many sins,
+              <lb n="5"/>because you are capable
+              <lb/>of everything, and glory to you
+              <lb/>forever, Amen.
+              <lb/>[***] remains and your hand
+              <lb/>[***] the lamentable
+              <lb n="10"/>day of judgement.
+            </ab>
+          </div>
+        </div>
+        <div type="commentary" xml:id="col-000001-commentary" resp="#editor-read">
+          <head>Historical Commentary</head>
+          <p>A detailed Historical Commentary will go here.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
