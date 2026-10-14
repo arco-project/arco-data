@@ -4,7 +4,6 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <foo>bar</foo>
         <title level="a">Colophon 1 — Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fols. 278v–280v</title>
         <title level="m">Digital Corpus of Armenian Colophons</title>
         <respStmt xml:id="editor-read">
@@ -96,7 +95,7 @@
         <placeName ref="../indices/places.xml#place-000001">Alexandria</placeName>
         </head>
 
-        <div type="witness" xml:id="col-000001-wit-000001" corresp="../indices/witnesses.xml#col-000001-wit-000001adsfsf">
+        <div type="witness" xml:id="col-000001-wit-000001" corresp="../indices/witnesses.xml#col-000001-wit-000001">
           <ab type="miseEnPage" xml:id="col-000001-wit-000001-layout">
           The supplied transcription locates the colophon in column B of 278v, columns A and B of 279r, 279v, and 280r, and column A of 280v. 
           It records 11 lines on 278v B; 19 and 20 on 279r A/B; 19 and 19 on 279v A/B; 19 and 18 on 280r A/B; and 10 on 280v A.  

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Colophon 2 — Translation of the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
+        <title level="a">Colophon 2 — Translation of the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
         <title level="m">Digital Corpus of Armenian Colophons</title>
         <respStmt xml:id="editor-read">
           <resp>Transcription and base-witness translation supplied for the test edition; responsible scholarly editor</resp>
