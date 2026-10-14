@@ -73,7 +73,7 @@
       <listEvent xml:id="events">
         <head>Historical events</head>
 
-        <event xml:id="event-000001" when="1098" where="places.xml#place-000002">
+        <event xml:id="event-000001" when="1098" where="places.xml#place-000002">  <!-- for how to encode dates, see https://github.com/arco-project/arco-data/issues/1 -->
           <eventName xml:lang="en">Capture of Antioch</eventName>
           <note type="description">The capture of <placeName ref="places.xml#place-000002">Antioch</placeName> by the <rs type="people" ref="persons.xml#group-000001">Franks</rs>. Colophon 1 narrates their arrival, siege, and capture of the city.</note>
           <note type="dating">The edition retains the colophon's own wording and chronology; this year does not derive from the manuscript's production date of 1099.</note>
