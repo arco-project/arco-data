@@ -168,6 +168,8 @@
           <note type="classification">Historical person</note>
           <note type="identification">The Prophet Muhammad.</note>
           <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <idno type="gnd">https://d-nb.info/gnd/118583158</idno> <!-- search via  https://lobid.org/gnd/, copy full from "URI" -->
+          <!-- add as much other norm-data uris you like, always a full url, the type should be some usfel abbreviation, e.g. gnd, wikidata, ... -->
         </person>
 
         <person xml:id="pers-000010">
