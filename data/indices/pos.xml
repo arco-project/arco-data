@@ -304,7 +304,7 @@ Keep these examples when populating the file.
 
 NOMINAL:
 <w lemma="քահանայ" pos="N+Com" msd="Nom.Pl">քահանայք</w>
-Add lemmaRef="../authority/lemmata.xml#ALLOCATED-LEMMA-ID" once the entry exists.
+Add lemmaRef="../indices/lemmata.xml#ALLOCATED-LEMMA-ID" once the entry exists.
 No per-word POS or MSD reference is required.
 
 FINITE VERBS: fixed relative order: tense-or-stem.mood.voice.person.number.
