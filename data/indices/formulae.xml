@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Formula Classification Authority</title>
+        <title level="a">Formula Classification Authority</title>
         <title level="m">Digital Corpus of Armenian Colophons</title>
         <respStmt>
           <resp>Classification design and scholarly editing</resp>

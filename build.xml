@@ -1,9 +1,21 @@
-<project name="tei-edition" default="validate">
+<project name="tei-edition" default="validate" basedir=".">
 
-    <target name="validate">
+    <property name="build.dir" value="build"/>
+    <property name="schxslt.dir" value="bin/schxslt2-1.11.2"/>
+
+    <path id="saxon.classpath">
+        <fileset dir="bin/saxon" includes="saxon-he-12.10.jar"/>
+        <fileset dir="bin/saxon/lib" includes="*.jar"/>
+    </path>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="validate-rng">
         <taskdef name="jing"
                  classname="com.thaiopensource.relaxng.util.JingTask"
-                 classpath="jing/jing.jar"/>
+                 classpath="bin/jing/jing.jar"/>
 
         <jing rngfile="schema/tei_all.rng">
             <fileset dir="data">
@@ -11,5 +23,51 @@
             </fileset>
         </jing>
     </target>
+
+    <target name="compile-schematron">
+        <mkdir dir="${build.dir}"/>
+        <java classname="net.sf.saxon.Transform" fork="true" failonerror="true">
+            <classpath refid="saxon.classpath"/>
+            <arg value="-s:schema/schematron.sch"/>
+            <arg value="-xsl:${schxslt.dir}/transpile.xsl"/>
+            <arg value="-o:${build.dir}/schematron.xsl"/>
+        </java>
+    </target>
+
+    <target name="validate-schematron" depends="compile-schematron">
+        <delete dir="${build.dir}/svrl"/>
+        <mkdir dir="${build.dir}/svrl"/>
+        <macrodef name="schematron-dir">
+            <attribute name="dir"/>
+            <sequential>
+                <mkdir dir="${build.dir}/svrl/@{dir}"/>
+                <java classname="net.sf.saxon.Transform" fork="true" failonerror="true">
+                    <classpath refid="saxon.classpath"/>
+                    <arg value="-s:data/@{dir}"/>
+                    <arg value="-xsl:${build.dir}/schematron.xsl"/>
+                    <arg value="-o:${build.dir}/svrl/@{dir}"/>
+                </java>
+            </sequential>
+        </macrodef>
+        <schematron-dir dir="editions"/>
+        <schematron-dir dir="indices"/>
+        <schematron-dir dir="meta"/>
+
+        <pathconvert property="schematron.failures" pathsep="${line.separator}  " setonempty="false">
+            <fileset dir="${build.dir}/svrl" includes="**/*.xml">
+                <contains text="failed-assert"/>
+            </fileset>
+        </pathconvert>
+        <java classname="net.sf.saxon.Transform" fork="true" failonerror="true" if:set="schematron.failures"
+              xmlns:if="ant:if">
+            <classpath refid="saxon.classpath"/>
+            <arg value="-it:main"/>
+            <arg value="-xsl:schema/svrl-report.xsl"/>
+            <arg value="svrl-dir=${basedir}/${build.dir}/svrl"/>
+        </java>
+        <fail if="schematron.failures" message="Schematron validation failed (see violations above)."/>
+    </target>
+
+    <target name="validate" depends="validate-rng, validate-schematron"/>
 
 </project>

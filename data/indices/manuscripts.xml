@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Manuscript Authority</title>
+        <title level="a">Manuscript Authority</title>
         <title level="m">Digital Corpus of Armenian Colophons</title>
         <respStmt>
           <resp>Authority compilation and scholarly editing</resp>
