@@ -1,0 +1,15 @@
+<project name="tei-edition" default="validate">
+
+    <target name="validate">
+        <taskdef name="jing"
+                 classname="com.thaiopensource.relaxng.util.JingTask"
+                 classpath="jing/jing.jar"/>
+
+        <jing rngfile="schema/tei_all.rng">
+            <fileset dir="data">
+                <include name="**/*.xml"/>
+            </fileset>
+        </jing>
+    </target>
+
+</project>

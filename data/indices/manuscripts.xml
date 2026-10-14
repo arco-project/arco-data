@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<?xml-model href="../../schema/tei_all.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authority-manuscripts" xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Digital Corpus of Armenian Colophons: Manuscript Authority</title>
+        <title>Manuscript Authority</title>
+        <title level="m">Digital Corpus of Armenian Colophons</title>
         <respStmt>
           <resp>Authority compilation and scholarly editing</resp>
-          <name>Lewis Read</name>
+          <persName key="https://orcid.org/0009-0007-3535-6823">Lewis Read</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
