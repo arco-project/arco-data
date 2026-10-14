@@ -6,7 +6,7 @@ Repo holding TEI/XML data for ArCo
 
 ## License
 
-All file in `data/*/*.xml` are licensed under XXX
+All files in `data/*/*.xml` are licensed under XXX
 
 ### Third-party software
 
