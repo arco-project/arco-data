@@ -1,0 +1,13 @@
+name: validate
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+    - name: validate against rng 
+      run: ant
