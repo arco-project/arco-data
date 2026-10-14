@@ -129,8 +129,7 @@
           <location type="modern">
             <country>Insert the modern country here.</country>
             <region>Insert the modern administrative region here.</region>
-            <!-- <geo>LATITUDE LONGITUDE</geo>
-                 Activate only after verification; use WGS84 decimal degrees. -->
+            <geo>31.76904, 35.21633</geo> <!-- copy from geonames COORDINATES, https://www.geonames.org/281184/jerusalem.html --> 
           </location>
           <note type="identification">The city named in the historical narrative of Colophon 1.</note>
           <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
@@ -139,6 +138,8 @@
           <bibl>
             <note>Insert a verified bibliography.xml reference and citedRange for pages supporting the geographical identification.</note>
           </bibl>
+          <idno type="geonames">https://www.geonames.org/281184/jerusalem.html</idno>
+          <!-- add as much other norm-data uris you like, always a full url, the type should be some usfel abbreviation, e.g. gnd, wikidata, ... -->
 
         </place>
         <place xml:id="place-000004" type="region">
