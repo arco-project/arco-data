@@ -7,7 +7,6 @@
         <title level="a">Colophon 1 — Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fols. 278v–280v</title>
         <title level="m">Digital Corpus of Armenian Colophons</title>
         <respStmt xml:id="editor-read">
-          <foo>bar</foo>
           <resp>Transcription, translation, and scholarly commentary supplied for the test edition; responsible scholarly editor</resp>
           <persName key="https://orcid.org/0009-0007-3535-6823">Lewis Read</persName>
         </respStmt>
