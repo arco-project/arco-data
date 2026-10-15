@@ -37,4 +37,25 @@
             to an existing element with a matching xml:id. </s:assert>
       </s:rule>
    </s:pattern>
+   <s:pattern id="list-ref-resolves">
+      <s:rule
+         context="@source[starts-with(normalize-space(.), 'list')] | @target[starts-with(normalize-space(.), 'list')]">
+         <s:let name="base" value="base-uri(.)" />
+         <s:assert
+            test="
+            every $t in tokenize(normalize-space(.), '\s+')[starts-with(., 'list')]
+            satisfies
+                contains($t, '#')
+                and
+                doc-available(resolve-uri(concat('../indices/', substring-before($t, '#')), $base))
+                and
+                exists(
+                    doc(resolve-uri(concat('../indices/', substring-before($t, '#')), $base))
+                    //*[@xml:id = substring-after($t, '#')]
+                )
+        ">
+            @<s:value-of select="name()" /> "<s:value-of select="." />" does not resolve to an
+            existing element with a matching xml:id in data/indices. </s:assert>
+      </s:rule>
+   </s:pattern>
 </s:schema>
