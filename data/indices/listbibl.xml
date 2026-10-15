@@ -26,7 +26,7 @@
       <projectDesc>
         <p>This file identifies published editions, manuscript catalogues, scholarly
           studies, and digital reference resources cited across the corpus. It is
-          distinct from works.xml, which identifies textual works, and from manuscript,
+          distinct from listwork.xml, which identifies textual works, and from manuscript,
           colophon, and witness authority records.</p>
       </projectDesc>
       <editorialDecl>
@@ -45,13 +45,13 @@
           distinguish them using title/@type and appropriate language tags.</p>
         <p>Record contributors in publication order, repeating author or editor as
           necessary. Names of modern scholars may remain directly in the citation;
-          a persons.xml authority entry is not required solely because someone is an
+          a listperson.xml authority entry is not required solely because someone is an
           author or editor. Link a name to an existing person record when useful and
           securely identified. Other responsibilities can use respStmt where needed.</p>
         <p>Record publication place, publisher, and date in imprint.</p>
         <p>Use idno in the relevant monogr or analytic for verified identifiers such
           as DOI, ISBN, or ISSN.</p>
-        <p>References from other authority files use bibliography.xml#bibl-000001.
+        <p>References from other authority files use listbibl.xml#bibl-000001.
           Edition files use a relative path appropriate to their location. Citation
           display and punctuation will be generated from this structured data according
           to the project's agreed style; no particular display style is fixed here.</p>
@@ -125,7 +125,7 @@
 
         <biblStruct xml:id="bibl-000005" type="chapter">
           <analytic>
-            <author><persName ref="persons.xml#pers-000010">Grigory of Narek</persName></author>
+            <author><persName ref="listperson.xml#pers-000010">Grigory of Narek</persName></author>
             <title level="a" xml:lang="xcl">Մատեան Ողբերգութեան</title>
             <title level="a" type="translated" xml:lang="en">Book of Lamentation</title>
           </analytic>

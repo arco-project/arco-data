@@ -90,10 +90,10 @@
 
   <text>
     <body>
-      <div type="colophon" xml:id="col-000001" corresp="../indices/colophons.xml#col-000001">
+      <div type="colophon" xml:id="col-000001" corresp="../indices/listcolophon.xml#col-000001">
         <head>Colophon 1 — Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fols. 278v–280v
         <date when="1099">1099 CE (Armenian era 548)</date>, 
-        <placeName ref="../indices/places.xml#place-000001">Alexandria</placeName>
+        <placeName ref="../indices/listplace.xml#place-000001">Alexandria</placeName>
         </head>
 
         <div type="witness" xml:id="col-000001-wit-000001" corresp="../indices/witnesses.xml#col-000001-wit-000001">
@@ -148,12 +148,12 @@
               <cb n="B"/>
               <lb/>Glory to the Three,
               <lb/>to the Infinite,
-              <lb/>to <anchor type="commentary" xml:id="col-000001-1"/>the Able and Unable<note type="commentary" corresp="#col-000001-1">In an apophatic theological sense. Apophatic theology can be found as prominent fixture in the near contemporary tenth-century Armenian theological works of <persName ref="../indices/persons.xml#pers-000010">Grigory of Narek</persName>. Prayers 23 and 92 of his <title ref="../indices/works.xml#work-000002">Book of Lamentations</title>, by way of example, carry some verbal parallels to the doxological language in this colophon: <bibl ref="../indices/bibliography.xml#bibl-000005">Narek (2008) <citedRange unit="page">167, 552</citedRange> </bibl>.</note>,
+              <lb/>to <anchor type="commentary" xml:id="col-000001-1"/>the Able and Unable<note type="commentary" corresp="#col-000001-1">In an apophatic theological sense. Apophatic theology can be found as prominent fixture in the near contemporary tenth-century Armenian theological works of <persName ref="../indices/listperson.xml#pers-000010">Grigory of Narek</persName>. Prayers 23 and 92 of his <title ref="../indices/listwork.xml#work-000002">Book of Lamentations</title>, by way of example, carry some verbal parallels to the doxological language in this colophon: <bibl ref="../indices/listbibl.xml#bibl-000005">Narek (2008) <citedRange unit="page">167, 552</citedRange> </bibl>.</note>,
               <lb/>to the Tripersonal unity, to <anchor type="commentary" xml:id="col-000001-2"/>those who are Original<note type="commentary" corresp="#col-000001-2">In the sense of originally existent: <foreign xml:lang="xcl">Իսկութիւն</foreign>.</note>.
               <lb n="5"/>In the Armenian year
-              <lb/> <date when="1099">548 (1099)</date>, this <title ref="../indices/works.xml#work-000001">Holy Gospel</title>
+              <lb/> <date when="1099">548 (1099)</date>, this <title ref="../indices/listwork.xml#work-000001">Holy Gospel</title>
               <lb/>was written,
-              <lb/>by the hand of <persName ref="../indices/persons.xml#pers-000001" role="scribe">Aharovn</persName>,
+              <lb/>by the hand of <persName ref="../indices/listperson.xml#pers-000001" role="scribe">Aharovn</persName>,
               <lb/>an ignorant and contemptible
               <lb n="10"/>scribe, and an unworthy
               <lb/>monk.
@@ -291,17 +291,17 @@
               <lb/>profit in this Holy
               <lb n="5"/>Gospel, that
               <lb/>you will make me
-              <lb/>worthy of prayers, and may <persName ref="../indices/persons.xml#pers-000011">God</persName>
+              <lb/>worthy of prayers, and may <persName ref="../indices/listperson.xml#pers-000011">God</persName>
               <lb/>have mercy on you.
               <lb/>Amen.
               <seg type="historicalNarrative" corresp="../indices/events.xml#event-000004">
               <lb n="10"/>And the same
               <lb/>for my brother
-              <lb/> <persName ref="../indices/persons.xml#pers-000002">Yovhannes</persName>, who
+              <lb/> <persName ref="../indices/listperson.xml#pers-000002">Yovhannes</persName>, who
               <lb/>was executed
               <lb/>by the impious
-              <lb n="15"/> <rs type="people" ref="../indices/persons.xml#group-000007">Southern nations</rs>
-              <lb/>of the impious <persName ref="../indices/persons.xml#pers-000009">Mahmet</persName>,
+              <lb n="15"/> <rs type="people" ref="../indices/listperson.xml#group-000007">Southern nations</rs>
+              <lb/>of the impious <persName ref="../indices/listperson.xml#pers-000009">Mahmet</persName>,
               <lb/>the impious assembly,
               <lb/>for this reason
               <lb/>my life is lamentable.
@@ -310,21 +310,21 @@
               <lb/>Now I beseech
               <lb/>you all: remember
               <lb/>in your holy prayers
-              <lb/> <persName ref="../indices/persons.xml#pers-000002">Yovhannes</persName>,
-              <lb n="5"/>and may <persName ref="../indices/persons.xml#pers-000006">Christ God</persName>, through
+              <lb/> <persName ref="../indices/listperson.xml#pers-000002">Yovhannes</persName>,
+              <lb n="5"/>and may <persName ref="../indices/listperson.xml#pers-000006">Christ God</persName>, through
               <lb/>the intercession of the
-              <lb/> <rs type="people" ref="../indices/persons.xml#group-000009">holy Evangelists</rs>,
+              <lb/> <rs type="people" ref="../indices/listperson.xml#group-000009">holy Evangelists</rs>,
               <lb/>and of the
-              <lb/> <persName ref="../indices/persons.xml#pers-000004">Holy Mother of God</persName>, and
-              <lb n="10"/>of <persName ref="../indices/persons.xml#pers-000005">Saint Karapet</persName>,
+              <lb/> <persName ref="../indices/listperson.xml#pers-000004">Holy Mother of God</persName>, and
+              <lb n="10"/>of <persName ref="../indices/listperson.xml#pers-000005">Saint Karapet</persName>,
               <lb/>have mercy upon
-              <lb/>the soul of <persName ref="../indices/persons.xml#pers-000002">Yovhannes</persName>,
+              <lb/>the soul of <persName ref="../indices/listperson.xml#pers-000002">Yovhannes</persName>,
               <lb/>and may He erase
               <lb/>the written record of his
               <lb n="15"/>sins and inscribe him
               <lb/>in the Book
               <lb/>of Life. And you
-              <lb/>who remember, may you be remembered, and may <persName ref="../indices/persons.xml#pers-000011">God</persName>
+              <lb/>who remember, may you be remembered, and may <persName ref="../indices/listperson.xml#pers-000011">God</persName>
               <lb/>have mercy upon you all.
               <lb n="20"/>Amen.
               </ab>
@@ -435,25 +435,25 @@
             </ab>
             <ab corresp="#col-000001-wit-000001-fol-279v-arm" xml:id="col-000001-wit-000001-fol-279v-en" type="translation" xml:lang="en">
               <cb n="A"/>
-              <lb/>Now, this <title ref="../indices/works.xml#work-000001">holy Gospel</title>
+              <lb/>Now, this <title ref="../indices/listwork.xml#work-000001">holy Gospel</title>
               <lb/>was written
               <lb/>during the
               <lb/>patriarchate
-              <lb n="5"/>of Lord <persName ref="../indices/persons.xml#pers-000003">Gregory</persName>,
+              <lb n="5"/>of Lord <persName ref="../indices/listperson.xml#pers-000003">Gregory</persName>,
               <lb/>under the sovereignty
-              <lb/>of the <rs type="people" ref="../indices/persons.xml#group-000002">Romans</rs>,
-              <lb/>of the <anchor type="commentary" xml:id="col-000001-3"/> <hi rend="italic">Aryan</hi> <note type="commentary" corresp="#col-000001-3"> <foreign xml:lang="xcl">Արեաց</foreign>: literally “valiant ones”. This term is often used in classical Armenian literature in connection with the Iranian world, signalling those who were conceptually part of <placeName ref="../indices/places.xml#place-000004">Eranšahr</placeName>, as allies of <persName ref="../indices/persons.xml#pers-000012">Ohrmazd</persName> in the struggle against <persName ref="../indices/persons.xml#pers-000013">Ahreman</persName>: <bibl ref="../indices/bibliography.xml#bibl-000006">Greenwood (2019)</bibl>. Here it is used to refer to the Frankish crusaders, as we find in other contemporary colophons.</note>
+              <lb/>of the <rs type="people" ref="../indices/listperson.xml#group-000002">Romans</rs>,
+              <lb/>of the <anchor type="commentary" xml:id="col-000001-3"/> <hi rend="italic">Aryan</hi> <note type="commentary" corresp="#col-000001-3"> <foreign xml:lang="xcl">Արեաց</foreign>: literally “valiant ones”. This term is often used in classical Armenian literature in connection with the Iranian world, signalling those who were conceptually part of <placeName ref="../indices/listplace.xml#place-000004">Eranšahr</placeName>, as allies of <persName ref="../indices/listperson.xml#pers-000012">Ohrmazd</persName> in the struggle against <persName ref="../indices/listperson.xml#pers-000013">Ahreman</persName>: <bibl ref="../indices/listbibl.xml#bibl-000006">Greenwood (2019)</bibl>. Here it is used to refer to the Frankish crusaders, as we find in other contemporary colophons.</note>
               <lb/>people who
-              <lb n="10"/>are the <rs type="people" ref="../indices/persons.xml#group-000001">Franks</rs>,
+              <lb n="10"/>are the <rs type="people" ref="../indices/listperson.xml#group-000001">Franks</rs>,
               <lb/>who had come
               <lb/>in their
               <lb/>multitude
               <lb/>through the
               <lb n="15"/>instigation of
               <seg type="historicalNarrative" corresp="../indices/events.xml#event-000001">
-              <lb/>the <persName ref="../indices/persons.xml#pers-000011">almighty God</persName>. And they came
+              <lb/>the <persName ref="../indices/listperson.xml#pers-000011">almighty God</persName>. And they came
               <lb/>as far as
-              <lb/> <placeName ref="../indices/places.xml#place-000002">Antioch</placeName> and
+              <lb/> <placeName ref="../indices/listplace.xml#place-000002">Antioch</placeName> and
               <lb/>with great toil
               <cb n="B"/>
               <lb/>and warfare,
@@ -468,10 +468,10 @@
               <lb/>after three days
               <lb/>an innumerable
               <lb n="10"/>host
-              <lb/>of <anchor type="commentary" xml:id="col-000001-4"/> <rs type="people" ref="../indices/persons.xml#group-000003">Turks</rs> <note type="commentary" corresp="#col-000001-4"> <foreign xml:lang="xcl">թուրքաց</foreign> </note>,
-              <lb/> <anchor type="commentary" xml:id="col-000001-5"/> <rs type="people" ref="../indices/persons.xml#group-000004">Persians</rs> <note type="commentary" corresp="#col-000001-5"> <foreign xml:lang="xcl">պարսից</foreign> </note>,
-                    <anchor type="commentary" xml:id="col-000001-6"/> <rs type="people" ref="../indices/persons.xml#group-000005">Arabs</rs> <note type="commentary" corresp="#col-000001-6"> <foreign xml:lang="xcl">արապկաց</foreign> </note>
-              <lb/>and <anchor type="commentary" xml:id="col-000001-7"/> <rs type="people" ref="../indices/persons.xml#group-000006">Muslims</rs> <note type="commentary" corresp="#col-000001-7"> <foreign xml:lang="xcl">տաճկաց</foreign> </note>,
+              <lb/>of <anchor type="commentary" xml:id="col-000001-4"/> <rs type="people" ref="../indices/listperson.xml#group-000003">Turks</rs> <note type="commentary" corresp="#col-000001-4"> <foreign xml:lang="xcl">թուրքաց</foreign> </note>,
+              <lb/> <anchor type="commentary" xml:id="col-000001-5"/> <rs type="people" ref="../indices/listperson.xml#group-000004">Persians</rs> <note type="commentary" corresp="#col-000001-5"> <foreign xml:lang="xcl">պարսից</foreign> </note>,
+                    <anchor type="commentary" xml:id="col-000001-6"/> <rs type="people" ref="../indices/listperson.xml#group-000005">Arabs</rs> <note type="commentary" corresp="#col-000001-6"> <foreign xml:lang="xcl">արապկաց</foreign> </note>
+              <lb/>and <anchor type="commentary" xml:id="col-000001-7"/> <rs type="people" ref="../indices/listperson.xml#group-000006">Muslims</rs> <note type="commentary" corresp="#col-000001-7"> <foreign xml:lang="xcl">տաճկաց</foreign> </note>,
               <lb/>arrived and encircled
               <lb n="15"/>the city
               <lb/>and the plain,
@@ -601,17 +601,17 @@
               <lb/>the impious host
               <lb/>and for three days
               <lb n="10"/>the sword of the
-              <lb/> <rs type="people" ref="../indices/persons.xml#group-000008">Christians</rs> destroyed
+              <lb/> <rs type="people" ref="../indices/listperson.xml#group-000008">Christians</rs> destroyed
               <lb/>the impious.
               <lb/>With great victory
               <lb/>they returned
-              <lb n="15"/>to the <placeName ref="../indices/places.xml#place-000005">great church
-              <lb/>of <persName ref="../indices/persons.xml#pers-000008">Saint Peter</persName> </placeName>,
+              <lb n="15"/>to the <placeName ref="../indices/listplace.xml#place-000005">great church
+              <lb/>of <persName ref="../indices/listperson.xml#pers-000008">Saint Peter</persName> </placeName>,
               <lb/>and they performed
               <lb/>a celebration of thanksgiving
-              <lb/>to <persName ref="../indices/persons.xml#pers-000011">almighty God</persName>
+              <lb/>to <persName ref="../indices/listperson.xml#pers-000011">almighty God</persName>
               <cb n="B"/>
-              <lb/>and to the Saviour <persName ref="../indices/persons.xml#pers-000006">Jesus Christ</persName>, who granted
+              <lb/>and to the Saviour <persName ref="../indices/listperson.xml#pers-000006">Jesus Christ</persName>, who granted
               <lb/>victory to
               <lb/>His Servants.
               </seg>
@@ -619,17 +619,17 @@
               <lb/>In <anchor type="commentary" xml:id="col-000001-8"/>the same year<note type="commentary" corresp="#col-000001-8">Here referring to the Armenian era 548 (1099 CE), which is stated earlier in the colophon.</note>, they captured
               <lb n="5"/>the great and renowned
               <lb/> <anchor type="commentary" xml:id="col-000001-9"/>metropolis<note type="commentary" corresp="#col-000001-9"> <foreign xml:lang="xcl">Մայրաքաղաք</foreign>, a calque on the Greek <foreign xml:lang="grc">μητρόπολις</foreign>.</note>
-              <lb/>of <placeName ref="../indices/places.xml#place-000003">Jerusalem</placeName>,
+              <lb/>of <placeName ref="../indices/listplace.xml#place-000003">Jerusalem</placeName>,
               <lb/>and, through the power of Christ,
               <lb/>they slaughtered
               <lb n="10"/>the multitudes of the impious
               <lb/>with [their] sharp swords.
               </seg>
-              <lb/>This <title ref="../indices/works.xml#work-000001">Holy Gospel</title> was completed
+              <lb/>This <title ref="../indices/listwork.xml#work-000001">Holy Gospel</title> was completed
               <lb/>in the mother city
-              <lb/>of <placeName ref="../indices/places.xml#place-000001">Alexandria</placeName>, under
+              <lb/>of <placeName ref="../indices/listplace.xml#place-000001">Alexandria</placeName>, under
               <lb n="15"/>the protection of Saint
-              <lb/> <persName ref="../indices/persons.xml#pers-000007">John the Evangelist</persName>, in <persName ref="../indices/persons.xml#pers-000006">Christ Jesus</persName>
+              <lb/> <persName ref="../indices/listperson.xml#pers-000007">John the Evangelist</persName>, in <persName ref="../indices/listperson.xml#pers-000006">Christ Jesus</persName>
               <lb/>the Lord, to whom glory be
               <lb/>forever. Amen.
               </ab>
@@ -683,8 +683,8 @@
             </ab>
             <ab corresp="#col-000001-wit-000001-fol-280v-arm" xml:id="col-000001-wit-000001-fol-280v-en" type="translation" xml:lang="en">
               <cb n="A"/>
-              <lb/>Lord <persName ref="../indices/persons.xml#pers-000011">God</persName>, have mercy
-              <lb/>on the narrow minded <persName ref="../indices/persons.xml#pers-000001">Aharon</persName>
+              <lb/>Lord <persName ref="../indices/listperson.xml#pers-000011">God</persName>, have mercy
+              <lb/>on the narrow minded <persName ref="../indices/listperson.xml#pers-000001">Aharon</persName>
               <lb/>grant forgiveness my
               <lb/>many sins,
               <lb n="5"/>because you are capable

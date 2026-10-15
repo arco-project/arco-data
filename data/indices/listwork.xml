@@ -29,8 +29,8 @@
         <p>This file identifies textual works referred to in colophons or described
           in associated manuscripts. A work is distinct from the physical copies
           transmitting it and from its published editions. Manuscript copies are
-          described in manuscripts.xml; publications are recorded in bibliography.xml.
-          Colophons have their own identity register in colophons.xml.</p>
+          described in manuscripts.xml; publications are recorded in listbibl.xml.
+          Colophons have their own identity register in listcolophon.xml.</p>
       </projectDesc>
       <editorialDecl>
         <p>Work identifiers follow the pattern work-000001. Allocate each identifier
@@ -40,7 +40,7 @@
           Initial type values are preferred, variant, and descriptive. Record Armenian,
           transliterated, and English forms when available, with appropriate language
           tags.</p>
-        <p>Link authors to persons.xml using author/persName. Other textual
+        <p>Link authors to listperson.xml using author/persName. Other textual
           responsibilities, including translation or compilation, can be expressed
           through respStmt.</p>
         <p>Use textLang for the language of the text identified by this particular
@@ -48,7 +48,7 @@
           and describe the relationship to the source work separately. Use a note of
           type textualRelation with a typed ref to another work when that relationship
           is established.</p>
-        <p>Use idno for verified external work identifiers and bibliography.xml
+        <p>Use idno for verified external work identifiers and listbibl.xml
           references for editions, catalogues, and studies supporting identification.
           An external catalogue identifier must match the work or version being
           described, not simply a similarly titled publication.</p>
@@ -68,29 +68,29 @@
           <title type="variant" xml:lang="en">Holy Gospels</title>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The collection of the Gospels of Matthew, Mark, Luke, and John in Classical Armenian. References to the Holy Gospel in Colophon 1 identify the collection as a whole.</note>
-          <note type="source">Identified from <ref target="colophons.xml#col-000001">Colophon 1</ref> and the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
+          <note type="source">Identified from <ref target="listcolophon.xml#col-000001">Colophon 1</ref> and the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
         <bibl xml:id="work-000002" type="work">
           <title type="preferred" xml:lang="en">Book of Lamentations</title>
-          <author><persName ref="persons.xml#pers-000010">Grigory of Narek</persName></author>
+          <author><persName ref="listperson.xml#pers-000010">Grigory of Narek</persName></author>
           <textLang mainLang="xcl">Classical Armenian</textLang>
-          <note type="identification">The Book of Lamentations by Grigory of Narek, cited in the commentary to Colophon 1 for parallels to its doxological language. The modern publication cited there is in bibliography.xml.</note>
-          <note type="source">The commentary to <ref target="colophons.xml#col-000001">Colophon 1</ref> cites <bibl ref="bibliography.xml#bibl-000005">Narek (2008), <citedRange unit="page">167, 552</citedRange></bibl>.</note>
+          <note type="identification">The Book of Lamentations by Grigory of Narek, cited in the commentary to Colophon 1 for parallels to its doxological language. The modern publication cited there is in listbibl.xml.</note>
+          <note type="source">The commentary to <ref target="listcolophon.xml#col-000001">Colophon 1</ref> cites <bibl ref="listbibl.xml#bibl-000005">Narek (2008), <citedRange unit="page">167, 552</citedRange></bibl>.</note>
         </bibl>
 
         <bibl xml:id="work-000003" type="work">
           <title type="preferred" xml:lang="en">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Armenian version translated from Greek at Melitene in 1092, associated with Colophon 2. This record identifies that Armenian version specifically; it does not aggregate other translations or recensions.</note>
-          <note type="translationDate">The associated colophon records translation in <date when="1092">1092 CE (Armenian era 541)</date> at <placeName ref="places.xml#place-000006">Melitene</placeName>. This is the date of translation, distinct from the dates of the surviving manuscript copies.</note>
+          <note type="translationDate">The associated colophon records translation in <date when="1092">1092 CE (Armenian era 541)</date> at <placeName ref="listplace.xml#place-000006">Melitene</placeName>. This is the date of translation, distinct from the dates of the surviving manuscript copies.</note>
         </bibl>
 
         <bibl xml:id="work-000004" type="work">
           <title type="preferred" xml:lang="en">Gospel of Matthew</title>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Gospel of Matthew in Classical Armenian.</note>
-          <note type="textualRelation">Part of <ref type="partOf" target="works.xml#work-000001">The Four Gospels</ref>.</note>
+          <note type="textualRelation">Part of <ref type="partOf" target="listwork.xml#work-000001">The Four Gospels</ref>.</note>
           <note type="source">Identified in the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
@@ -98,7 +98,7 @@
           <title type="preferred" xml:lang="en">Gospel of Mark</title>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Gospel of Mark in Classical Armenian.</note>
-          <note type="textualRelation">Part of <ref type="partOf" target="works.xml#work-000001">The Four Gospels</ref>.</note>
+          <note type="textualRelation">Part of <ref type="partOf" target="listwork.xml#work-000001">The Four Gospels</ref>.</note>
           <note type="source">Identified in the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
@@ -106,7 +106,7 @@
           <title type="preferred" xml:lang="en">Gospel of Luke</title>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Gospel of Luke in Classical Armenian.</note>
-          <note type="textualRelation">Part of <ref type="partOf" target="works.xml#work-000001">The Four Gospels</ref>.</note>
+          <note type="textualRelation">Part of <ref type="partOf" target="listwork.xml#work-000001">The Four Gospels</ref>.</note>
           <note type="source">Identified in the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
@@ -114,7 +114,7 @@
           <title type="preferred" xml:lang="en">Gospel of John</title>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Gospel of John in Classical Armenian.</note>
-          <note type="textualRelation">Part of <ref type="partOf" target="works.xml#work-000001">The Four Gospels</ref>.</note>
+          <note type="textualRelation">Part of <ref type="partOf" target="listwork.xml#work-000001">The Four Gospels</ref>.</note>
           <note type="source">Identified in the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
       </listBibl>

@@ -60,7 +60,7 @@
         <p>Optional sense elements support reviewed meanings and usage notes for a
           future lexicon. Assign stable local sense IDs only when senses are added.
           Multiple senses need not be separate lemmas.</p>
-        <p>Use bibl references to bibliography.xml for supporting dictionary entries
+        <p>Use bibl references to listbibl.xml for supporting dictionary entries
           and scholarship. citedRange can identify pages or dictionary headwords.
           External lexical identifiers can use idno inside a note of type externalIdentifier.
           Only add verified matches and clarify the dictionary edition used.</p>

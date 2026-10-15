@@ -51,7 +51,7 @@
           formula annotations, detailed historical analysis, and witness comparisons
           belong in the edition. Witness loci and inscription dates belong to witness
           records; manuscript descriptions belong to manuscripts.xml.</p>
-        <p>Supporting references use bibliography.xml.</p>
+        <p>Supporting references use listbibl.xml.</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc>
@@ -67,24 +67,24 @@
         <bibl xml:id="col-000001" type="colophon" subtype="production">
           <title type="descriptive">Colophon 1: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fols. 278v-280v
         <date when="1099">1099 CE (Armenian era 548)</date>, 
-        <placeName ref="places.xml#place-000001">Alexandria</placeName>
+        <placeName ref="listplace.xml#place-000001">Alexandria</placeName>
         </title>
           <note type="identification">Colophon preserved in Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, recording the writing and completion of the Gospel in Alexandria in Armenian era 548 (1099 CE), with prayers for remembrance and a historical narrative.</note>
           <ref type="edition" target="../colophons/col-000001.xml">Colophon edition</ref>
-          <note type="source">Supply the corresponding entry in Matevosyan and Hovsepyan where available, including entry number and page references, with links to bibliography.xml. Record when no corresponding entry is available.</note>
+          <note type="source">Supply the corresponding entry in Matevosyan and Hovsepyan where available, including entry number and page references, with links to listbibl.xml. Record when no corresponding entry is available.</note>
         </bibl>
 
 <!--Colophon 2 -->
         <bibl xml:id="col-000002" type="colophon" subtype="production">
           <title type="descriptive">Colophon 2: Translation of the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios
         <date when="1092">1092 CE (Armenian era 541)</date>, 
-        <placeName ref="places.xml#place-000006">Melitene</placeName>
+        <placeName ref="listplace.xml#place-000006">Melitene</placeName>
         </title>
           <note type="identification">Translation colophon attached to the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios, recording translation from Greek into Armenian in Melitene in Armenian era 541 (1092 CE). It survives in the copies Paris, Bibliothèque nationale de France, MS. Arménien 178, Venice, Mekhitarist monastery of San Lazzaro MS. 17, and Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196. Paris, Bibliothèque nationale de France, MS. Arménien 178 is the earliest surviving copy in this example and the base witness; no original inscription of 1092 is preserved among these witnesses. The recorded translation date does not date the surviving copies.</note>
           <note type="transmission">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196 also preserves a concluding prayer for Vardan, vardapet and recipient of the book. This prayer is retained within the same colophon record and distinguished from the shared translation colophon.</note>
           <note type="uncertainty">The relationship of the concluding Vardan prayer in Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196 to the earlier translation colophon remains open.</note>
           <ref type="edition" target="../colophons/col-000002.xml">Colophon edition</ref>
-          <note type="source">Supply the corresponding entry in Matevosyan and Hovsepyan where available, including entry number and page references, with links to bibliography.xml. Record when no corresponding entry is available.</note>
+          <note type="source">Supply the corresponding entry in Matevosyan and Hovsepyan where available, including entry number and page references, with links to listbibl.xml. Record when no corresponding entry is available.</note>
         </bibl>
       </listBibl>
       
@@ -100,7 +100,7 @@
             <ref type="edition" target="../colophons/col-000001.xml">Colophon edition</ref>
             <note type="source">
               <bibl>
-                <ref target="bibliography.xml#bibl-000001">Supporting publication</ref>
+                <ref target="listbibl.xml#bibl-000001">Supporting publication</ref>
                 <citedRange unit="page">Relevant pages</citedRange>
               </bibl>
             </note>

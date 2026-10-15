@@ -31,7 +31,7 @@
           occurrence and, where relevant, to its codicological unit. Several witnesses
           can point to one colophon, and several witnesses of distinct colophons can
           point to the same manuscript.</p>
-        <p>The colophon identity is defined in colophons.xml; the physical manuscript
+        <p>The colophon identity is defined in listcolophon.xml; the physical manuscript
           is defined in manuscripts.xml. Transcriptions, translations, annotations,
           image alignment, and comparisons are encoded in the individual colophon
           editions and reference these stable witness records.</p>
@@ -41,7 +41,7 @@
           witnesses from 000001 within each colophon; the full identifier is
           unique.</p>
         <p>Use one witness element per occurrence, inside listWit. Reserve witness/@corresp
-          for its link to the colophon identity, such as colophons.xml#col-000001.
+          for its link to the colophon identity, such as listcolophon.xml#col-000001.
           Use ref/@type manuscript for the link to manuscripts.xml. These are project
           conventions to be enforced in the corpus customisation.</p>
         <p>Where a colophon survives on a reused flyleaf or other distinct codicological
@@ -55,7 +55,7 @@
           persName/@ref in a separate note of type attribution. A named original scribe
           in a later copy is not automatically the writer of that surviving inscription.</p>
         <p>Record completeness, condition, and unresolved identification questions as
-          needed. Bibliographical references point to bibliography.xml.</p>
+          needed. Bibliographical references point to listbibl.xml.</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc>
@@ -69,7 +69,7 @@
         <head>Colophon Witnesses</head>
 
         <!-- Colophon 1: M288 -->
-        <witness corresp="colophons.xml#col-000001" xml:id="col-000001-wit-000001">
+        <witness corresp="listcolophon.xml#col-000001" xml:id="col-000001-wit-000001">
           <ref type="manuscript" target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>
           <locus from="278v" to="280v">Fols. 278v-280v: column B on 278v, columns A and B on 279r-280r, and column A on 280v.</locus>
           <note type="transmissionStatus">Original inscription of the colophon.</note>
@@ -77,7 +77,7 @@
         </witness>
 
         <!-- Colophon 2: P178 -->
-        <witness corresp="colophons.xml#col-000002" xml:id="col-000002-wit-000001">
+        <witness corresp="listcolophon.xml#col-000002" xml:id="col-000002-wit-000001">
           <ref type="manuscript" target="manuscripts.xml#ms-Paris-Arm-178">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>
           <locus from="209r" to="209r">Fol. 209r, column A, lines 10-23.</locus>
           <note type="transmissionStatus">Later copy of the translation colophon, transmitted with the martyrdom. Earliest surviving copy identified in this example and the presentation base; it does not preserve the original inscription of 1092.</note>
@@ -85,7 +85,7 @@
         </witness>
 
         <!-- Colophon 2: V17 -->
-        <witness corresp="colophons.xml#col-000002" xml:id="col-000002-wit-000002">
+        <witness corresp="listcolophon.xml#col-000002" xml:id="col-000002-wit-000002">
           <ref type="manuscript" target="manuscripts.xml#ms-Venice-SanLazzaro-17">Venice, Mekhitarist monastery of San Lazzaro MS. 17</ref>
           <locus from="202v" to="202v">Fol. 202v.</locus>
           <note type="transmissionStatus">Later copy of the translation colophon, transmitted with the martyrdom. Its inscription date is distinct from the translation date of 1092 recorded within the text.</note>
@@ -94,7 +94,7 @@
         </witness>
 
         <!-- Colophon 2: M6196 -->
-        <witness corresp="colophons.xml#col-000002" xml:id="col-000002-wit-000003">
+        <witness corresp="listcolophon.xml#col-000002" xml:id="col-000002-wit-000003">
           <ref type="manuscript" target="manuscripts.xml#ms-Yerevan-6196">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</ref>
           <locus from="239v" to="239v">Fol. 239v.</locus>
           <note type="transmissionStatus">Later copy of the translation colophon, transmitted with the martyrdom. Its inscription date is distinct from the translation date of 1092 recorded within the text.</note>

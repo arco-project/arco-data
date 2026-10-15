@@ -81,16 +81,16 @@
   </facsimile>
   <text>
     <body>
-      <div type="colophon" corresp="../indices/colophons.xml#col-000002" xml:id="col-000002">
+      <div type="colophon" corresp="../indices/listcolophon.xml#col-000002" xml:id="col-000002">
         <head>Colophon 2 — Translation of the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios
         <date when="1092">1092 CE (Armenian era 541)</date>, 
-        <placeName ref="../indices/places.xml#place-000006">Melitene</placeName>
+        <placeName ref="../indices/listplace.xml#place-000006">Melitene</placeName>
         </head>
         
         <div type="witness" corresp="../indices/witnesses.xml#col-000002-wit-000001" xml:id="col-000002-wit-000001">
           <head>Paris, Bibliothèque nationale de France, MS. Arménien 178, 
           <date notBefore="1101" notAfter="1200">12th Century</date>, 
-          <placeName ref="../indices/places.xml#place-000009">Sebasteia</placeName> — base surviving copy</head>
+          <placeName ref="../indices/listplace.xml#place-000009">Sebasteia</placeName> — base surviving copy</head>
           <ab type="miseEnPage">Colophon supplied on folio 209r, column A, lines 10–23. etc etc.</ab>
           <div type="folio" facs="#col-000002-wit-000001-facs-209r" n="209r" xml:id="col-000002-wit-000001-fol-209r">
             <head>Folio 209r</head>
@@ -158,13 +158,13 @@
             <ab type="translation" corresp="#col-000002-wit-000001-fol-209r-arm" xml:id="col-000002-wit-000001-fol-209r-en" xml:lang="en">
               <cb n="A"/>
               <lb n="10"/>The account
-              <lb/>of <rs type="people" ref="../indices/persons.xml#group-000010">the holy martyrs</rs> was translated
+              <lb/>of <rs type="people" ref="../indices/listperson.xml#group-000010">the holy martyrs</rs> was translated
               <lb/>from Greek writing into the Armenian language,
               <lb/>in the mother city of the Armenians,
-              <lb/>which is called <placeName ref="../indices/places.xml#place-000006">Melitene</placeName>,
+              <lb/>which is called <placeName ref="../indices/listplace.xml#place-000006">Melitene</placeName>,
               <lb n="15"/>in the Armenian era five-hundred
               <lb/>and forty-one (1092).
-              <lb/>Wherefore, may <persName ref="../indices/persons.xml#pers-000006">Christ</persName>, through the intercession of the
+              <lb/>Wherefore, may <persName ref="../indices/listperson.xml#pers-000006">Christ</persName>, through the intercession of the
               <lb/>holy martyrs, grant
               <lb/>a reward to the translator
               <lb n="20"/>and to the scribe who laboured on it, 
@@ -178,7 +178,7 @@
         <div type="witness" corresp="../indices/witnesses.xml#col-000002-wit-000002" xml:id="col-000002-wit-000002">
           <head>Venice, Mekhitarist monastery of San Lazzaro MS. 17, 
           <date when="1224">1224</date>, 
-          <placeName ref="../indices/places.xml#place-000007">Elâzig</placeName>
+          <placeName ref="../indices/listplace.xml#place-000007">Elâzig</placeName>
           </head>
           <ab type="miseEnPage">Colophon supplied on folio 202v. Column designation and physical line positions have not been supplied. etc etc.</ab>
           <div type="folio" n="202v" facs="#col-000002-wit-000002-facs-202v" xml:id="col-000002-wit-000002-fol-202v">
@@ -227,7 +227,7 @@
         <div type="witness" corresp="../indices/witnesses.xml#col-000002-wit-000003" xml:id="col-000002-wit-000003">
           <head>Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, 
           <date when="1227">1227</date>, 
-          <placeName ref="../indices/places.xml#place-000008">Ahlat</placeName>
+          <placeName ref="../indices/listplace.xml#place-000008">Ahlat</placeName>
           </head>
           <ab type="miseEnPage">Colophon supplied on folio 239v. etc etc.</ab>
           <div type="folio" n="239v" facs="#col-000002-wit-000003-facs-239v" xml:id="col-000002-wit-000003-fol-239v">
