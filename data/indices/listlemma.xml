@@ -45,7 +45,7 @@
           Preserve the exact attested spelling and editorial interventions in the
           edition's word token; do not turn every inflected occurrence into a new lemma.</p>
         <p>Use gramGrp/pos for the lexical GREgORI category and corresp for its
-          definition in pos.xml.</p>
+          definition in listpos.xml.</p>
         <p>The added morphology layer classifies contextual forms. Case, number, verbal form, tense or stem, mood, voice, and person
           are recorded at token level,
           not imposed as fixed properties of the lemma entry. Dictionary-style
@@ -54,7 +54,7 @@
         <p>GREgORI LF denotes an unanalysable form used as its own lemma. If it needs
           an authority entry, use entry/@type lemmaForm to distinguish it from a lexical
           entry of type lexical. Use the exact form as orth and the LF definition from
-          pos.xml. Do not attach a guessed dictionary sense. Record the unresolved
+          listpos.xml. Do not attach a guessed dictionary sense. Record the unresolved
           analysis and review history; explicit assessment is required if it is later
           identified, merged, or reclassified.</p>
         <p>Optional sense elements support reviewed meanings and usage notes for a
@@ -64,7 +64,7 @@
           and scholarship. citedRange can identify pages or dictionary headwords.
           External lexical identifiers can use idno inside a note of type externalIdentifier.
           Only add verified matches and clarify the dictionary edition used.</p>
-        <p>Word tokens reference lemmata.xml#lem-000001 through w/@lemmaRef with the
+        <p>Word tokens reference listlemma.xml#lem-000001 through w/@lemmaRef with the
           correct relative path. A plain w/@lemma string can be supplied for export
           if useful, but must agree with the referenced entry.</p>
       </editorialDecl>
@@ -83,7 +83,7 @@
             <orth>փառք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
           <note type="externalIdentifier" xml:lang="en">
           <idno type="URI">https://dictionary.calfa.fr/entries/%D5%93%D5%A1%D5%BC%D6%84,%D5%BC%D5%A1%D6%81</idno>
@@ -95,7 +95,7 @@
             <orth>երեք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000017">NUM+Car</pos>
+            <pos corresp="listpos.xml#pos-000017">NUM+Car</pos>
           </gramGrp>
         </entry>
 
@@ -104,7 +104,7 @@
             <orth>անբաւ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000004" type="lexical" xml:lang="xcl">
@@ -112,7 +112,7 @@
             <orth>կարելի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000005" type="lexical" xml:lang="xcl">
@@ -120,7 +120,7 @@
             <orth>անկար</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000006" type="lexical" xml:lang="xcl">
@@ -128,7 +128,7 @@
             <orth>եռանձնեայ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000007" type="lexical" xml:lang="xcl">
@@ -136,7 +136,7 @@
             <orth>միութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000008" type="lexical" xml:lang="xcl">
@@ -144,7 +144,7 @@
             <orth>իսկունական</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000009" type="lexical" xml:lang="xcl">
@@ -152,7 +152,7 @@
             <orth>ի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000008">I+Prep</pos>
+            <pos corresp="listpos.xml#pos-000008">I+Prep</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000010" type="lexical" xml:lang="xcl">
@@ -160,7 +160,7 @@
             <orth>թուականութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000011" type="lexical" xml:lang="xcl">
@@ -168,7 +168,7 @@
             <orth>հայ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000015">N+Prop</pos>
+            <pos corresp="listpos.xml#pos-000015">N+Prop</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000012" type="lexical" xml:lang="xcl">
@@ -176,7 +176,7 @@
             <orth>ՇԽԸ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000019">NUMA+Car</pos>
+            <pos corresp="listpos.xml#pos-000019">NUMA+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000013" type="lexical" xml:lang="xcl">
@@ -184,7 +184,7 @@
             <orth>գրել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000014" type="lexical" xml:lang="xcl">
@@ -192,7 +192,7 @@
             <orth>սուրբ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000015" type="lexical" xml:lang="xcl">
@@ -200,7 +200,7 @@
             <orth>աւետարան</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000016" type="lexical" xml:lang="xcl">
@@ -208,7 +208,7 @@
             <orth>ձեռք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000017" type="lexical" xml:lang="xcl">
@@ -216,7 +216,7 @@
             <orth>Ահարովն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000010">N+Ant</pos>
+            <pos corresp="listpos.xml#pos-000010">N+Ant</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000018" type="lexical" xml:lang="xcl">
@@ -224,7 +224,7 @@
             <orth>ախմար</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000019" type="lexical" xml:lang="xcl">
@@ -232,7 +232,7 @@
             <orth>և</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000004">I+Conj</pos>
+            <pos corresp="listpos.xml#pos-000004">I+Conj</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000020" type="lexical" xml:lang="xcl">
@@ -240,7 +240,7 @@
             <orth>փանաք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000021" type="lexical" xml:lang="xcl">
@@ -248,7 +248,7 @@
             <orth>գրիչ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000022" type="lexical" xml:lang="xcl">
@@ -256,7 +256,7 @@
             <orth>անպիտան</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000023" type="lexical" xml:lang="xcl">
@@ -264,7 +264,7 @@
             <orth>կրաւնաւոր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000024" type="lexical" xml:lang="xcl">
@@ -272,7 +272,7 @@
             <orth>արդ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000002">I+Adv</pos>
+            <pos corresp="listpos.xml#pos-000002">I+Adv</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000025" type="lexical" xml:lang="xcl">
@@ -280,7 +280,7 @@
             <orth>աղաչել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000026" type="lexical" xml:lang="xcl">
@@ -288,7 +288,7 @@
             <orth>ամենեսին</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000022">PRO+Ind</pos>
+            <pos corresp="listpos.xml#pos-000022">PRO+Ind</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000027" type="lexical" xml:lang="xcl">
@@ -296,7 +296,7 @@
             <orth>որ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000034">PRO+Rel</pos>
+            <pos corresp="listpos.xml#pos-000034">PRO+Rel</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000028" type="lexical" xml:lang="xcl">
@@ -304,7 +304,7 @@
             <orth>լուսաւորիլ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000029" type="lexical" xml:lang="xcl">
@@ -312,7 +312,7 @@
             <orth>աւգտիլ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000030" type="lexical" xml:lang="xcl">
@@ -320,7 +320,7 @@
             <orth>ես</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000025">PRO+Per1s</pos>
+            <pos corresp="listpos.xml#pos-000025">PRO+Per1s</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000031" type="lexical" xml:lang="xcl">
@@ -328,7 +328,7 @@
             <orth>աղաւթք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000032" type="lexical" xml:lang="xcl">
@@ -336,7 +336,7 @@
             <orth>արժան</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000033" type="lexical" xml:lang="xcl">
@@ -344,7 +344,7 @@
             <orth>առնել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000034" type="lexical" xml:lang="xcl">
@@ -352,7 +352,7 @@
             <orth>Աստուած</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000015">N+Prop</pos>
+            <pos corresp="listpos.xml#pos-000015">N+Prop</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000035" type="lexical" xml:lang="xcl">
@@ -360,7 +360,7 @@
             <orth>դուք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000026">PRO+Per2p</pos>
+            <pos corresp="listpos.xml#pos-000026">PRO+Per2p</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000036" type="lexical" xml:lang="xcl">
@@ -368,7 +368,7 @@
             <orth>ողորմել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000037" type="lexical" xml:lang="xcl">
@@ -376,7 +376,7 @@
             <orth>ամէն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000005">I+Intj</pos>
+            <pos corresp="listpos.xml#pos-000005">I+Intj</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000038" type="lexical" xml:lang="xcl">
@@ -384,7 +384,7 @@
             <orth>ընդ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000008">I+Prep</pos>
+            <pos corresp="listpos.xml#pos-000008">I+Prep</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000039" type="lexical" xml:lang="xcl">
@@ -392,7 +392,7 @@
             <orth>նոյն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000021">PRO+Dem</pos>
+            <pos corresp="listpos.xml#pos-000021">PRO+Dem</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000040" type="lexical" xml:lang="xcl">
@@ -400,7 +400,7 @@
             <orth>եղբայր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000041" type="lexical" xml:lang="xcl">
@@ -408,7 +408,7 @@
             <orth>իմ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000029">PRO+Pos1s</pos>
+            <pos corresp="listpos.xml#pos-000029">PRO+Pos1s</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000042" type="lexical" xml:lang="xcl">
@@ -416,7 +416,7 @@
             <orth>Յովհաննէս</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000010">N+Ant</pos>
+            <pos corresp="listpos.xml#pos-000010">N+Ant</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000043" type="lexical" xml:lang="xcl">
@@ -424,7 +424,7 @@
             <orth>կատարել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000044" type="lexical" xml:lang="xcl">
@@ -432,7 +432,7 @@
             <orth>անաւրէն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000045" type="lexical" xml:lang="xcl">
@@ -440,7 +440,7 @@
             <orth>ազգ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000046" type="lexical" xml:lang="xcl">
@@ -448,7 +448,7 @@
             <orth>հարաւային</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000047" type="lexical" xml:lang="xcl">
@@ -456,7 +456,7 @@
             <orth>Մահմետ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000010">N+Ant</pos>
+            <pos corresp="listpos.xml#pos-000010">N+Ant</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000048" type="lexical" xml:lang="xcl">
@@ -464,7 +464,7 @@
             <orth>ժողով</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000049" type="lexical" xml:lang="xcl">
@@ -472,7 +472,7 @@
             <orth>վասն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000008">I+Prep</pos>
+            <pos corresp="listpos.xml#pos-000008">I+Prep</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000050" type="lexical" xml:lang="xcl">
@@ -480,7 +480,7 @@
             <orth>եղկելի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000051" type="lexical" xml:lang="xcl">
@@ -488,7 +488,7 @@
             <orth>կեանք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000052" type="lexical" xml:lang="xcl">
@@ -496,7 +496,7 @@
             <orth>յիշել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000053" type="lexical" xml:lang="xcl">
@@ -504,7 +504,7 @@
             <orth>Քրիստոս</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000010">N+Ant</pos>
+            <pos corresp="listpos.xml#pos-000010">N+Ant</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000054" type="lexical" xml:lang="xcl">
@@ -512,7 +512,7 @@
             <orth>այս</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000021">PRO+Dem</pos>
+            <pos corresp="listpos.xml#pos-000021">PRO+Dem</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000055" type="lexical" xml:lang="xcl">
@@ -520,7 +520,7 @@
             <orth>աւետարանիչ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000056" type="lexical" xml:lang="xcl">
@@ -528,7 +528,7 @@
             <orth>բարեխաւսութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000057" type="lexical" xml:lang="xcl">
@@ -536,7 +536,7 @@
             <orth>Աստուածածին</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000012">N+Epi</pos>
+            <pos corresp="listpos.xml#pos-000012">N+Epi</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000058" type="lexical" xml:lang="xcl">
@@ -544,7 +544,7 @@
             <orth>Կարապետ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000012">N+Epi</pos>
+            <pos corresp="listpos.xml#pos-000012">N+Epi</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000059" type="lexical" xml:lang="xcl">
@@ -552,7 +552,7 @@
             <orth>հոգի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000060" type="lexical" xml:lang="xcl">
@@ -560,7 +560,7 @@
             <orth>ջնջել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000061" type="lexical" xml:lang="xcl">
@@ -568,7 +568,7 @@
             <orth>ձեռագիր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000062" type="lexical" xml:lang="xcl">
@@ -576,7 +576,7 @@
             <orth>յանցանք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000063" type="lexical" xml:lang="xcl">
@@ -584,7 +584,7 @@
             <orth>նա</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000021">PRO+Dem</pos>
+            <pos corresp="listpos.xml#pos-000021">PRO+Dem</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000064" type="lexical" xml:lang="xcl">
@@ -592,7 +592,7 @@
             <orth>դպրութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000065" type="lexical" xml:lang="xcl">
@@ -600,7 +600,7 @@
             <orth>լինել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000066" type="lexical" xml:lang="xcl">
@@ -608,7 +608,7 @@
             <orth>հայրապետութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000067" type="lexical" xml:lang="xcl">
@@ -616,7 +616,7 @@
             <orth>տէր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000068" type="lexical" xml:lang="xcl">
@@ -624,7 +624,7 @@
             <orth>Գրիգոր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000010">N+Ant</pos>
+            <pos corresp="listpos.xml#pos-000010">N+Ant</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000069" type="lexical" xml:lang="xcl">
@@ -632,7 +632,7 @@
             <orth>ինքնակալնութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000070" type="lexical" xml:lang="xcl">
@@ -640,7 +640,7 @@
             <orth>հռոմայեցի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000015">N+Prop</pos>
+            <pos corresp="listpos.xml#pos-000015">N+Prop</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000071" type="lexical" xml:lang="xcl">
@@ -648,7 +648,7 @@
             <orth>արիական</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000072" type="lexical" xml:lang="xcl">
@@ -656,7 +656,7 @@
             <orth>եմ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000073" type="lexical" xml:lang="xcl">
@@ -664,7 +664,7 @@
             <orth>փառանգ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000015">N+Prop</pos>
+            <pos corresp="listpos.xml#pos-000015">N+Prop</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000074" type="lexical" xml:lang="xcl">
@@ -672,7 +672,7 @@
             <orth>յորժամ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000004">I+Conj</pos>
+            <pos corresp="listpos.xml#pos-000004">I+Conj</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000075" type="lexical" xml:lang="xcl">
@@ -680,7 +680,7 @@
             <orth>շարժել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000076" type="lexical" xml:lang="xcl">
@@ -688,7 +688,7 @@
             <orth>ելանել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000077" type="lexical" xml:lang="xcl">
@@ -696,7 +696,7 @@
             <orth>անթիւ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000078" type="lexical" xml:lang="xcl">
@@ -704,7 +704,7 @@
             <orth>բազմութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000079" type="lexical" xml:lang="xcl">
@@ -712,7 +712,7 @@
             <orth>վերին</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000080" type="lexical" xml:lang="xcl">
@@ -720,7 +720,7 @@
             <orth>խնամք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000081" type="lexical" xml:lang="xcl">
@@ -728,7 +728,7 @@
             <orth>ազդումն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000082" type="lexical" xml:lang="xcl">
@@ -736,7 +736,7 @@
             <orth>ամենակալ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000083" type="lexical" xml:lang="xcl">
@@ -744,7 +744,7 @@
             <orth>գալ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000084" type="lexical" xml:lang="xcl">
@@ -752,7 +752,7 @@
             <orth>հասանել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000085" type="lexical" xml:lang="xcl">
@@ -760,7 +760,7 @@
             <orth>մինչև</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000008">I+Prep</pos>
+            <pos corresp="listpos.xml#pos-000008">I+Prep</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000086" type="lexical" xml:lang="xcl">
@@ -768,7 +768,7 @@
             <orth>Անդիոք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000016">N+Top</pos>
+            <pos corresp="listpos.xml#pos-000016">N+Top</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000087" type="lexical" xml:lang="xcl">
@@ -776,7 +776,7 @@
             <orth>բազում</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000088" type="lexical" xml:lang="xcl">
@@ -784,7 +784,7 @@
             <orth>աշխատութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000089" type="lexical" xml:lang="xcl">
@@ -792,7 +792,7 @@
             <orth>մեծ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000090" type="lexical" xml:lang="xcl">
@@ -800,7 +800,7 @@
             <orth>պատերազմ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000091" type="lexical" xml:lang="xcl">
@@ -808,7 +808,7 @@
             <orth>բանալ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000092" type="lexical" xml:lang="xcl">
@@ -816,7 +816,7 @@
             <orth>սուր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000093" type="lexical" xml:lang="xcl">
@@ -824,7 +824,7 @@
             <orth>սուսեր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000094" type="lexical" xml:lang="xcl">
@@ -832,7 +832,7 @@
             <orth>անխնայ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000002">I+Adv</pos>
+            <pos corresp="listpos.xml#pos-000002">I+Adv</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000095" type="lexical" xml:lang="xcl">
@@ -840,7 +840,7 @@
             <orth>կոտորել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000096" type="lexical" xml:lang="xcl">
@@ -848,7 +848,7 @@
             <orth>յետ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000008">I+Prep</pos>
+            <pos corresp="listpos.xml#pos-000008">I+Prep</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000097" type="lexical" xml:lang="xcl">
@@ -856,7 +856,7 @@
             <orth>Գ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000019">NUMA+Car</pos>
+            <pos corresp="listpos.xml#pos-000019">NUMA+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000098" type="lexical" xml:lang="xcl">
@@ -864,7 +864,7 @@
             <orth>աւր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000099" type="lexical" xml:lang="xcl">
@@ -872,7 +872,7 @@
             <orth>անհամար</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000100" type="lexical" xml:lang="xcl">
@@ -880,7 +880,7 @@
             <orth>թուրք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000015">N+Prop</pos>
+            <pos corresp="listpos.xml#pos-000015">N+Prop</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000101" type="lexical" xml:lang="xcl">
@@ -888,7 +888,7 @@
             <orth>պարսիկ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000015">N+Prop</pos>
+            <pos corresp="listpos.xml#pos-000015">N+Prop</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000102" type="lexical" xml:lang="xcl">
@@ -896,7 +896,7 @@
             <orth>արպիկ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000015">N+Prop</pos>
+            <pos corresp="listpos.xml#pos-000015">N+Prop</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000103" type="lexical" xml:lang="xcl">
@@ -904,7 +904,7 @@
             <orth>տաճիկ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000015">N+Prop</pos>
+            <pos corresp="listpos.xml#pos-000015">N+Prop</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000104" type="lexical" xml:lang="xcl">
@@ -912,7 +912,7 @@
             <orth>բանակել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000105" type="lexical" xml:lang="xcl">
@@ -920,7 +920,7 @@
             <orth>շուրջ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000003">I+AdvPr</pos>
+            <pos corresp="listpos.xml#pos-000003">I+AdvPr</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000106" type="lexical" xml:lang="xcl">
@@ -928,7 +928,7 @@
             <orth>քաղաք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000107" type="lexical" xml:lang="xcl">
@@ -936,7 +936,7 @@
             <orth>դաշտ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000108" type="lexical" xml:lang="xcl">
@@ -944,7 +944,7 @@
             <orth>թիւ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000109" type="lexical" xml:lang="xcl">
@@ -952,7 +952,7 @@
             <orth>Դ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000019">NUMA+Car</pos>
+            <pos corresp="listpos.xml#pos-000019">NUMA+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000110" type="lexical" xml:lang="xcl">
@@ -960,7 +960,7 @@
             <orth>հարիւր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000017">NUM+Car</pos>
+            <pos corresp="listpos.xml#pos-000017">NUM+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000111" type="lexical" xml:lang="xcl">
@@ -968,7 +968,7 @@
             <orth>հազար</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000017">NUM+Car</pos>
+            <pos corresp="listpos.xml#pos-000017">NUM+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000112" type="lexical" xml:lang="xcl">
@@ -976,7 +976,7 @@
             <orth>Խ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000019">NUMA+Car</pos>
+            <pos corresp="listpos.xml#pos-000019">NUMA+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000113" type="lexical" xml:lang="xcl">
@@ -984,7 +984,7 @@
             <orth>խմբել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000114" type="lexical" xml:lang="xcl">
@@ -992,7 +992,7 @@
             <orth>աւգնականութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000115" type="lexical" xml:lang="xcl">
@@ -1000,7 +1000,7 @@
             <orth>դարձուցանել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000116" type="lexical" xml:lang="xcl">
@@ -1008,7 +1008,7 @@
             <orth>բանակ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000117" type="lexical" xml:lang="xcl">
@@ -1016,7 +1016,7 @@
             <orth>սուր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000118" type="lexical" xml:lang="xcl">
@@ -1024,7 +1024,7 @@
             <orth>քրիստոնեայ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000119" type="lexical" xml:lang="xcl">
@@ -1032,7 +1032,7 @@
             <orth>ճարակել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000120" type="lexical" xml:lang="xcl">
@@ -1040,7 +1040,7 @@
             <orth>յաղթութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000121" type="lexical" xml:lang="xcl">
@@ -1048,7 +1048,7 @@
             <orth>դառնալ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000122" type="lexical" xml:lang="xcl">
@@ -1056,7 +1056,7 @@
             <orth>եկեղեցի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000123" type="lexical" xml:lang="xcl">
@@ -1064,7 +1064,7 @@
             <orth>Պետրոս</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000010">N+Ant</pos>
+            <pos corresp="listpos.xml#pos-000010">N+Ant</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000124" type="lexical" xml:lang="xcl">
@@ -1072,7 +1072,7 @@
             <orth>տաւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000125" type="lexical" xml:lang="xcl">
@@ -1080,7 +1080,7 @@
             <orth>ուրախութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000126" type="lexical" xml:lang="xcl">
@@ -1088,7 +1088,7 @@
             <orth>փրկիչ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000127" type="lexical" xml:lang="xcl">
@@ -1096,7 +1096,7 @@
             <orth>Յիսուս</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000010">N+Ant</pos>
+            <pos corresp="listpos.xml#pos-000010">N+Ant</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000128" type="lexical" xml:lang="xcl">
@@ -1104,7 +1104,7 @@
             <orth>տալ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000129" type="lexical" xml:lang="xcl">
@@ -1112,7 +1112,7 @@
             <orth>ծառայ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000130" type="lexical" xml:lang="xcl">
@@ -1120,7 +1120,7 @@
             <orth>իւր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000033">PRO+Ref</pos>
+            <pos corresp="listpos.xml#pos-000033">PRO+Ref</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000131" type="lexical" xml:lang="xcl">
@@ -1128,7 +1128,7 @@
             <orth>ամ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000132" type="lexical" xml:lang="xcl">
@@ -1136,7 +1136,7 @@
             <orth>հռչակաւոր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000133" type="lexical" xml:lang="xcl">
@@ -1144,7 +1144,7 @@
             <orth>մայրաքաղաք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000134" type="lexical" xml:lang="xcl">
@@ -1152,7 +1152,7 @@
             <orth>Երուսաղէմ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000016">N+Top</pos>
+            <pos corresp="listpos.xml#pos-000016">N+Top</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000135" type="lexical" xml:lang="xcl">
@@ -1160,7 +1160,7 @@
             <orth>զաւրութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000136" type="lexical" xml:lang="xcl">
@@ -1168,7 +1168,7 @@
             <orth>աւարտել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000137" type="lexical" xml:lang="xcl">
@@ -1176,7 +1176,7 @@
             <orth>Աղեկսանդր</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000016">N+Top</pos>
+            <pos corresp="listpos.xml#pos-000016">N+Top</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000138" type="lexical" xml:lang="xcl">
@@ -1184,7 +1184,7 @@
             <orth>հովանի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000139" type="lexical" xml:lang="xcl">
@@ -1192,7 +1192,7 @@
             <orth>յաւիտեան</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000140" type="lexical" xml:lang="xcl">
@@ -1200,7 +1200,7 @@
             <orth>նեղանալ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000141" type="lexical" xml:lang="xcl">
@@ -1208,7 +1208,7 @@
             <orth>շնորհել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000142" type="lexical" xml:lang="xcl">
@@ -1216,7 +1216,7 @@
             <orth>մեղք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000143" type="lexical" xml:lang="xcl">
@@ -1224,7 +1224,7 @@
             <orth>թողութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000144" type="lexical" xml:lang="xcl">
@@ -1232,7 +1232,7 @@
             <orth>զի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000004">I+Conj</pos>
+            <pos corresp="listpos.xml#pos-000004">I+Conj</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000145" type="lexical" xml:lang="xcl">
@@ -1240,7 +1240,7 @@
             <orth>դու</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000027">PRO+Per2s</pos>
+            <pos corresp="listpos.xml#pos-000027">PRO+Per2s</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000146" type="lexical" xml:lang="xcl">
@@ -1248,7 +1248,7 @@
             <orth>կարող</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000147" type="lexical" xml:lang="xcl">
@@ -1256,7 +1256,7 @@
             <orth>ամենայն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000022">PRO+Ind</pos>
+            <pos corresp="listpos.xml#pos-000022">PRO+Ind</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000148" type="lexical" xml:lang="xcl">
@@ -1264,7 +1264,7 @@
             <orth>մնալ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000149" type="lexical" xml:lang="xcl">
@@ -1272,7 +1272,7 @@
             <orth>աւաղ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000005">I+Intj</pos>
+            <pos corresp="listpos.xml#pos-000005">I+Intj</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000150" type="lexical" xml:lang="xcl">
@@ -1280,7 +1280,7 @@
             <orth>յետին</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000151" type="lexical" xml:lang="xcl">
@@ -1288,7 +1288,7 @@
             <orth>թարգմանել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000152" type="lexical" xml:lang="xcl">
@@ -1296,7 +1296,7 @@
             <orth>պատմութիւն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000153" type="lexical" xml:lang="xcl">
@@ -1304,7 +1304,7 @@
             <orth>վկայ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000154" type="lexical" xml:lang="xcl">
@@ -1312,7 +1312,7 @@
             <orth>յունարէն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000155" type="lexical" xml:lang="xcl">
@@ -1320,7 +1320,7 @@
             <orth>գիրք</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000156" type="lexical" xml:lang="xcl">
@@ -1328,7 +1328,7 @@
             <orth>հայերէն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000157" type="lexical" xml:lang="xcl">
@@ -1336,7 +1336,7 @@
             <orth>բարբառ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000158" type="lexical" xml:lang="xcl">
@@ -1344,7 +1344,7 @@
             <orth>կոչել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000159" type="lexical" xml:lang="xcl">
@@ -1352,7 +1352,7 @@
             <orth>Մելիտենէ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000016">N+Top</pos>
+            <pos corresp="listpos.xml#pos-000016">N+Top</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000160" type="lexical" xml:lang="xcl">
@@ -1360,7 +1360,7 @@
             <orth>թուական</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000161" type="lexical" xml:lang="xcl">
@@ -1368,7 +1368,7 @@
             <orth>հինգ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000017">NUM+Car</pos>
+            <pos corresp="listpos.xml#pos-000017">NUM+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000162" type="lexical" xml:lang="xcl">
@@ -1376,7 +1376,7 @@
             <orth>քառասուն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000017">NUM+Car</pos>
+            <pos corresp="listpos.xml#pos-000017">NUM+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000163" type="lexical" xml:lang="xcl">
@@ -1384,7 +1384,7 @@
             <orth>մի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000017">NUM+Car</pos>
+            <pos corresp="listpos.xml#pos-000017">NUM+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000164" type="lexical" xml:lang="xcl">
@@ -1392,7 +1392,7 @@
             <orth>ՇԽԱ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000019">NUMA+Car</pos>
+            <pos corresp="listpos.xml#pos-000019">NUMA+Car</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000165" type="lexical" xml:lang="xcl">
@@ -1400,7 +1400,7 @@
             <orth>վարձ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000166" type="lexical" xml:lang="xcl">
@@ -1408,7 +1408,7 @@
             <orth>աշխատել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000167" type="lexical" xml:lang="xcl">
@@ -1416,7 +1416,7 @@
             <orth>սա</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000021">PRO+Dem</pos>
+            <pos corresp="listpos.xml#pos-000021">PRO+Dem</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000171" type="lexical" xml:lang="xcl">
@@ -1424,7 +1424,7 @@
             <orth>ինքն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000033">PRO+Ref</pos>
+            <pos corresp="listpos.xml#pos-000033">PRO+Ref</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000172" type="lexical" xml:lang="xcl">
@@ -1432,7 +1432,7 @@
             <orth>աւրհնել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000173" type="lexical" xml:lang="xcl">
@@ -1440,7 +1440,7 @@
             <orth>բարի</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000001">A</pos>
+            <pos corresp="listpos.xml#pos-000001">A</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000174" type="lexical" xml:lang="xcl">
@@ -1448,7 +1448,7 @@
             <orth>թարգմանիչ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000175" type="lexical" xml:lang="xcl">
@@ -1456,7 +1456,7 @@
             <orth>բան</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000176" type="lexical" xml:lang="xcl">
@@ -1464,7 +1464,7 @@
             <orth>շարադրել</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000035">V</pos>
+            <pos corresp="listpos.xml#pos-000035">V</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000177" type="lexical" xml:lang="xcl">
@@ -1472,7 +1472,7 @@
             <orth>այն</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000021">PRO+Dem</pos>
+            <pos corresp="listpos.xml#pos-000021">PRO+Dem</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000178" type="lexical" xml:lang="xcl">
@@ -1480,7 +1480,7 @@
             <orth>միշտ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000002">I+Adv</pos>
+            <pos corresp="listpos.xml#pos-000002">I+Adv</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000179" type="lexical" xml:lang="xcl">
@@ -1488,7 +1488,7 @@
             <orth>Վարդան</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000010">N+Ant</pos>
+            <pos corresp="listpos.xml#pos-000010">N+Ant</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000180" type="lexical" xml:lang="xcl">
@@ -1496,7 +1496,7 @@
             <orth>վարդապետ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000181" type="lexical" xml:lang="xcl">
@@ -1504,7 +1504,7 @@
             <orth>թարգմանող</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000182" type="lexical" xml:lang="xcl">
@@ -1512,7 +1512,7 @@
             <orth>գրող</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000183" type="lexical" xml:lang="xcl">
@@ -1520,7 +1520,7 @@
             <orth>ընթերցաւղ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000184" type="lexical" xml:lang="xcl">
@@ -1528,7 +1528,7 @@
             <orth>լսաւղ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
         <entry xml:id="lem-000185" type="lexical" xml:lang="xcl">
@@ -1539,7 +1539,7 @@
             <orth>ստացաւղ</orth>
           </form>
           <gramGrp>
-            <pos corresp="pos.xml#pos-000011">N+Com</pos>
+            <pos corresp="listpos.xml#pos-000011">N+Com</pos>
           </gramGrp>
         </entry>
       </div>

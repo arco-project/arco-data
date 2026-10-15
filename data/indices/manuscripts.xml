@@ -29,7 +29,7 @@
         <p>This file identifies the manuscript objects associated with the corpus.
           A manuscript can preserve several colophons; a colophon can survive in
           several manuscripts. Particular occurrences of a colophon, their loci,
-          and their transmission status are recorded in witnesses.xml. Transcriptions,
+          and their transmission status are recorded in listwitness.xml. Transcriptions,
           translations, and detailed image alignment remain in the colophon files.</p>
       </projectDesc>
       <editorialDecl>

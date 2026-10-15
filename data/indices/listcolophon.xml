@@ -30,7 +30,7 @@
           record, independently of the physical witnesses preserving it. A record
           can be created before its edition is prepared. Each completed edition
           occupies one XML file named after the colophon identifier.</p>
-        <p>Witness records in witnesses.xml point to this register and to the
+        <p>Witness records in listwitness.xml point to this register and to the
           manuscript or codicological unit preserving each occurrence. Witnesses
           are aggregated by their references to a colophon record; this register
           does not maintain a duplicate manual witness list.</p>
