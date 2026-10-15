@@ -29,7 +29,7 @@
         <p>This file identifies the manuscript objects associated with the corpus.
           A manuscript can preserve several colophons; a colophon can survive in
           several manuscripts. Particular occurrences of a colophon, their loci,
-          and their transmission status are recorded in witnesses.xml. Transcriptions,
+          and their transmission status are recorded in listwitness.xml. Transcriptions,
           translations, and detailed image alignment remain in the colophon files.</p>
       </projectDesc>
       <editorialDecl>
@@ -49,7 +49,7 @@
           Unit-specific contents, hands, dates, and provenance belong to the relevant
           part. A witness can reference that part's stable identifier. Descriptions of
           fragmentary or dispersed objects will be refined through actual cases.</p>
-        <p>Bibliographical references will point to bibliography.xml when its records
+        <p>Bibliographical references will point to listbibl.xml when its records
           are populated. Catalogue citations supplied for these examples are retained
           inline until then. Local image paths and verified catalogue or viewer links
           can be recorded as digital surrogates;
@@ -80,23 +80,23 @@
             <textLang mainLang="xcl">Classical Armenian</textLang>
             <msItem>
               <locus from="5r" to="75v">5r-75v</locus>
-              <title type="desc" ref="works.xml#work-000004">Gospel of Matthew</title>
+              <title type="desc" ref="listwork.xml#work-000004">Gospel of Matthew</title>
             </msItem>
             <msItem>
               <locus from="76r" to="125r">76r-125r</locus>
-              <title type="desc" ref="works.xml#work-000005">Gospel of Mark</title>
+              <title type="desc" ref="listwork.xml#work-000005">Gospel of Mark</title>
             </msItem>
             <msItem>
               <locus from="126r" to="212v">126r-212v</locus>
-              <title type="desc" ref="works.xml#work-000006">Gospel of Luke</title>
+              <title type="desc" ref="listwork.xml#work-000006">Gospel of Luke</title>
             </msItem>
             <msItem>
               <locus from="213r" to="278v">213r-278v</locus>
-              <title type="desc" ref="works.xml#work-000007">Gospel of John</title>
+              <title type="desc" ref="listwork.xml#work-000007">Gospel of John</title>
             </msItem>
             <msItem>
               <locus from="278v" to="280v">278v-280v</locus>
-              <title type="desc" ref="colophons.xml#col-000001">Colophon 1</title>
+              <title type="desc" ref="listcolophon.xml#col-000001">Colophon 1</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -139,7 +139,7 @@
           <history>
             <origin>
               <p><origDate when="1099">1099 CE (Armenian era 548)</origDate>, 
-              <origPlace><placeName ref="places.xml#place-000001">Alexandria</placeName></origPlace>.</p>
+              <origPlace><placeName ref="listplace.xml#place-000001">Alexandria</placeName></origPlace>.</p>
             </origin>
             <provenance>
               <p>Insert provenance here: successive owners, institutions, movements, and supporting evidence.</p>
@@ -150,7 +150,7 @@
           </history>
           <additional>
             <listBibl>
-              <bibl ref="bibliography.xml#bibl-000001">
+              <bibl ref="listbibl.xml#bibl-000001">
                 <title type="translated">Catalogue of Manuscripts of the Maštoc‘ Matenadaran</title>
                 <biblScope unit="volume">1</biblScope>
               </bibl>
@@ -176,11 +176,11 @@
             </msItem>
             <msItem>
               <locus>Insert the folio range of the martyrdom here.</locus>
-              <title ref="works.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
+              <title ref="listwork.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
             </msItem>
             <msItem>
               <locus from="209r" to="209r">209r</locus>
-              <title type="desc" ref="colophons.xml#col-000002">Colophon 2</title>
+              <title type="desc" ref="listcolophon.xml#col-000002">Colophon 2</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -224,7 +224,7 @@
           <history>
             <origin>
               <p><origDate notBefore="1101" notAfter="1200">Twelfth century</origDate>, 
-              <origPlace><placeName ref="places.xml#place-000009">Sebasteia</placeName></origPlace>.</p>
+              <origPlace><placeName ref="listplace.xml#place-000009">Sebasteia</placeName></origPlace>.</p>
             </origin>
             <provenance>
               <p>Insert provenance here: successive owners, institutions, movements, and supporting evidence.</p>
@@ -235,7 +235,7 @@
           </history>
           <additional>
             <listBibl>
-              <bibl ref="bibliography.xml#bibl-000004">
+              <bibl ref="listbibl.xml#bibl-000004">
                 <author>Kevorkian, R. H.</author>
                 <author>Ter-Stépanian, A.</author>
                 <date>1998</date>
@@ -264,11 +264,11 @@
             </msItem>
             <msItem>
               <locus>Insert the folio range of the martyrdom here.</locus>
-              <title ref="works.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
+              <title ref="listwork.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
             </msItem>
             <msItem>
               <locus from="202v" to="202v">202v</locus>
-              <title type="desc" ref="colophons.xml#col-000002">Colophon 2</title>
+              <title type="desc" ref="listcolophon.xml#col-000002">Colophon 2</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -311,7 +311,7 @@
           <history>
             <origin>
               <p><origDate when="1224">1224 CE</origDate>, 
-              <origPlace><placeName ref="places.xml#place-000007">Elâzig</placeName></origPlace>.</p>
+              <origPlace><placeName ref="listplace.xml#place-000007">Elâzig</placeName></origPlace>.</p>
             </origin>
             <provenance>
               <p>Insert provenance here: successive owners, institutions, movements, and supporting evidence.</p>
@@ -322,7 +322,7 @@
           </history>
           <additional>
             <listBibl>
-              <bibl ref="bibliography.xml#bibl-000003">
+              <bibl ref="listbibl.xml#bibl-000003">
                 <author>Sargisyan, B.</author>
                 <date>1924</date>
                 <title>Mayr C’owc’ak Hayeren Jeṙagrac’ matenadaranin Mxit’areanc’ i Venetik, Hator B</title>
@@ -352,11 +352,11 @@
             </msItem>
             <msItem>
               <locus>Insert the folio range of the martyrdom here.</locus>
-              <title ref="works.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
+              <title ref="listwork.xml#work-000003">Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios</title>
             </msItem>
             <msItem>
               <locus from="239v" to="239v">239v</locus>
-              <title type="desc" ref="colophons.xml#col-000002">Colophon 2</title>
+              <title type="desc" ref="listcolophon.xml#col-000002">Colophon 2</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -399,7 +399,7 @@
           <history>
             <origin>
               <p><origDate when="1227">1227 CE</origDate>, 
-              <origPlace><placeName ref="places.xml#place-000008">Ahlat</placeName></origPlace>.</p>
+              <origPlace><placeName ref="listplace.xml#place-000008">Ahlat</placeName></origPlace>.</p>
             </origin>
             <provenance>
               <p>Insert provenance here: successive owners, institutions, movements, and supporting evidence.</p>
@@ -410,7 +410,7 @@
           </history>
           <additional>
             <listBibl>
-              <bibl ref="bibliography.xml#bibl-000002">
+              <bibl ref="listbibl.xml#bibl-000002">
                 <author>Eganyan, O.</author>
                 <author>Zeyt‘unyan, A.</author>
                 <author>Ant‘abyan, P‘.</author>

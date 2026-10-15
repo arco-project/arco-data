@@ -55,7 +55,7 @@
           do not substitute zero values.</p>
         <p>Use note elements for identification and uncertainty, bibl elements for
           supporting references, and idno elements for verified external identifiers.
-          Bibliographical references point to bibliography.xml with the appropriate
+          Bibliographical references point to listbibl.xml with the appropriate
           record fragment.</p>
       </editorialDecl>
     </encodingDesc>
@@ -84,11 +84,11 @@
                  Activate only after verification; use WGS84 decimal degrees. -->
           </location>
           <note type="identification">The settlement named as the place of completion of the Gospel in Colophon 1.</note>
-          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
           <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
           <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
           <bibl>
-            <note>Insert a verified bibliography.xml reference and citedRange for pages supporting the geographical identification.</note>
+            <note>Insert a verified listbibl.xml reference and citedRange for pages supporting the geographical identification.</note>
           </bibl>
 
         </place>
@@ -110,11 +110,11 @@
                  Activate only after verification; use WGS84 decimal degrees. -->
           </location>
           <note type="identification">The city named in the historical narrative of Colophon 1.</note>
-          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
           <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
           <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
           <bibl>
-            <note>Insert a verified bibliography.xml reference and citedRange for pages supporting the geographical identification.</note>
+            <note>Insert a verified listbibl.xml reference and citedRange for pages supporting the geographical identification.</note>
           </bibl>
 
         </place>
@@ -133,11 +133,11 @@
             <geo>31.76904, 35.21633</geo> <!-- copy from geonames COORDINATES, https://www.geonames.org/281184/jerusalem.html --> 
           </location>
           <note type="identification">The city named in the historical narrative of Colophon 1.</note>
-          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
           <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
           <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
           <bibl>
-            <note>Insert a verified bibliography.xml reference and citedRange for pages supporting the geographical identification.</note>
+            <note>Insert a verified listbibl.xml reference and citedRange for pages supporting the geographical identification.</note>
           </bibl>
           <idno type="geonames">https://www.geonames.org/281184/jerusalem.html</idno>
           <!-- add as much other norm-data uris you like, always a full url, the type should be some usfel abbreviation, e.g. gnd, wikidata, ... -->
@@ -146,8 +146,8 @@
         <place xml:id="place-000004" type="region">
           <placeName type="preferred" xml:lang="en">Eranšahr</placeName>
           <note type="identification">The historical region named in the editorial note explaining the use of Aryan in Colophon 1. Its historical scope is to be documented separately from modern administrative boundaries.</note>
-          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
-          <bibl><ref target="bibliography.xml#bibl-000006">Greenwood (2019)</ref></bibl>
+          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
+          <bibl><ref target="listbibl.xml#bibl-000006">Greenwood (2019)</ref></bibl>
         </place>
 
         <place xml:id="place-000005" type="church">
@@ -156,13 +156,13 @@
             <settlement ref="#place-000002">Antioch</settlement>
           </location>
           <note type="identification">The church named in the account of the celebration following victory at Antioch in Colophon 1. The record identifies the church as referred to in the text; its precise site remains to be established.</note>
-          <note type="attestation">Referenced in <ref target="colophons.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
         </place>
 
         <place xml:id="place-000006" type="settlement">
           <placeName type="preferred" xml:lang="en">Melitene</placeName>
           <note type="identification">The settlement named as the place of translation in Colophon 2, dated 1092.</note>
-          <note type="attestation">Referenced in <ref target="colophons.xml#col-000002">Colophon 2</ref>.</note>
+          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000002">Colophon 2</ref>.</note>
         </place>
 
         <place xml:id="place-000007" type="settlement">
@@ -207,7 +207,7 @@
             <note type="uncertainty">Unresolved identification questions, where relevant.</note>
             <note type="coordinates">Coordinate source, precision, and meaning of the point.</note>
             <bibl>
-              <ref target="bibliography.xml#bibl-000001">Supporting bibliographical record</ref>
+              <ref target="listbibl.xml#bibl-000001">Supporting bibliographical record</ref>
               <citedRange unit="page">Relevant pages</citedRange>
             </bibl>
           </place>

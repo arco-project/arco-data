@@ -64,7 +64,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>This file documents the two linguistic annotation fields used on corpus word tokens: the exact GREgORI POS code in w/@pos and the project's compact morphological description in w/@msd. Words use these values directly; they do not require repeated authority pointers to their POS or morphological definitions. Lemma identity is handled separately in lemmata.xml.</p>
+        <p>This file documents the two linguistic annotation fields used on corpus word tokens: the exact GREgORI POS code in w/@pos and the project's compact morphological description in w/@msd. Words use these values directly; they do not require repeated authority pointers to their POS or morphological definitions. Lemma identity is handled separately in listlemma.xml.</p>
         <p>GREgORI's May 2021 POS inventory is preserved below. MSD categories document all seven Classical Armenian cases, singular and plural, and verbal form, tense or stem, mood, voice, and person. The MSD notation is a project convention supplementing GREgORI, not an extension attributed to the GREgORI source sheet or a claim of full Universal Dependencies annotation.</p>
       </projectDesc>
       <editorialDecl>
@@ -304,7 +304,7 @@ Keep these examples when populating the file.
 
 NOMINAL:
 <w lemma="քահանայ" pos="N+Com" msd="Nom.Pl">քահանայք</w>
-Add lemmaRef="../indices/lemmata.xml#ALLOCATED-LEMMA-ID" once the entry exists.
+Add lemmaRef="../indices/listlemma.xml#ALLOCATED-LEMMA-ID" once the entry exists.
 No per-word POS or MSD reference is required.
 
 FINITE VERBS: fixed relative order: tense-or-stem.mood.voice.person.number.

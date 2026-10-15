@@ -21,7 +21,7 @@
         <p>Unpublished working edition for the Digital Corpus of Armenian Colophons. Publication and image licensing have not yet been established.</p>
       </publicationStmt>
       <sourceDesc>
-        <p>Surviving copies: <ref target="../indices/witnesses.xml#col-000002-wit-000001">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>, <ref target="../indices/witnesses.xml#col-000002-wit-000002">Venice, Mekhitarist monastery of San Lazzaro MS. 17</ref>, <ref target="../indices/witnesses.xml#col-000002-wit-000003">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</ref>.</p>
+        <p>Surviving copies: <ref target="../indices/listwitness.xml#col-000002-wit-000001">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>, <ref target="../indices/listwitness.xml#col-000002-wit-000002">Venice, Mekhitarist monastery of San Lazzaro MS. 17</ref>, <ref target="../indices/listwitness.xml#col-000002-wit-000003">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</ref>.</p>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -39,10 +39,10 @@
           to surrounding text, columns, spacing, indentation, headings, rubrication,
           decoration, and relevant script or hand contrasts. A later copy may have different layout from the colophon's original inscription.</p>
         <p>Encode passage-specific commentary inline using an anchor type="commentary" with a short xml:id before the explained passage, followed by note type="commentary" with corresp pointing to that anchor.</p>
-        <p>Armenian formula seg/@ana links directly to standard-pattern definitions in formulae.xml. Formula classifications follow authority/formulae.xml.</p>
+        <p>Armenian formula seg/@ana links directly to standard-pattern definitions in listformula.xml. Formula classifications follow authority/listformula.xml.</p>
         <p>Words in the Armenian transcription use lemma, the exact GREgORI pos code,
           lemmaRef for the lexical record, and contextual msd values documented in
-          ../indices/pos.xml. Nominal order is case.number, such as Nom.Pl; finite
+          ../indices/listpos.xml. Nominal order is case.number, such as Nom.Pl; finite
           verbal order is tense-or-stem.mood.voice.person.number, such as
           Aor.Ind.Pass.3.Sg. Non-finite order is form.voice.case.number, such as
           Part.Dat.Sg. Record only applicable, established features, retaining their
@@ -81,90 +81,90 @@
   </facsimile>
   <text>
     <body>
-      <div type="colophon" corresp="../indices/colophons.xml#col-000002" xml:id="col-000002">
+      <div type="colophon" corresp="../indices/listcolophon.xml#col-000002" xml:id="col-000002">
         <head>Colophon 2 — Translation of the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios
         <date when="1092">1092 CE (Armenian era 541)</date>, 
-        <placeName ref="../indices/places.xml#place-000006">Melitene</placeName>
+        <placeName ref="../indices/listplace.xml#place-000006">Melitene</placeName>
         </head>
         
-        <div type="witness" corresp="../indices/witnesses.xml#col-000002-wit-000001" xml:id="col-000002-wit-000001">
+        <div type="witness" corresp="../indices/listwitness.xml#col-000002-wit-000001" xml:id="col-000002-wit-000001">
           <head>Paris, Bibliothèque nationale de France, MS. Arménien 178, 
           <date notBefore="1101" notAfter="1200">12th Century</date>, 
-          <placeName ref="../indices/places.xml#place-000009">Sebasteia</placeName> — base surviving copy</head>
+          <placeName ref="../indices/listplace.xml#place-000009">Sebasteia</placeName> — base surviving copy</head>
           <ab type="miseEnPage">Colophon supplied on folio 209r, column A, lines 10–23. etc etc.</ab>
           <div type="folio" facs="#col-000002-wit-000001-facs-209r" n="209r" xml:id="col-000002-wit-000001-fol-209r">
             <head>Folio 209r</head>
             <ab type="transcription" xml:id="col-000002-wit-000001-fol-209r-arm" xml:lang="xcl">
               <cb n="A"/>
               <lb n="10"/>
-              <seg type="formula" ana="../indices/formulae.xml#asser-textual-work-pattern-01">
-                <w lemma="թարգմանել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000151" msd="Aor.Ind.Pass.3.Sg">Թարգմանեցաւ</w>
-                <w lemma="պատմութիւն" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000152" msd="Nom.Sg">պատմու<lb break="no"/>թիւն</w>
-                <w lemma="սուրբ" pos="A" lemmaRef="../indices/lemmata.xml#lem-000014" msd="Gen.Pl">սրբոց</w>
-                <w lemma="վկայ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000153" msd="Gen.Pl">վկայիցս</w>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="յունարէն" pos="A" lemmaRef="../indices/lemmata.xml#lem-000154" cert="low">յունա<lb break="no"/>րէն</w>
-                <w lemma="գիրք" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000155" msd="Gen.Pl">գրոց</w>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="հայերէն" pos="A" lemmaRef="../indices/lemmata.xml#lem-000156" cert="low">հայերեն</w>
-                <w lemma="բարբառ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000157" msd="Acc.Sg">բարբառ</w>:<lb/>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="մայրաքաղաք" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000133" msd="Loc.Sg">մայրաքաղաքին</w>
-                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/lemmata.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
-                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/lemmata.xml#lem-000027" msd="Nom.Sg">որ</w>
+              <seg type="formula" ana="../indices/listformula.xml#asser-textual-work-pattern-01">
+                <w lemma="թարգմանել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000151" msd="Aor.Ind.Pass.3.Sg">Թարգմանեցաւ</w>
+                <w lemma="պատմութիւն" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000152" msd="Nom.Sg">պատմու<lb break="no"/>թիւն</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../indices/listlemma.xml#lem-000014" msd="Gen.Pl">սրբոց</w>
+                <w lemma="վկայ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000153" msd="Gen.Pl">վկայիցս</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="յունարէն" pos="A" lemmaRef="../indices/listlemma.xml#lem-000154" cert="low">յունա<lb break="no"/>րէն</w>
+                <w lemma="գիրք" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000155" msd="Gen.Pl">գրոց</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="հայերէն" pos="A" lemmaRef="../indices/listlemma.xml#lem-000156" cert="low">հայերեն</w>
+                <w lemma="բարբառ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000157" msd="Acc.Sg">բարբառ</w>:<lb/>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="մայրաքաղաք" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000133" msd="Loc.Sg">մայրաքաղաքին</w>
+                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/listlemma.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/listlemma.xml#lem-000027" msd="Nom.Sg">որ</w>
                 <lb/>
-                <w lemma="կոչել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000158" msd="Pres.Ind.Pass.3.Sg">կոչի</w>
-                <w lemma="Մելիտենէ" pos="N+Top" lemmaRef="../indices/lemmata.xml#lem-000159" msd="Nom.Sg" cert="low">Մելետինի</w>: <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">Ի</w>
-                <w lemma="թուական" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000160" msd="Loc.Sg" cert="low">թուական<lb n="15" break="no"/>իս</w>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="հինգ" pos="NUM+Car" lemmaRef="../indices/lemmata.xml#lem-000161">հինգ</w>
-                <w lemma="հարիւր" pos="NUM+Car" lemmaRef="../indices/lemmata.xml#lem-000110">հարիւր</w>
-                <w lemma="քառասուն" pos="NUM+Car" lemmaRef="../indices/lemmata.xml#lem-000162">քա<lb break="no"/>ռասուն</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">և</w>
-                <w lemma="մի" pos="NUM+Car" lemmaRef="../indices/lemmata.xml#lem-000163">մի</w>:<lb/>
+                <w lemma="կոչել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000158" msd="Pres.Ind.Pass.3.Sg">կոչի</w>
+                <w lemma="Մելիտենէ" pos="N+Top" lemmaRef="../indices/listlemma.xml#lem-000159" msd="Nom.Sg" cert="low">Մելետինի</w>: <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">Ի</w>
+                <w lemma="թուական" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000160" msd="Loc.Sg" cert="low">թուական<lb n="15" break="no"/>իս</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="հինգ" pos="NUM+Car" lemmaRef="../indices/listlemma.xml#lem-000161">հինգ</w>
+                <w lemma="հարիւր" pos="NUM+Car" lemmaRef="../indices/listlemma.xml#lem-000110">հարիւր</w>
+                <w lemma="քառասուն" pos="NUM+Car" lemmaRef="../indices/listlemma.xml#lem-000162">քա<lb break="no"/>ռասուն</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">և</w>
+                <w lemma="մի" pos="NUM+Car" lemmaRef="../indices/listlemma.xml#lem-000163">մի</w>:<lb/>
               </seg>
-              <seg type="formula" ana="../indices/formulae.xml#exp-blessing-protection-reward-pattern-01">
-                <w lemma="ընդ" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000038">Ընդ</w>
-                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/lemmata.xml#lem-000027" msd="Acc.Pl">որս</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">և</w>
-                <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../indices/lemmata.xml#lem-000053" msd="Nom.Sg">Քրիստոս</w>
-                <w lemma="բարեխաւսութիւն" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000056" msd="Ins.Sg">բարեխաւսու<lb break="no"/>թեամբ</w>
-                <w lemma="սուրբ" pos="A" lemmaRef="../indices/lemmata.xml#lem-000014" msd="Gen.Pl" cert="low">սուրբ</w>
-                <w lemma="վկայ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000153" msd="Gen.Pl">վկայից</w>
-                <w lemma="տալ" pos="V" lemmaRef="../indices/lemmata.xml#lem-000128" msd="Aor.Sub.Act.3.Sg">տա<lb break="no"/>ցէ</w>
-                <w lemma="վարձ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000165" msd="Acc.Pl">վարձս</w>
-                <w lemma="թարգմանող" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000181" msd="Dat.Sg" cert="low">թարգմանողին</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">և</w>
+              <seg type="formula" ana="../indices/listformula.xml#exp-blessing-protection-reward-pattern-01">
+                <w lemma="ընդ" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000038">Ընդ</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/listlemma.xml#lem-000027" msd="Acc.Pl">որս</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">և</w>
+                <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../indices/listlemma.xml#lem-000053" msd="Nom.Sg">Քրիստոս</w>
+                <w lemma="բարեխաւսութիւն" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000056" msd="Ins.Sg">բարեխաւսու<lb break="no"/>թեամբ</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../indices/listlemma.xml#lem-000014" msd="Gen.Pl" cert="low">սուրբ</w>
+                <w lemma="վկայ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000153" msd="Gen.Pl">վկայից</w>
+                <w lemma="տալ" pos="V" lemmaRef="../indices/listlemma.xml#lem-000128" msd="Aor.Sub.Act.3.Sg">տա<lb break="no"/>ցէ</w>
+                <w lemma="վարձ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000165" msd="Acc.Pl">վարձս</w>
+                <w lemma="թարգմանող" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000181" msd="Dat.Sg" cert="low">թարգմանողին</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">և</w>
                 <lb n="20"/>
-                <w lemma="գրող" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000182" msd="Dat.Sg" cert="low">գրուղին</w>
-                <w lemma="աշխատել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000166" msd="Part.Dat.Pl" cert="low">աշխատելոց</w>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="սա" pos="PRO+Dem" lemmaRef="../indices/lemmata.xml#lem-000167" msd="Loc.Sg">սմա</w>,<lb/>
-                <w lemma="ընթերցաւղ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000183" msd="Dat.Pl" cert="low">ընթերցաւղաց</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">եւ</w>
-                <w lemma="լսաւղ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000184" msd="Dat.Pl" cert="low">լսաւղաց</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">եւ</w>
+                <w lemma="գրող" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000182" msd="Dat.Sg" cert="low">գրուղին</w>
+                <w lemma="աշխատել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000166" msd="Part.Dat.Pl" cert="low">աշխատելոց</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="սա" pos="PRO+Dem" lemmaRef="../indices/listlemma.xml#lem-000167" msd="Loc.Sg">սմա</w>,<lb/>
+                <w lemma="ընթերցաւղ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000183" msd="Dat.Pl" cert="low">ընթերցաւղաց</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">եւ</w>
+                <w lemma="լսաւղ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000184" msd="Dat.Pl" cert="low">լսաւղաց</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">եւ</w>
                 <lb/>
-                <w lemma="ստացող" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000185" msd="Dat.Pl" cert="low">ստացաւղաց</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">եւ</w>
+                <w lemma="ստացող" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000185" msd="Dat.Pl" cert="low">ստացաւղաց</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">եւ</w>
               </seg>
-              <seg type="formula" ana="../indices/formulae.xml#exp-doxology-pattern-03">
-                <w lemma="ինքն" pos="PRO+Ref" lemmaRef="../indices/lemmata.xml#lem-000171" msd="Nom.Sg">ինքն</w>
-                <w lemma="լինել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000065" msd="Aor.Sub.3.Sg">եղիցի</w>
+              <seg type="formula" ana="../indices/listformula.xml#exp-doxology-pattern-03">
+                <w lemma="ինքն" pos="PRO+Ref" lemmaRef="../indices/listlemma.xml#lem-000171" msd="Nom.Sg">ինքն</w>
+                <w lemma="լինել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000065" msd="Aor.Sub.3.Sg">եղիցի</w>
                 <lb/>
-                <w lemma="աւրհնել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000172" msd="Part.Nom.Sg">աւրհնեալ</w>
-                <w lemma="յաւիտեան" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000139" msd="Acc.Pl">յաւիտեանս</w>: <w lemma="ամէն" pos="I+Intj" lemmaRef="../indices/lemmata.xml#lem-000037">Ամէն</w>:</seg>
+                <w lemma="աւրհնել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000172" msd="Part.Nom.Sg">աւրհնեալ</w>
+                <w lemma="յաւիտեան" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000139" msd="Acc.Pl">յաւիտեանս</w>: <w lemma="ամէն" pos="I+Intj" lemmaRef="../indices/listlemma.xml#lem-000037">Ամէն</w>:</seg>
             </ab>
             <ab type="translation" corresp="#col-000002-wit-000001-fol-209r-arm" xml:id="col-000002-wit-000001-fol-209r-en" xml:lang="en">
               <cb n="A"/>
               <lb n="10"/>The account
-              <lb/>of <rs type="people" ref="../indices/persons.xml#group-000010">the holy martyrs</rs> was translated
+              <lb/>of <rs type="people" ref="../indices/listperson.xml#group-000010">the holy martyrs</rs> was translated
               <lb/>from Greek writing into the Armenian language,
               <lb/>in the mother city of the Armenians,
-              <lb/>which is called <placeName ref="../indices/places.xml#place-000006">Melitene</placeName>,
+              <lb/>which is called <placeName ref="../indices/listplace.xml#place-000006">Melitene</placeName>,
               <lb n="15"/>in the Armenian era five-hundred
               <lb/>and forty-one (1092).
-              <lb/>Wherefore, may <persName ref="../indices/persons.xml#pers-000006">Christ</persName>, through the intercession of the
+              <lb/>Wherefore, may <persName ref="../indices/listperson.xml#pers-000006">Christ</persName>, through the intercession of the
               <lb/>holy martyrs, grant
               <lb/>a reward to the translator
               <lb n="20"/>and to the scribe who laboured on it, 
@@ -175,42 +175,42 @@
           </div>
         </div>
 
-        <div type="witness" corresp="../indices/witnesses.xml#col-000002-wit-000002" xml:id="col-000002-wit-000002">
+        <div type="witness" corresp="../indices/listwitness.xml#col-000002-wit-000002" xml:id="col-000002-wit-000002">
           <head>Venice, Mekhitarist monastery of San Lazzaro MS. 17, 
           <date when="1224">1224</date>, 
-          <placeName ref="../indices/places.xml#place-000007">Elâzig</placeName>
+          <placeName ref="../indices/listplace.xml#place-000007">Elâzig</placeName>
           </head>
           <ab type="miseEnPage">Colophon supplied on folio 202v. Column designation and physical line positions have not been supplied. etc etc.</ab>
           <div type="folio" n="202v" facs="#col-000002-wit-000002-facs-202v" xml:id="col-000002-wit-000002-fol-202v">
             <head>Folio 202v</head>
             <ab type="transcription" xml:id="col-000002-wit-000002-fol-202v-arm" xml:lang="xcl">
               <lb/>
-              <seg type="formula" ana="../indices/formulae.xml#asser-textual-work-pattern-01">
-                <w lemma="թարգմանել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000151" msd="Aor.Ind.Pass.3.Pl">Թարգմանեցան</w>
-                <w lemma="պատմութիւն" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000152" msd="Nom.Pl">պատմութիւնք</w>
-                <w lemma="գիրք" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000155" msd="Gen.Pl">գրոց</w>
+              <seg type="formula" ana="../indices/listformula.xml#asser-textual-work-pattern-01">
+                <w lemma="թարգմանել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000151" msd="Aor.Ind.Pass.3.Pl">Թարգմանեցան</w>
+                <w lemma="պատմութիւն" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000152" msd="Nom.Pl">պատմութիւնք</w>
+                <w lemma="գիրք" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000155" msd="Gen.Pl">գրոց</w>
                 <lb/>
-                <w lemma="սուրբ" pos="A" lemmaRef="../indices/lemmata.xml#lem-000014" msd="Gen.Pl">սրբոց</w>
-                <w lemma="վկայ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000153" msd="Gen.Pl">վկայիցս</w>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="յունարէն" pos="A" lemmaRef="../indices/lemmata.xml#lem-000154" cert="low">յունարէն</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../indices/listlemma.xml#lem-000014" msd="Gen.Pl">սրբոց</w>
+                <w lemma="վկայ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000153" msd="Gen.Pl">վկայիցս</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="յունարէն" pos="A" lemmaRef="../indices/listlemma.xml#lem-000154" cert="low">յունարէն</w>
                 <lb/>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/lemmata.xml#lem-000011" cert="low">հայ</w>
-                <w lemma="բարբառ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000157" msd="Acc.Sg" cert="low">բարբար</w>:<lb/>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="մայրաքաղաք" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000133" msd="Loc.Sg">մայրաքաղաքին</w>
-                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/lemmata.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
-                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/lemmata.xml#lem-000027" msd="Nom.Sg">որ</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/listlemma.xml#lem-000011" cert="low">հայ</w>
+                <w lemma="բարբառ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000157" msd="Acc.Sg" cert="low">բարբար</w>:<lb/>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="մայրաքաղաք" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000133" msd="Loc.Sg">մայրաքաղաքին</w>
+                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/listlemma.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/listlemma.xml#lem-000027" msd="Nom.Sg">որ</w>
                 <lb n="5"/>
-                <w lemma="կոչել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000158" msd="Pres.Ind.Pass.3.Sg">կոչի</w>
-                <w lemma="Մելիտենէ" pos="N+Top" lemmaRef="../indices/lemmata.xml#lem-000159" msd="Nom.Sg" cert="low">Մելիտինի</w>: <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">Ի</w>
-                <w lemma="թուական" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000160" msd="Loc.Sg" cert="low">թուականիս</w>
-                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/lemmata.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
-                <w lemma="ՇԽԱ" pos="NUMA+Car" lemmaRef="../indices/lemmata.xml#lem-000164">ՇԽԱ</w>:<lb/>
+                <w lemma="կոչել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000158" msd="Pres.Ind.Pass.3.Sg">կոչի</w>
+                <w lemma="Մելիտենէ" pos="N+Top" lemmaRef="../indices/listlemma.xml#lem-000159" msd="Nom.Sg" cert="low">Մելիտինի</w>: <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">Ի</w>
+                <w lemma="թուական" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000160" msd="Loc.Sg" cert="low">թուականիս</w>
+                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/listlemma.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
+                <w lemma="ՇԽԱ" pos="NUMA+Car" lemmaRef="../indices/listlemma.xml#lem-000164">ՇԽԱ</w>:<lb/>
               </seg>
-              <w lemma="ընդ" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000038">Ընդ</w>
-              <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/lemmata.xml#lem-000027" msd="Acc.Pl">որս</w>
+              <w lemma="ընդ" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000038">Ընդ</w>
+              <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/listlemma.xml#lem-000027" msd="Acc.Pl">որս</w>
               <note type="editorial">The supplied transcription ends here. The remainder of the folio is lost.</note>
             </ab>
             <ab type="translation" corresp="#col-000002-wit-000002-fol-202v-arm" xml:id="col-000002-wit-000002-fol-202v-en" xml:lang="en">
@@ -224,97 +224,97 @@
           </div>
         </div>
 
-        <div type="witness" corresp="../indices/witnesses.xml#col-000002-wit-000003" xml:id="col-000002-wit-000003">
+        <div type="witness" corresp="../indices/listwitness.xml#col-000002-wit-000003" xml:id="col-000002-wit-000003">
           <head>Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, 
           <date when="1227">1227</date>, 
-          <placeName ref="../indices/places.xml#place-000008">Ahlat</placeName>
+          <placeName ref="../indices/listplace.xml#place-000008">Ahlat</placeName>
           </head>
           <ab type="miseEnPage">Colophon supplied on folio 239v. etc etc.</ab>
           <div type="folio" n="239v" facs="#col-000002-wit-000003-facs-239v" xml:id="col-000002-wit-000003-fol-239v">
             <head>Folio 239v</head>
             <ab type="transcription" xml:id="col-000002-wit-000003-fol-239v-arm" xml:lang="xcl">
               <lb/>
-              <seg type="formula" ana="../indices/formulae.xml#asser-textual-work-pattern-01">
-                <w lemma="թարգմանել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000151" msd="Aor.Ind.Pass.3.Pl">Թարգմանեցան</w>
-                <w lemma="պատմութիւն" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000152" msd="Nom.Pl">պատմութիւնք</w>
+              <seg type="formula" ana="../indices/listformula.xml#asser-textual-work-pattern-01">
+                <w lemma="թարգմանել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000151" msd="Aor.Ind.Pass.3.Pl">Թարգմանեցան</w>
+                <w lemma="պատմութիւն" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000152" msd="Nom.Pl">պատմութիւնք</w>
                 <lb/>
-                <w lemma="սուրբ" pos="A" lemmaRef="../indices/lemmata.xml#lem-000014" msd="Gen.Pl">սրբոց</w>
-                <w lemma="վկայ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000153" msd="Gen.Pl">վկայիցս</w>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="յունարէն" pos="A" lemmaRef="../indices/lemmata.xml#lem-000154" cert="low">յունարէն</w>
-                <w lemma="գիրք" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000155" msd="Gen.Pl">գրոց</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../indices/listlemma.xml#lem-000014" msd="Gen.Pl">սրբոց</w>
+                <w lemma="վկայ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000153" msd="Gen.Pl">վկայիցս</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="յունարէն" pos="A" lemmaRef="../indices/listlemma.xml#lem-000154" cert="low">յունարէն</w>
+                <w lemma="գիրք" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000155" msd="Gen.Pl">գրոց</w>
                 <lb/>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/lemmata.xml#lem-000011" cert="low">հայ</w>
-                <w lemma="բարբառ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000157" msd="Acc.Sg" cert="low">բարբար</w>: <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="մայրաքաղաք" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000133" msd="Loc.Sg">մայրաքաղաքին</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/listlemma.xml#lem-000011" cert="low">հայ</w>
+                <w lemma="բարբառ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000157" msd="Acc.Sg" cert="low">բարբար</w>: <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="մայրաքաղաք" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000133" msd="Loc.Sg">մայրաքաղաքին</w>
                 <lb/>
-                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/lemmata.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
-                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/lemmata.xml#lem-000027" msd="Nom.Sg">որ</w>
-                <w lemma="կոչել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000158" msd="Pres.Ind.Pass.3.Sg">կոչի</w>
-                <w lemma="Մելիտենէ" pos="N+Top" lemmaRef="../indices/lemmata.xml#lem-000159" msd="Nom.Sg" cert="low">Մելետենի</w>:<lb n="5"/>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">Ի</w>
-                <w lemma="թուական" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000160" msd="Loc.Sg" cert="low">թուականիս</w>
-                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/lemmata.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
-                <w lemma="հինգ" pos="NUM+Car" lemmaRef="../indices/lemmata.xml#lem-000161">հինգ</w>
+                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/listlemma.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/listlemma.xml#lem-000027" msd="Nom.Sg">որ</w>
+                <w lemma="կոչել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000158" msd="Pres.Ind.Pass.3.Sg">կոչի</w>
+                <w lemma="Մելիտենէ" pos="N+Top" lemmaRef="../indices/listlemma.xml#lem-000159" msd="Nom.Sg" cert="low">Մելետենի</w>:<lb n="5"/>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">Ի</w>
+                <w lemma="թուական" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000160" msd="Loc.Sg" cert="low">թուականիս</w>
+                <w lemma="հայ" pos="N+Prop" lemmaRef="../indices/listlemma.xml#lem-000011" msd="Gen.Pl">Հայոց</w>
+                <w lemma="հինգ" pos="NUM+Car" lemmaRef="../indices/listlemma.xml#lem-000161">հինգ</w>
                 <lb/>
-                <w lemma="հարիւր" pos="NUM+Car" lemmaRef="../indices/lemmata.xml#lem-000110">հարիւր</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">և</w>
-                <w lemma="քառասուն" pos="NUM+Car" lemmaRef="../indices/lemmata.xml#lem-000162">քառասուն</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">և</w>
-                <w lemma="մի" pos="NUM+Car" lemmaRef="../indices/lemmata.xml#lem-000163" cert="low">մեկ</w>:<lb/>
+                <w lemma="հարիւր" pos="NUM+Car" lemmaRef="../indices/listlemma.xml#lem-000110">հարիւր</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">և</w>
+                <w lemma="քառասուն" pos="NUM+Car" lemmaRef="../indices/listlemma.xml#lem-000162">քառասուն</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">և</w>
+                <w lemma="մի" pos="NUM+Car" lemmaRef="../indices/listlemma.xml#lem-000163" cert="low">մեկ</w>:<lb/>
               </seg>
-              <seg type="formula" ana="../indices/formulae.xml#exp-blessing-protection-reward-pattern-01">
-                <w lemma="ընդ" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000038">Ընդ</w>
-                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/lemmata.xml#lem-000027" msd="Acc.Pl">որս</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">և</w>
-                <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../indices/lemmata.xml#lem-000053" msd="Nom.Sg">Քրիստոս</w>
-                <w lemma="բարեխաւսութիւն" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000056" msd="Ins.Sg">բարեխաւսութեամբ</w>
+              <seg type="formula" ana="../indices/listformula.xml#exp-blessing-protection-reward-pattern-01">
+                <w lemma="ընդ" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000038">Ընդ</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/listlemma.xml#lem-000027" msd="Acc.Pl">որս</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">և</w>
+                <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../indices/listlemma.xml#lem-000053" msd="Nom.Sg">Քրիստոս</w>
+                <w lemma="բարեխաւսութիւն" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000056" msd="Ins.Sg">բարեխաւսութեամբ</w>
                 <lb/>
-                <w lemma="սուրբ" pos="A" lemmaRef="../indices/lemmata.xml#lem-000014" msd="Gen.Pl">սրբոցս</w>
-                <w lemma="տալ" pos="V" lemmaRef="../indices/lemmata.xml#lem-000128" msd="Aor.Sub.Act.3.Sg">տացէ</w>
-                <w lemma="վարձ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000165" msd="Acc.Pl">վարձս</w>
-                <w lemma="բարի" pos="A" lemmaRef="../indices/lemmata.xml#lem-000173" msd="Gen.Pl" cert="low">բարեաց</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../indices/listlemma.xml#lem-000014" msd="Gen.Pl">սրբոցս</w>
+                <w lemma="տալ" pos="V" lemmaRef="../indices/listlemma.xml#lem-000128" msd="Aor.Sub.Act.3.Sg">տացէ</w>
+                <w lemma="վարձ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000165" msd="Acc.Pl">վարձս</w>
+                <w lemma="բարի" pos="A" lemmaRef="../indices/listlemma.xml#lem-000173" msd="Gen.Pl" cert="low">բարեաց</w>
                 <lb/>
-                <w lemma="թարգմանիչ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000174" msd="Dat.Sg">թարգմանչի</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">և</w>
-                <w lemma="գրիչ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000021" msd="Dat.Sg" cert="low">գրչի</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">եւ</w>
-                <w lemma="ամենայն" pos="PRO+Ind" lemmaRef="../indices/lemmata.xml#lem-000147" msd="Dat.Pl" cert="low">ամենայն</w>
+                <w lemma="թարգմանիչ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000174" msd="Dat.Sg">թարգմանչի</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">և</w>
+                <w lemma="գրիչ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000021" msd="Dat.Sg" cert="low">գրչի</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">եւ</w>
+                <w lemma="ամենայն" pos="PRO+Ind" lemmaRef="../indices/listlemma.xml#lem-000147" msd="Dat.Pl" cert="low">ամենայն</w>
                 <lb n="10"/>
-                <w lemma="աշխատել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000166" msd="Part.Dat.Pl" cert="low">աշխատելոցս</w>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="սա" pos="PRO+Dem" lemmaRef="../indices/lemmata.xml#lem-000167" msd="Loc.Sg">սմա</w>
-                <w lemma="բան" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000175" msd="Ins.Sg">բանիւ</w>
+                <w lemma="աշխատել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000166" msd="Part.Dat.Pl" cert="low">աշխատելոցս</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="սա" pos="PRO+Dem" lemmaRef="../indices/listlemma.xml#lem-000167" msd="Loc.Sg">սմա</w>
+                <w lemma="բան" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000175" msd="Ins.Sg">բանիւ</w>
                 <lb/>
-                <w lemma="շարադրել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000176" msd="Vnoun.Gen.Sg" cert="low">շարադրելոյ</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">եւ</w>
-                <w lemma="գրիչ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000021" msd="Dat.Sg" cert="low">գրչի</w>
-                <w lemma="գրել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000013" msd="Vnoun.Gen.Sg" cert="low">գրելոյ</w>
+                <w lemma="շարադրել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000176" msd="Vnoun.Gen.Sg" cert="low">շարադրելոյ</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">եւ</w>
+                <w lemma="գրիչ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000021" msd="Dat.Sg" cert="low">գրչի</w>
+                <w lemma="գրել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000013" msd="Vnoun.Gen.Sg" cert="low">գրելոյ</w>
               </seg>
-              <seg type="formula" ana="../indices/formulae.xml#exp-doxology-pattern-03">
-                <w lemma="այն" pos="PRO+Dem" lemmaRef="../indices/lemmata.xml#lem-000177" msd="Nom.Sg">այն</w>
-                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/lemmata.xml#lem-000027" msd="Nom.Sg">որ</w>
+              <seg type="formula" ana="../indices/listformula.xml#exp-doxology-pattern-03">
+                <w lemma="այն" pos="PRO+Dem" lemmaRef="../indices/listlemma.xml#lem-000177" msd="Nom.Sg">այն</w>
+                <w lemma="որ" pos="PRO+Rel" lemmaRef="../indices/listlemma.xml#lem-000027" msd="Nom.Sg">որ</w>
                 <lb/>
-                <w lemma="միշտ" pos="I+Adv" lemmaRef="../indices/lemmata.xml#lem-000178">միշտ</w>
-                <w lemma="աւրհնել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000172" msd="Part.Nom.Sg">աւրհնեալ</w>
-                <w lemma="եմ" pos="V" lemmaRef="../indices/lemmata.xml#lem-000072" msd="Pres.Ind.3.Sg">է</w>
-                <w lemma="յաւիտեան" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000139" msd="Acc.Pl">յաւիտեանս</w>
-                <w lemma="յաւիտեան" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000139" msd="Gen.Pl">յաւիտենից</w>: <w lemma="ամէն" pos="I+Intj" lemmaRef="../indices/lemmata.xml#lem-000037">Ամեն</w>:<lb/>
+                <w lemma="միշտ" pos="I+Adv" lemmaRef="../indices/listlemma.xml#lem-000178">միշտ</w>
+                <w lemma="աւրհնել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000172" msd="Part.Nom.Sg">աւրհնեալ</w>
+                <w lemma="եմ" pos="V" lemmaRef="../indices/listlemma.xml#lem-000072" msd="Pres.Ind.3.Sg">է</w>
+                <w lemma="յաւիտեան" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000139" msd="Acc.Pl">յաւիտեանս</w>
+                <w lemma="յաւիտեան" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000139" msd="Gen.Pl">յաւիտենից</w>: <w lemma="ամէն" pos="I+Intj" lemmaRef="../indices/listlemma.xml#lem-000037">Ամեն</w>:<lb/>
               </seg>
-              <seg type="formula" ana="../indices/formulae.xml#exp-mercy-forgiveness-pattern-04">
-                <w lemma="աղաւթք" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000031" msd="Ins.Pl">Աղաւթիւք</w>
-                <w lemma="սուրբ" pos="A" lemmaRef="../indices/lemmata.xml#lem-000014" msd="Gen.Pl">սրբոցս</w>
-                <w lemma="ողորմել" pos="V" lemmaRef="../indices/lemmata.xml#lem-000036" msd="Imp.Act.2.Sg">ողորմեա</w>
-                <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../indices/lemmata.xml#lem-000053" msd="Nom.Sg">Քրիստոս</w>
-                <w lemma="Աստուած" pos="N+Prop" lemmaRef="../indices/lemmata.xml#lem-000034" msd="Nom.Sg">Աստուած</w>
+              <seg type="formula" ana="../indices/listformula.xml#exp-mercy-forgiveness-pattern-04">
+                <w lemma="աղաւթք" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000031" msd="Ins.Pl">Աղաւթիւք</w>
+                <w lemma="սուրբ" pos="A" lemmaRef="../indices/listlemma.xml#lem-000014" msd="Gen.Pl">սրբոցս</w>
+                <w lemma="ողորմել" pos="V" lemmaRef="../indices/listlemma.xml#lem-000036" msd="Imp.Act.2.Sg">ողորմեա</w>
+                <w lemma="Քրիստոս" pos="N+Ant" lemmaRef="../indices/listlemma.xml#lem-000053" msd="Nom.Sg">Քրիստոս</w>
+                <w lemma="Աստուած" pos="N+Prop" lemmaRef="../indices/listlemma.xml#lem-000034" msd="Nom.Sg">Աստուած</w>
                 <lb/>
-                <w lemma="Վարդան" pos="N+Ant" lemmaRef="../indices/lemmata.xml#lem-000179" cert="low">Վարդան</w>
-                <w lemma="վարդապետ" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000180" cert="low">վարդապետ</w>
-                <w lemma="և" pos="I+Conj" lemmaRef="../indices/lemmata.xml#lem-000019">եւ</w>
-                <w lemma="ստացող" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000185" msd="Sg" cert="low">ստացող</w>
-                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/lemmata.xml#lem-000009">ի</w>
-                <w lemma="գիրք" pos="N+Com" lemmaRef="../indices/lemmata.xml#lem-000155" msd="Gen.Pl">գրոցս</w>: <w lemma="ամէն" pos="I+Intj" lemmaRef="../indices/lemmata.xml#lem-000037">Ամեն</w>:</seg>
+                <w lemma="Վարդան" pos="N+Ant" lemmaRef="../indices/listlemma.xml#lem-000179" cert="low">Վարդան</w>
+                <w lemma="վարդապետ" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000180" cert="low">վարդապետ</w>
+                <w lemma="և" pos="I+Conj" lemmaRef="../indices/listlemma.xml#lem-000019">եւ</w>
+                <w lemma="ստացող" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000185" msd="Sg" cert="low">ստացող</w>
+                <w lemma="ի" pos="I+Prep" lemmaRef="../indices/listlemma.xml#lem-000009">ի</w>
+                <w lemma="գիրք" pos="N+Com" lemmaRef="../indices/listlemma.xml#lem-000155" msd="Gen.Pl">գրոցս</w>: <w lemma="ամէն" pos="I+Intj" lemmaRef="../indices/listlemma.xml#lem-000037">Ամեն</w>:</seg>
             </ab>
             <ab type="translation" corresp="#col-000002-wit-000003-fol-239v-arm" xml:id="col-000002-wit-000003-fol-239v-en" xml:lang="en">
               <lb/>English translation
