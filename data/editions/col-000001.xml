@@ -294,7 +294,7 @@
               <lb/>worthy of prayers, and may <persName ref="../indices/listperson.xml#pers-000011">God</persName>
               <lb/>have mercy on you.
               <lb/>Amen.
-              <seg type="historicalNarrative" corresp="../indices/events.xml#event-000004">
+              <seg type="historicalNarrative" corresp="../indices/listevent.xml#event-000004">
               <lb n="10"/>And the same
               <lb/>for my brother
               <lb/> <persName ref="../indices/listperson.xml#pers-000002">Yovhannes</persName>, who
@@ -450,7 +450,7 @@
               <lb/>multitude
               <lb/>through the
               <lb n="15"/>instigation of
-              <seg type="historicalNarrative" corresp="../indices/events.xml#event-000001">
+              <seg type="historicalNarrative" corresp="../indices/listevent.xml#event-000001">
               <lb/>the <persName ref="../indices/listperson.xml#pers-000011">almighty God</persName>. And they came
               <lb/>as far as
               <lb/> <placeName ref="../indices/listplace.xml#place-000002">Antioch</placeName> and
@@ -464,7 +464,7 @@
               <lb/>slaughtered the
               <lb/>impious. And
               </seg>
-              <seg type="historicalNarrative" corresp="../indices/events.xml#event-000002">
+              <seg type="historicalNarrative" corresp="../indices/listevent.xml#event-000002">
               <lb/>after three days
               <lb/>an innumerable
               <lb n="10"/>host
@@ -590,7 +590,7 @@
             </ab>
             <ab corresp="#col-000001-wit-000001-fol-280r-arm" xml:id="col-000001-wit-000001-fol-280r-en" type="translation" xml:lang="en">
               <cb n="A"/>
-              <seg type="historicalNarrative" corresp="../indices/events.xml#event-000002">
+              <seg type="historicalNarrative" corresp="../indices/listevent.xml#event-000002">
               <lb/>And those <hi rend="italic">Aryan</hi> peoples
               <lb/>went forth
               <lb/>and battle was joined.
@@ -615,7 +615,7 @@
               <lb/>victory to
               <lb/>His Servants.
               </seg>
-              <seg type="historicalNarrative" corresp="../indices/events.xml#event-000003">
+              <seg type="historicalNarrative" corresp="../indices/listevent.xml#event-000003">
               <lb/>In <anchor type="commentary" xml:id="col-000001-8"/>the same year<note type="commentary" corresp="#col-000001-8">Here referring to the Armenian era 548 (1099 CE), which is stated earlier in the colophon.</note>, they captured
               <lb n="5"/>the great and renowned
               <lb/> <anchor type="commentary" xml:id="col-000001-9"/>metropolis<note type="commentary" corresp="#col-000001-9"> <foreign xml:lang="xcl">Մայրաքաղաք</foreign>, a calque on the Greek <foreign xml:lang="grc">μητρόπολις</foreign>.</note>
