@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../../schema/tei_all.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authority-pos" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="listpos.xml" xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>

@@ -2,6 +2,16 @@
 <s:schema xmlns:s="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
    <s:title>Schematron</s:title>
    <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0" />
+   <s:pattern id="filename">
+      <s:rule context="tei:TEI">
+         <s:let name="filename"
+            value="tokenize(base-uri(.), '/')[last()]" />
+
+         <s:assert test="@xml:id = $filename">
+            The xml:id of the TEI document must match its filename, including the .xml extension.
+         </s:assert>
+      </s:rule>
+   </s:pattern>
    <s:pattern>
       <s:rule context="tei:titleStmt">
          <s:assert test="tei:title[@level='m']">
@@ -12,6 +22,7 @@
          </s:assert>
       </s:rule>
    </s:pattern>
+
    <s:pattern id="pointer-resolves">
       <s:rule context="@corresp | @ref | @target | @source | @ana">
          <s:let name="base" value="base-uri(.)" />
