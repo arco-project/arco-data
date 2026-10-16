@@ -63,17 +63,6 @@
       <listBibl xml:id="colophons">
         <head>Colophon ID Register</head>
 
-<!--Colophon 1 -->
-        <bibl xml:id="col-000001" type="colophon" subtype="production">
-          <title type="descriptive">Colophon 1: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fols. 278v-280v
-        <date when="1099">1099 CE (Armenian era 548)</date>, 
-        <placeName ref="listplace.xml#place-000001">Alexandria</placeName>
-        </title>
-          <note type="identification">Colophon preserved in Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, recording the writing and completion of the Gospel in Alexandria in Armenian era 548 (1099 CE), with prayers for remembrance and a historical narrative.</note>
-          <ref type="edition" target="../colophons/col-000001.xml">Colophon edition</ref>
-          <note type="source">Supply the corresponding entry in Matevosyan and Hovsepyan where available, including entry number and page references, with links to listbibl.xml. Record when no corresponding entry is available.</note>
-        </bibl>
-
 <!--Colophon 2 -->
         <bibl xml:id="col-000002" type="colophon" subtype="production">
           <title type="descriptive">Colophon 2: Translation of the Martyrdom of Saints Eudoxios, Romylos, Zenon, and Makarios

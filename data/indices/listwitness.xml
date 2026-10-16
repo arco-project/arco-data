@@ -68,14 +68,6 @@
       <listWit xml:id="witnesses">
         <head>Colophon Witnesses</head>
 
-        <!-- Colophon 1: M288 -->
-        <witness corresp="listcolophon.xml#col-000001" xml:id="col-000001-wit-000001">
-          <ref type="manuscript" target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>
-          <locus from="278v" to="280v">Fols. 278v-280v: column B on 278v, columns A and B on 279r-280r, and column A on 280v.</locus>
-          <note type="transmissionStatus">Original inscription of the colophon.</note>
-          <note type="inscriptionDate"><date when="1099">1099 CE (Armenian era 548)</date>. The date recorded in the colophon dates its original inscription.</note>
-        </witness>
-
         <!-- Colophon 2: P178 -->
         <witness corresp="listcolophon.xml#col-000002" xml:id="col-000002-wit-000001">
           <ref type="manuscript" target="manuscripts.xml#ms-Paris-Arm-178">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>
