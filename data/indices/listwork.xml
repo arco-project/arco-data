@@ -68,7 +68,7 @@
           <title type="variant" xml:lang="en">Holy Gospels</title>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The collection of the Gospels of Matthew, Mark, Luke, and John in Classical Armenian. References to the Holy Gospel in Colophon 1 identify the collection as a whole.</note>
-          <note type="source">Identified from <ref target="listcolophon.xml#col-000001">Colophon 1</ref> and the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
+          <note type="source">Identified from <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref> and the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
         <bibl xml:id="work-000002" type="work">
@@ -76,7 +76,7 @@
           <author><persName ref="listperson.xml#pers-000010">Grigory of Narek</persName></author>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Book of Lamentations by Grigory of Narek, cited in the commentary to Colophon 1 for parallels to its doxological language. The modern publication cited there is in listbibl.xml.</note>
-          <note type="source">The commentary to <ref target="listcolophon.xml#col-000001">Colophon 1</ref> cites <bibl ref="listbibl.xml#bibl-000005">Narek (2008), <citedRange unit="page">167, 552</citedRange></bibl>.</note>
+          <note type="source">The commentary to <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref> cites <bibl ref="listbibl.xml#bibl-000005">Narek (2008), <citedRange unit="page">167, 552</citedRange></bibl>.</note>
         </bibl>
 
         <bibl xml:id="work-000003" type="work">

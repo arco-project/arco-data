@@ -84,7 +84,7 @@
                  Activate only after verification; use WGS84 decimal degrees. -->
           </location>
           <note type="identification">The settlement named as the place of completion of the Gospel in Colophon 1.</note>
-          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref>.</note>
           <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
           <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
           <bibl>
@@ -110,7 +110,7 @@
                  Activate only after verification; use WGS84 decimal degrees. -->
           </location>
           <note type="identification">The city named in the historical narrative of Colophon 1.</note>
-          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref>.</note>
           <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
           <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
           <bibl>
@@ -133,7 +133,7 @@
             <geo>31.76904, 35.21633</geo> <!-- copy from geonames COORDINATES, https://www.geonames.org/281184/jerusalem.html --> 
           </location>
           <note type="identification">The city named in the historical narrative of Colophon 1.</note>
-          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref>.</note>
           <note type="uncertainty">Insert unresolved identification or historical-location questions here, if applicable.</note>
           <note type="coordinates">Insert the coordinate source, precision, uncertainty, and whether the point represents an exact site or an approximate centre.</note>
           <bibl>
@@ -146,7 +146,7 @@
         <place xml:id="place-000004" type="region">
           <placeName type="preferred" xml:lang="en">Eranšahr</placeName>
           <note type="identification">The historical region named in the editorial note explaining the use of Aryan in Colophon 1. Its historical scope is to be documented separately from modern administrative boundaries.</note>
-          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref>.</note>
           <bibl><ref target="listbibl.xml#bibl-000006">Greenwood (2019)</ref></bibl>
         </place>
 
@@ -156,13 +156,13 @@
             <settlement ref="#place-000002">Antioch</settlement>
           </location>
           <note type="identification">The church named in the account of the celebration following victory at Antioch in Colophon 1. The record identifies the church as referred to in the text; its precise site remains to be established.</note>
-          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000001">Colophon 1</ref>.</note>
+          <note type="attestation">Referenced in <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref>.</note>
         </place>
 
         <place xml:id="place-000006" type="settlement">
           <placeName type="preferred" xml:lang="en">Melitene</placeName>
           <note type="identification">The settlement named as the place of translation in Colophon 2, dated 1092.</note>
-          <note type="attestation">Referenced in <ref target="listcolophon.xml#col-000002">Colophon 2</ref>.</note>
+          <note type="attestation">Referenced in <ref target="../editions/col-000002.xml#col-000002-edition">Colophon 2</ref>.</note>
         </place>
 
         <place xml:id="place-000007" type="settlement">

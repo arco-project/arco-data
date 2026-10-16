@@ -96,7 +96,7 @@
             </msItem>
             <msItem>
               <locus from="278v" to="280v">278v-280v</locus>
-              <title type="desc" ref="listcolophon.xml#col-000001">Colophon 1</title>
+              <title type="desc" ref="../editions/col-000001.xml#col-000001-edition">Colophon 1</title>
             </msItem>
           </msContents>
           <physDesc>
