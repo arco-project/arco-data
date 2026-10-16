@@ -2,6 +2,19 @@
 <s:schema xmlns:s="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
    <s:title>Schematron</s:title>
    <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0" />
+   <s:pattern id="listWit">
+      <s:rule context="tei:TEI[starts-with(@xml:id, 'col-')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc">
+         <s:assert test="tei:listWit">
+            The sourceDesc must contain a listWit element.
+         </s:assert>
+      </s:rule>
+
+      <s:rule context="tei:TEI[starts-with(@xml:id, 'col-')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit">
+         <s:assert test="@xml:id = 'witnesses'">
+            The xml:id of listWit must be "witnesses".
+         </s:assert>
+      </s:rule>
+   </s:pattern>
    <s:pattern id="filename">
       <s:rule context="tei:TEI">
          <s:let name="filename"

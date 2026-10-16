@@ -35,7 +35,7 @@
               Record when no corresponding entry is available.</note>
           </bibl>
         </listBibl>
-        <listWit>
+        <listWit xml:id="witnesses">
           <!-- Colophon 1: M288 -->
           <witness xml:id="col-000001-wit-000001-md" corresp="#col-000001-wit-000001">
             <ref type="manuscript" target="../indices/listmanuscript.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>
