@@ -109,16 +109,11 @@
       <graphic url="../images/ms-mat-0288/288_fol_280b.JPG"/>
     </surface>
   </facsimile>
-
   <text>
     <body>
       <div type="edition" xml:id="col-000001-edition" corresp="#col-000001-bibl">
         <div type="witness" xml:id="col-000001-wit-000001" corresp="#col-000001-wit-000001-md">
-          <ab type="miseEnPage" xml:id="col-000001-wit-000001-layout">
-          The supplied transcription locates the colophon in column B of 278v, columns A and B of 279r, 279v, and 280r, and column A of 280v. 
-          It records 11 lines on 278v B; 19 and 20 on 279r A/B; 19 and 19 on 279v A/B; 19 and 18 on 280r A/B; and 10 on 280v A.  
-          Placement relative to Gospel text, spacing, rubrication, decoration, and hands have not yet been described.</ab>
-          
+          <ab type="miseEnPage" xml:id="col-000001-wit-000001-layout">The supplied transcription locates the colophon in column B of 278v, columns A and B of 279r, 279v, and 280r, and column A of 280v. It records 11 lines on 278v B; 19 and 20 on 279r A/B; 19 and 19 on 279v A/B; 19 and 18 on 280r A/B; and 10 on 280v A. Placement relative to Gospel text, spacing, rubrication, decoration, and hands have not yet been described.</ab>
           <div type="folio" n="278v" facs="#col-000001-wit-000001-facs-278v" xml:id="col-000001-wit-000001-fol-278v">
             <head>Folio 278v</head>
             <ab xml:id="col-000001-wit-000001-fol-278v-arm" type="transcription" xml:lang="xcl">
