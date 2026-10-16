@@ -78,7 +78,7 @@
           <eventName xml:lang="en">Capture of Antioch</eventName>
           <note type="description">The capture of <placeName ref="listplace.xml#place-000002">Antioch</placeName> by the <rs type="people" ref="listperson.xml#group-000001">Franks</rs>. Colophon 1 narrates their arrival, siege, and capture of the city.</note>
           <note type="dating">The edition retains the colophon's own wording and chronology; this year does not derive from the manuscript's production date of 1099.</note>
-          <note type="evidence">Identified in the historical narrative in <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279v-en">Colophon 1, folio 279v, English translation</ref>.</note>
+          <note type="evidence">Identified in the historical narrative in <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279v-en">Colophon 1, folio 279v, English translation</ref>.</note>
           <bibl><note>Insert a supporting listbibl.xml reference and the relevant citedRange for the event's identification and historical dating.</note></bibl>
         </event>
 
@@ -86,7 +86,7 @@
           <eventName xml:lang="en">Arrival and defeat of the Muslim army at Antioch</eventName>
           <note type="description">The arrival of a Muslim army at <placeName ref="listplace.xml#place-000002">Antioch</placeName> and its defeat by the <rs type="people" ref="listperson.xml#group-000001">Franks</rs>. Colophon 1 describes the army as comprising <rs type="people" ref="listperson.xml#group-000003">Turks</rs>, <rs type="people" ref="listperson.xml#group-000004">Persians</rs>, <rs type="people" ref="listperson.xml#group-000005">Arabs</rs>, and <rs type="people" ref="listperson.xml#group-000006">Muslims</rs>. The linked narrative includes the encirclement, battle, Frankish victory, and subsequent thanksgiving at the <placeName ref="listplace.xml#place-000005">church of Saint Peter</placeName>.</note>
           <note type="dating">The normalized historical year 1098, relative intervals stated by the colophon remain part of its narrative account.</note>
-          <note type="evidence">Identified in the connected passages of <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279v-en">Colophon 1, folio 279v, English translation</ref> and <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-280r-en">folio 280r, English translation</ref>. Both passages retain the same event pointer.</note>
+          <note type="evidence">Identified in the connected passages of <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279v-en">Colophon 1, folio 279v, English translation</ref> and <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-280r-en">folio 280r, English translation</ref>. Both passages retain the same event pointer.</note>
           <note type="uncertainty">The stated army size, group labels, and explanation of victory are reported claims of the colophon, not independently confirmed by this record.</note>
           <bibl><note>Insert a supporting listbibl.xml reference and the relevant citedRange for the event's identification and historical dating.</note></bibl>
         </event>
@@ -95,7 +95,7 @@
           <eventName xml:lang="en">Capture of Jerusalem</eventName>
           <note type="description">The capture of <placeName ref="listplace.xml#place-000003">Jerusalem</placeName> by the <rs type="people" ref="listperson.xml#group-000001">Franks</rs>. Colophon 1 narrates the city's capture and the killing of its opponents.</note>
           <note type="dating">The edition's note interprets the expression “in the same year” as referring to Armenian era 548 (1099 CE), stated earlier in the colophon.</note>
-          <note type="evidence">Identified in the historical narrative in <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-280r-en">Colophon 1, folio 280r, English translation</ref>.</note>
+          <note type="evidence">Identified in the historical narrative in <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-280r-en">Colophon 1, folio 280r, English translation</ref>.</note>
           <bibl><note>Insert a supporting listbibl.xml reference and the relevant citedRange for the event's identification and historical dating.</note></bibl>
         </event>
 
@@ -104,7 +104,7 @@
           <note type="description">The execution of <persName ref="listperson.xml#pers-000002">Yovhannes</persName>, brother of <persName ref="listperson.xml#pers-000001">Aharovn</persName>, as reported in Colophon 1. The colophon attributes the execution to the <rs type="people" ref="listperson.xml#group-000007">Southern nations</rs>.</note>
           <note type="dating">The report occurs in the colophon dated 1099. No independent date of the execution is supplied; no normalized event date is assigned.</note>
           <note type="uncertainty">The location and more precise identification of those responsible remain unspecified. This occurrence is recorded on the evidence of the colophon.</note>
-          <note type="evidence">Reported in <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-en">Colophon 1, folio 279r, English translation</ref>.</note>
+          <note type="evidence">Reported in <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-en">Colophon 1, folio 279r, English translation</ref>.</note>
           <bibl><note>Insert supporting listbibl.xml references and relevant citedRange values if further evidence becomes available.</note></bibl>
         </event>
 

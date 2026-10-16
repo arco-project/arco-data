@@ -68,7 +68,7 @@
           <title type="variant" xml:lang="en">Holy Gospels</title>
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The collection of the Gospels of Matthew, Mark, Luke, and John in Classical Armenian. References to the Holy Gospel in Colophon 1 identify the collection as a whole.</note>
-          <note type="source">Identified from <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref> and the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
+          <note type="source">Identified from <ref target="../editions/col-000001.xml#col-000001-edition">Colophon 1</ref> and the contents supplied for <ref target="listmanuscript.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
         <bibl xml:id="work-000002" type="work">
@@ -91,7 +91,7 @@
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Gospel of Matthew in Classical Armenian.</note>
           <note type="textualRelation">Part of <ref type="partOf" target="listwork.xml#work-000001">The Four Gospels</ref>.</note>
-          <note type="source">Identified in the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
+          <note type="source">Identified in the contents supplied for <ref target="listmanuscript.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
         <bibl xml:id="work-000005" type="work">
@@ -99,7 +99,7 @@
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Gospel of Mark in Classical Armenian.</note>
           <note type="textualRelation">Part of <ref type="partOf" target="listwork.xml#work-000001">The Four Gospels</ref>.</note>
-          <note type="source">Identified in the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
+          <note type="source">Identified in the contents supplied for <ref target="listmanuscript.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
         <bibl xml:id="work-000006" type="work">
@@ -107,7 +107,7 @@
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Gospel of Luke in Classical Armenian.</note>
           <note type="textualRelation">Part of <ref type="partOf" target="listwork.xml#work-000001">The Four Gospels</ref>.</note>
-          <note type="source">Identified in the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
+          <note type="source">Identified in the contents supplied for <ref target="listmanuscript.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
 
         <bibl xml:id="work-000007" type="work">
@@ -115,7 +115,7 @@
           <textLang mainLang="xcl">Classical Armenian</textLang>
           <note type="identification">The Gospel of John in Classical Armenian.</note>
           <note type="textualRelation">Part of <ref type="partOf" target="listwork.xml#work-000001">The Four Gospels</ref>.</note>
-          <note type="source">Identified in the contents supplied for <ref target="manuscripts.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
+          <note type="source">Identified in the contents supplied for <ref target="listmanuscript.xml#ms-Yerevan-288">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288</ref>.</note>
         </bibl>
       </listBibl>
     </body>

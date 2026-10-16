@@ -64,22 +64,22 @@
               <catDesc>Records copying, making, or completing a manuscript or textual unit, including identification of those responsible and contextual dates and places. Illustrative English example: <q>This Gospel was completed by Aharovn in Alexandria.</q></catDesc>
               <category xml:id="asser-production-pattern-01" n="Writing dated and attributed to a scribe">
                 <catDesc>States that a sacred text was written in a specified year by the hand of a named scribe.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-278v-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-278v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 278v</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-278v-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-278v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 278v</ref>:
                   <q xml:lang="xcl">ի թուականութեանն Հայոց ՇԽԸ գրեցաւ սուրբ [Աւ]ետարանս ձեռամբ Ահարովնի</q>
                 </catDesc>
               </category>
               <category xml:id="asser-production-pattern-02" n="Writing situated under ecclesiastical and political authorities">
                 <catDesc>Situates the writing of a sacred text within the tenure of named ecclesiastical and political authorities.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-279v-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279v</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-279v-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279v</ref>:
                   <q xml:lang="xcl">Արդ գրեցաւ սուրբ Աւետարանս ի հայրապետութեանն տեառն Գրիգորի և յինքնակալնութեանն Հռոմայեացւոցն ազգին արիական որ են փառանգս</q>
                 </catDesc>
               </category>
               <category xml:id="asser-production-pattern-03" n="Completion in a named place under saintly protection">
                 <catDesc>Records completion of a sacred text in a named place, with saintly protection and a Christological closing phrase.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-280r-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-280r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 280r</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-280r-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-280r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 280r</ref>:
                   <q xml:lang="xcl">աւարտեցաւ սուրբ Աւետարանս ի մայրաքաղաք Աղեկսանդրու ընդ հովանե[ա]ւ Յովհաննու աւետարանչին ի Քրիստոս Յիսուս ի Տեր,</q>
                 </catDesc>
               </category>
@@ -93,16 +93,16 @@
               <catDesc>Records exemplars, translation, collation, revision, or correction. Reports performed textual work rather than asking a future reader to perform it. Illustrative English example: <q>I translated this work and checked it against another exemplar.</q></catDesc>
               <category xml:id="asser-textual-work-pattern-01" n="Translation from Greek into Armenian with place and date">
                 <catDesc>Records translation of a martyrdom account from Greek into Armenian, identifying the place and year. Singular and plural wording, spelling, and numeral notation are recorded as witness variants of this pattern.</catDesc>
-                <catDesc corresp="../colophons/col-000002.xml#col-000002-wit-000001-fol-209r-arm">
-                  <ref target="../colophons/col-000002.xml#col-000002-wit-000001-fol-209r-arm">col-000002, col-000002-wit-000001: Paris, Bibliothèque nationale de France, MS. Arménien 178, fol. 209r</ref>:
+                <catDesc corresp="../editions/col-000002.xml#col-000002-wit-000001-fol-209r-arm">
+                  <ref target="../editions/col-000002.xml#col-000002-wit-000001-fol-209r-arm">col-000002, col-000002-wit-000001: Paris, Bibliothèque nationale de France, MS. Arménien 178, fol. 209r</ref>:
                   <q xml:lang="xcl">Թարգմանեցաւ պատմութիւն սրբոց վկայիցս ի յունարէն գրոց ի հայերեն բարբառ: ի մայրաքաղաքին Հայոց որ կոչի Մելետինի: Ի թուականիս ի հինգ հարիւր քառասուն և մի:</q>
                 </catDesc>
-                <catDesc corresp="../colophons/col-000002.xml#col-000002-wit-000002-fol-202v-arm">
-                  <ref target="../colophons/col-000002.xml#col-000002-wit-000002-fol-202v-arm">col-000002, col-000002-wit-000002: Venice, Mekhitarist monastery of San Lazzaro MS. 17, fol. 202v</ref>:
+                <catDesc corresp="../editions/col-000002.xml#col-000002-wit-000002-fol-202v-arm">
+                  <ref target="../editions/col-000002.xml#col-000002-wit-000002-fol-202v-arm">col-000002, col-000002-wit-000002: Venice, Mekhitarist monastery of San Lazzaro MS. 17, fol. 202v</ref>:
                   <q xml:lang="xcl">Թարգմանեցան պատմութիւնք գրոց սրբոց վկայիցս ի յունարէն ի հայ բարբար: ի մայրաքաղաքին Հայոց որ կոչի Մելիտինի: Ի թուականիս Հայոց ՇԽԱ:</q>
                 </catDesc>
-                <catDesc corresp="../colophons/col-000002.xml#col-000002-wit-000003-fol-239v-arm">
-                  <ref target="../colophons/col-000002.xml#col-000002-wit-000003-fol-239v-arm">col-000002, col-000002-wit-000003: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, fol. 239v</ref>:
+                <catDesc corresp="../editions/col-000002.xml#col-000002-wit-000003-fol-239v-arm">
+                  <ref target="../editions/col-000002.xml#col-000002-wit-000003-fol-239v-arm">col-000002, col-000002-wit-000003: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, fol. 239v</ref>:
                   <q xml:lang="xcl">Թարգմանեցան պատմութիւնք սրբոց վկայիցս ի յունարէն գրոց ի հայ բարբար: ի մայրաքաղաքին Հայոց որ կոչի Մելետենի: Ի թուականիս Հայոց հինգ հարիւր և քառասուն և մեկ:</q>
                 </catDesc>
               </category>
@@ -121,30 +121,30 @@
               <catDesc>Offers glory or praise to God; distinguish praise offered from an instruction to a human audience to praise. Illustrative English example: <q>Glory to the holy Trinity.</q></catDesc>
               <category xml:id="exp-doxology-pattern-01" n="Praise of the Trinity through divine attributes">
                 <catDesc>Offers glory to the Trinity through a sequence of divine attributes.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-278v-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-278v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 278v</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-278v-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-278v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 278v</ref>:
                   <q xml:lang="xcl">Փառք երից անբաւից կարելեաց անկարից եռանձնե[այ] միութեան իսկունականաց</q>
                 </catDesc>
               </category>
               <category xml:id="exp-doxology-pattern-02" n="Glory forever">
                 <catDesc>Offers enduring glory to the divine recipient, using a relative clause or direct address and closing with Amen.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-280r-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-280r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 280r</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-280r-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-280r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 280r</ref>:
                   <q xml:lang="xcl">որում փառք [աւ]իտեանս ամէն:</q>
                 </catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-280v-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-280v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 280v</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-280v-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-280v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 280v</ref>:
                   <q xml:lang="xcl">և քեզ փառք յաւիտեանս ամէն</q>
                 </catDesc>
               </category>
               <category xml:id="exp-doxology-pattern-03" n="Blessed forever">
                 <catDesc>Affirms or wishes perpetual blessedness for the divine recipient and closes with Amen; grammatical differences between witnesses remain within this provisional pattern.</catDesc>
-                <catDesc corresp="../colophons/col-000002.xml#col-000002-wit-000001-fol-209r-arm">
-                  <ref target="../colophons/col-000002.xml#col-000002-wit-000001-fol-209r-arm">col-000002, col-000002-wit-000001: Paris, Bibliothèque nationale de France, MS. Arménien 178, fol. 209r</ref>:
+                <catDesc corresp="../editions/col-000002.xml#col-000002-wit-000001-fol-209r-arm">
+                  <ref target="../editions/col-000002.xml#col-000002-wit-000001-fol-209r-arm">col-000002, col-000002-wit-000001: Paris, Bibliothèque nationale de France, MS. Arménien 178, fol. 209r</ref>:
                   <q xml:lang="xcl">ինքն եղիցի աւրհնեալ յաւիտեանս: Ամէն:</q>
                 </catDesc>
-                <catDesc corresp="../colophons/col-000002.xml#col-000002-wit-000003-fol-239v-arm">
-                  <ref target="../colophons/col-000002.xml#col-000002-wit-000003-fol-239v-arm">col-000002, col-000002-wit-000003: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, fol. 239v</ref>:
+                <catDesc corresp="../editions/col-000002.xml#col-000002-wit-000003-fol-239v-arm">
+                  <ref target="../editions/col-000002.xml#col-000002-wit-000003-fol-239v-arm">col-000002, col-000002-wit-000003: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, fol. 239v</ref>:
                   <q xml:lang="xcl">այն որ միշտ աւրհնեալ է յաւիտեանս յաւիտենից: Ամեն:</q>
                 </catDesc>
               </category>
@@ -162,8 +162,8 @@
               <catDesc>Formulaic expressions of unworthiness, sinfulness, deficient skill, or other limitations, including apologies for faults in the work. Illustrative English example: <q>I, the unworthy and ignorant scribe, regret the faults in my writing.</q></catDesc>
               <category xml:id="exp-scribal-humility-pattern-01" n="Unworthy scribe and monk">
                 <catDesc>Describes the scribe through expressions of deficient ability and monastic unworthiness.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-278v-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-278v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 278v</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-278v-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-278v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 278v</ref>:
                   <q xml:lang="xcl">ախմարի և փանաքի գրչի և անպիտան կրաւնաւորի</q>
                 </catDesc>
               </category>
@@ -181,33 +181,33 @@
               <catDesc>Petitions God for mercy or remission of sins. A request that a human reader pray for forgiveness belongs to remembrance and prayer. Illustrative English example: <q>May God forgive those who wrote this book.</q></catDesc>
               <category xml:id="exp-mercy-forgiveness-pattern-01" n="Wish for divine mercy upon the audience">
                 <catDesc>Wishes divine mercy upon the addressees; differences in the extent of the audience do not create a new pattern.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
                   <q xml:lang="xcl">և Աստուած ձեզ ողորմեսցի ամէն·</q>
                 </catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
                   <q xml:lang="xcl">և Աստուած ամենեցուն ողորմեսցի ամէն·</q>
                 </catDesc>
               </category>
               <category xml:id="exp-mercy-forgiveness-pattern-02" n="Mercy, erasure of sins, and inscription in the Book of Life">
                 <catDesc>Petitions for mercy upon a named soul through saintly intercession, erasure of the record of sins, and inscription in the Book of Life.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
                   <q xml:lang="xcl">և Քրիստոս Աստուած այս սուրբ Աւետարանչացս բարէխաւսութեամբ և սուրբ Աստուածածին և սուրբ Կարապետն բարէխաւսութեամբ ողորմեսցի Յովհաննիսի հոգւոյն և ջնջեսցէ զձեռագիր յանցանաց նորա և գրեսց[է] ի դպրութիւն կենաց ամէն</q>
                 </catDesc>
               </category>
               <category xml:id="exp-mercy-forgiveness-pattern-03" n="Personal plea for mercy and forgiveness">
                 <catDesc>The speaker petitions God for mercy in distress and forgiveness of sins, invoking divine ability.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-280v-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-280v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 280v</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-280v-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-280v-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 280v</ref>:
                   <q xml:lang="xcl">Տէր Աստուած ողորմեա նեղացելոյս Ահարոնի շնորհեա իմ բազում մեղացն թողութիւն զի դու կարող ես ամենայնի,</q>
                 </catDesc>
               </category>
               <category xml:id="exp-mercy-forgiveness-pattern-04" n="Mercy for a named beneficiary through saintly prayers">
                 <catDesc>Invokes the saints’ prayers and asks Christ God for mercy upon a named beneficiary. Names and contextual roles are variable.</catDesc>
-                <catDesc corresp="../colophons/col-000002.xml#col-000002-wit-000003-fol-239v-arm">
-                  <ref target="../colophons/col-000002.xml#col-000002-wit-000003-fol-239v-arm">col-000002, col-000002-wit-000003: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, fol. 239v</ref>:
+                <catDesc corresp="../editions/col-000002.xml#col-000002-wit-000003-fol-239v-arm">
+                  <ref target="../editions/col-000002.xml#col-000002-wit-000003-fol-239v-arm">col-000002, col-000002-wit-000003: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, fol. 239v</ref>:
                   <q xml:lang="xcl">Աղաւթիւք սրբոցս ողորմեա Քրիստոս Աստուած Վարդան վարդապետ եւ ստացող ի գրոցս: Ամեն:</q>
                 </catDesc>
               </category>
@@ -217,12 +217,12 @@
               <catDesc>Wishes or petitions for divine blessing, protection, or reward, including through saintly intercession. Remembrance formulae belong to the remembrance and prayer category.</catDesc>
               <category xml:id="exp-blessing-protection-reward-pattern-01" n="Reward for those involved in the text">
                 <catDesc>Wishes a divine reward through the martyrs’ intercession for the translator, scribe, and others involved in producing or receiving the text. The beneficiaries vary between witnesses.</catDesc>
-                <catDesc corresp="../colophons/col-000002.xml#col-000002-wit-000001-fol-209r-arm">
-                  <ref target="../colophons/col-000002.xml#col-000002-wit-000001-fol-209r-arm">col-000002, col-000002-wit-000001: Paris, Bibliothèque nationale de France, MS. Arménien 178, fol. 209r</ref>:
+                <catDesc corresp="../editions/col-000002.xml#col-000002-wit-000001-fol-209r-arm">
+                  <ref target="../editions/col-000002.xml#col-000002-wit-000001-fol-209r-arm">col-000002, col-000002-wit-000001: Paris, Bibliothèque nationale de France, MS. Arménien 178, fol. 209r</ref>:
                   <q xml:lang="xcl">Ընդ որս և Քրիստոս բարեխաւսութեամբ սուրբ վկայից տացէ վարձս թարգմանողին և գրուղին աշխատելոց ի սմա, ընթերցաւղաց եւ լսաւղաց եւ ստացաւղաց եւ</q>
                 </catDesc>
-                <catDesc corresp="../colophons/col-000002.xml#col-000002-wit-000003-fol-239v-arm">
-                  <ref target="../colophons/col-000002.xml#col-000002-wit-000003-fol-239v-arm">col-000002, col-000002-wit-000003: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, fol. 239v</ref>:
+                <catDesc corresp="../editions/col-000002.xml#col-000002-wit-000003-fol-239v-arm">
+                  <ref target="../editions/col-000002.xml#col-000002-wit-000003-fol-239v-arm">col-000002, col-000002-wit-000003: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, fol. 239v</ref>:
                   <q xml:lang="xcl">Ընդ որս և Քրիստոս բարեխաւսութեամբ սրբոցս տացէ վարձս բարեաց թարգմանչի և գրչի եւ ամենայն աշխատելոցս ի սմա բանիւ շարադրելոյ եւ գրչի գրելոյ</q>
                 </catDesc>
               </category>
@@ -241,22 +241,22 @@
               <catDesc>Requests human recipients to remember someone, pray for them, or commemorate them in prayer. Remembrance and memorial intercession are merged here. Reciprocal remembrance is also grouped here by project convention. Illustrative English example: <q>Remember us in your holy prayers.</q></catDesc>
               <category xml:id="dir-remembrance-prayer-pattern-01" n="Request that readers pray for the speaker">
                 <catDesc>Appeals to those who benefit from the sacred text to include the speaker in their prayers.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
                   <q xml:lang="xcl">Արդ աղաչեմ զամենեսին որք լուսաւորիք և աւգտիք ի սուրբ Աւետարանիդ զիս աղաւթից արժան արասջիք</q>
                 </catDesc>
               </category>
               <category xml:id="dir-remembrance-prayer-pattern-02" n="Remember a named person in holy prayers">
                 <catDesc>Requests remembrance of a named beneficiary in the recipients’ holy prayers. The beneficiary’s name is variable.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
                   <q xml:lang="xcl">Արդ աղաչեմ զամենեսեան յիշեցէք ի ձեր սուրբ աղաւթս զՅովհաննէս</q>
                 </catDesc>
               </category>
               <category xml:id="dir-remembrance-prayer-pattern-03" n="Reciprocal remembrance">
                 <catDesc>Wishes that those who remember will themselves be remembered.</catDesc>
-                <catDesc corresp="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
-                  <ref target="../colophons/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
+                <catDesc corresp="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">
+                  <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-279r-arm">col-000001, col-000001-wit-000001: Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 288, fol. 279r</ref>:
                   <q xml:lang="xcl">եւ որ յիշէք յիշել լիցիք</q>
                 </catDesc>
               </category>

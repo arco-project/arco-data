@@ -36,7 +36,7 @@
           
           <!-- Colophon 2: P178 -->
           <witness xml:id="col-000002-wit-000001-md" corresp="#col-000002-wit-000001">
-            <ref type="manuscript" target="manuscripts.xml#ms-Paris-Arm-178">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>
+            <ref type="manuscript" target="../indices/listmanuscript.xml#ms-Paris-Arm-178">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>
             <locus from="209r" to="209r">Fol. 209r, column A, lines 10-23.</locus>
             <note type="transmissionStatus">Later copy of the translation colophon, transmitted with the martyrdom. Earliest surviving copy identified in this example and the presentation base; it does not preserve the original inscription of 1092.</note>
             <note type="dating"><date notBefore="1101" notAfter="1200">Twelfth century.</date></note>
@@ -44,7 +44,7 @@
           
           <!-- Colophon 2: V17 -->
           <witness xml:id="col-000002-wit-000002-md" corresp="#col-000002-wit-000002" >
-            <ref type="manuscript" target="manuscripts.xml#ms-Venice-SanLazzaro-17">Venice, Mekhitarist monastery of San Lazzaro MS. 17</ref>
+            <ref type="manuscript" target="../indices/listmanuscript.xml#ms-Venice-SanLazzaro-17">Venice, Mekhitarist monastery of San Lazzaro MS. 17</ref>
             <locus from="202v" to="202v">Fol. 202v.</locus>
             <note type="transmissionStatus">Later copy of the translation colophon, transmitted with the martyrdom. Its inscription date is distinct from the translation date of 1092 recorded within the text.</note>
             <note type="inscriptionDate"><date when="1224">1224 CE</date>. Colophon inscription is contemporary with manuscript production.</note>
@@ -53,7 +53,7 @@
           
           <!-- Colophon 2: M6196 -->
           <witness xml:id="col-000002-wit-000003-md" corresp="#col-000002-wit-000003" >
-            <ref type="manuscript" target="manuscripts.xml#ms-Yerevan-6196">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</ref>
+            <ref type="manuscript" target="../indices/listmanuscript.xml#ms-Yerevan-6196">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</ref>
             <locus from="239v" to="239v">Fol. 239v.</locus>
             <note type="transmissionStatus">Later copy of the translation colophon, transmitted with the martyrdom. Its inscription date is distinct from the translation date of 1092 recorded within the text.</note>
             <note type="inscriptionDate"><date when="1227">1227 CE</date>. Colophon inscription is contemporary with manuscript production.</note>

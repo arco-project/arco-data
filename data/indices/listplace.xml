@@ -169,19 +169,19 @@
           <placeName type="preferred" xml:lang="en">Harput</placeName>
           <placeName type="variant" xml:lang="en">Elâzig</placeName>
           <note type="identification">The production place supplied for Venice, Mekhitarist monastery of San Lazzaro MS. 17, dated 1224. Lewis Read confirms that the label Elâzig in the manuscript description refers here to Harput.</note>
-          <note type="attestation">Recorded in the description of <ref target="manuscripts.xml#ms-Venice-SanLazzaro-17">Venice, Mekhitarist monastery of San Lazzaro MS. 17</ref>.</note>
+          <note type="attestation">Recorded in the description of <ref target="listmanuscript.xml#ms-Venice-SanLazzaro-17">Venice, Mekhitarist monastery of San Lazzaro MS. 17</ref>.</note>
         </place>
 
         <place xml:id="place-000008" type="settlement">
           <placeName type="preferred" xml:lang="en">Ahlat</placeName>
           <note type="identification">The production place supplied for Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196, dated 1227.</note>
-          <note type="attestation">Recorded in the description of <ref target="manuscripts.xml#ms-Yerevan-6196">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</ref>.</note>
+          <note type="attestation">Recorded in the description of <ref target="listmanuscript.xml#ms-Yerevan-6196">Yerevan, Mesrop Mashtots Institute of Ancient Manuscripts, MS. 6196</ref>.</note>
         </place>
 
         <place xml:id="place-000009" type="settlement">
           <placeName type="preferred" xml:lang="en">Sebasteia</placeName>
           <note type="identification">The production place supplied for Paris, Bibliothèque nationale de France, MS. Arménien 178, dated to the twelfth century.</note>
-          <note type="attestation">Recorded in the description of <ref target="manuscripts.xml#ms-Paris-Arm-178">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>.</note>
+          <note type="attestation">Recorded in the description of <ref target="listmanuscript.xml#ms-Paris-Arm-178">Paris, Bibliothèque nationale de France, MS. Arménien 178</ref>.</note>
         </place>
       </listPlace>
       <!--
