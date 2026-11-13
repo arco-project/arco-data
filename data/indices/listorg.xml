@@ -1,1 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/tei_all.rng"?>
+<?xml-model href="../../schema/schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="listorg.xml" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a">Organisation Authority</title>
+        <title level="m">Digital Corpus of Armenian Colophons</title>
+        <respStmt>
+          <resp>Authority compilation and scholarly editing</resp>
+          <persName key="https://orcid.org/0009-0007-3535-6823"><forename>Lewis</forename><surname>Read</surname></persName>
+        </respStmt>
+        <funder key="https://d-nb.info/gnd/2054142-9">Austrian Science Fund FWF</funder>
+        <principal><persName key="https://orcid.org/0009-0007-3535-6823"><forename>Lewis</forename><surname>Read</surname></persName></principal>
+      </titleStmt>
+      <publicationStmt>
+        <p>Working authority file for the Digital Corpus of Armenian Colophons.
+          Publication details and licensing will be established for the corpus.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Organisation records will be compiled from reviewed colophon witnesses,
+          manuscript descriptions, and supporting scholarship. Each identification
+          will retain its supporting evidence.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file records organisations relevant to the corpus, including
+          monastic communities. Link each organisation to its location in
+          listplace.xml at the level of detail the evidence supports. Record the
+          organisation's role in a particular colophon in the edition.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Insert the editorial conventions for organisation records here.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-13">Created the organisation index with one provisional example.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listOrg xml:id="organisations">
+        <head>Organisations</head>
 
+        <org xml:id="org-000001" type="monastery" cert="medium">
+          <orgName type="preferred" xml:lang="en">Monastery of Saint John the Evangelist</orgName>
+          <location type="historical" cert="medium">
+            <placeName ref="listplace.xml#place-000001">Alexandria</placeName>
+          </location>
+          <note type="identification">Colophon 1 dates the Gospel to
+            <date when="1099">Armenian era 548 (1099 CE)</date>. In the
+            <ref target="../editions/col-000001.xml#col-000001-wit-000001-fol-280r-arm">concluding passage (fol. 280r, col. B)</ref>,
+            the scribe records that it was completed in Alexandria, under the shadow of
+            <persName ref="listperson.xml#pers-000007">Saint John the Evangelist</persName>.</note>
+          <note type="interpretation" cert="high">The formula
+            <q xml:lang="xcl">ընդ հովանե[ա]ւ Յովհաննու աւետարանչին</q>
+            indicates monastic patronage in this context.</note>
+          <note type="uncertainty">The monastery's name is supplied editorially
+            from the invocation of the saint. Its location in Alexandria is
+            inferred from the stated place of completion of the Gospel.</note>
+        </org>
+      </listOrg>
+ 
+    </body>
+  </text>
+</TEI>
