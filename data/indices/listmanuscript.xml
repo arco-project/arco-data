@@ -67,7 +67,7 @@
     <!-- M288 -->
       <listBibl xml:id="manuscripts">
         <head>Manuscripts</head>
-        <msDesc xml:id="ms-Yerevan-288">
+        <msDesc xml:id="ms-yerevan-288">
           <msIdentifier>
             <country>Armenia</country>
             <settlement>Yerevan</settlement>
@@ -159,7 +159,7 @@
         </msDesc>
 
          <!-- P178 -->
-        <msDesc xml:id="ms-Paris-Arm-178">
+        <msDesc xml:id="ms-paris-arm-178">
           <msIdentifier>
             <country>France</country>
             <settlement>Paris</settlement>
@@ -247,7 +247,7 @@
         </msDesc>
 
         <!-- V17 -->
-        <msDesc xml:id="ms-Venice-SanLazzaro-17">
+        <msDesc xml:id="ms-venice-sanlazzaro-17">
           <msIdentifier>
             <country>Italy</country>
             <settlement>Venice</settlement>
@@ -335,7 +335,7 @@
         </msDesc>
 
         <!-- M6196 -->
-        <msDesc xml:id="ms-Yerevan-6196">
+        <msDesc xml:id="ms-yerevan-6196">
           <msIdentifier>
             <country>Armenia</country>
             <settlement>Yerevan</settlement>
